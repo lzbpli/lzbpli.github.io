@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Alexis' log - ikerbo</title><link href="http://blog.notmyidea.org/" rel="alternate"></link><link href="http://blog.notmyidea.org/feeds/ikerbo.atom.xml" rel="self"></link><id>http://blog.notmyidea.org/</id><updated>2017-03-22T00:00:00+01:00</updated><entry><title>使用pelican搭建github博客</title><link href="http://blog.notmyidea.org/shi-yong-pelicanda-jian-githubbo-ke.html" rel="alternate"></link><published>2017-03-22T00:00:00+01:00</published><updated>2017-03-22T00:00:00+01:00</updated><author><name>ikerbo</name></author><id>tag:blog.notmyidea.org,2017-03-22:/shi-yong-pelicanda-jian-githubbo-ke.html</id><summary type="html"></summary><content type="html"></content></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Alexis' log - ikerbo</title><link href="http://blog.notmyidea.org/" rel="alternate"></link><link href="http://blog.notmyidea.org/feeds/ikerbo.atom.xml" rel="self"></link><id>http://blog.notmyidea.org/</id><updated>2017-03-22T00:00:00+01:00</updated><entry><title>使用pelican搭建github博客</title><link href="http://blog.notmyidea.org/shi-yong-pelicanda-jian-githubbo-ke.html" rel="alternate"></link><published>2017-03-22T00:00:00+01:00</published><updated>2017-03-22T00:00:00+01:00</updated><author><name>ikerbo</name></author><id>tag:blog.notmyidea.org,2017-03-22:/shi-yong-pelicanda-jian-githubbo-ke.html</id><summary type="html">&lt;h2&gt;安装pelican、markdown&lt;/h2&gt;
+&lt;p&gt;在安装前要确保安装了python，然后直接使用：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;h2&gt;安装pelican、markdown&lt;/h2&gt;
+&lt;p&gt;在安装前要确保安装了python，然后直接使用：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</content></entry></feed>
