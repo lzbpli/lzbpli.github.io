@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>码 链 - sneakyidea</title><link>http://lzbpli.github.io/</link><description>每个人眼中，都是不同的世界 –柯宝！!</description><lastBuildDate>Thu, 02 Mar 2017 14:01:01 +0800</lastBuildDate><item><title>Style specific setting</title><link>http://lzbpli.github.io/style-specific-setting.html</link><description>&lt;p&gt;The tags.html file which contains the tag cloud is unreachable from the blog because there is no hyoerlink to it.&lt;/p&gt;
+&lt;p&gt;To make the tag cloud accessible from the navigation bar add&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$ MENUITEMS = (('Tags', 'tags.html'),)
+&lt;/pre&gt;
+&lt;p&gt;in your settings.&lt;/p&gt;
+&lt;div class="section" id="screenshot"&gt;
+&lt;h2&gt;Screenshot&lt;/h2&gt;
+&lt;img alt="Screenshot of the theme" src="screenshot.png" /&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/style-specific-setting.html</guid></item></channel></rss>

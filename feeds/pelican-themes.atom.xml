@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>码 链 - pelican-themes</title><link href="http://lzbpli.github.io/" rel="alternate"></link><link href="http://lzbpli.github.io/feeds/pelican-themes.atom.xml" rel="self"></link><id>http://lzbpli.github.io/</id><updated>2017-03-02T14:01:01+08:00</updated><entry><title></title><link href="http://lzbpli.github.io/.html" rel="alternate"></link><published>2017-03-02T14:01:01+08:00</published><updated>2017-03-02T14:01:01+08:00</updated><author><name>ikerbo</name></author><id>tag:lzbpli.github.io,2017-03-02:/.html</id><summary type="html">&lt;div class="section" id="pelican-themes"&gt;
+&lt;h2&gt;Pelican Themes&lt;/h2&gt;
+&lt;p&gt;This repository contains themes for Pelican. Feel free to clone, add your own
+theme, and submit a pull request. It's community-managed!&lt;/p&gt;
+&lt;p&gt;A live version can be seen at &lt;a class="reference external" href="http://www.pelicanthemes.com"&gt;http://www.pelicanthemes.com&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="using-themes"&gt;
+&lt;h2&gt;Using Themes&lt;/h2&gt;
+&lt;p&gt;These instructions assume you have already read all the &lt;a class="reference external" href="http://docs.getpelican.com/"&gt;Pelican documentation&lt;/a&gt;,
+have a working …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="pelican-themes"&gt;
+&lt;h2&gt;Pelican Themes&lt;/h2&gt;
+&lt;p&gt;This repository contains themes for Pelican. Feel free to clone, add your own
+theme, and submit a pull request. It's community-managed!&lt;/p&gt;
+&lt;p&gt;A live version can be seen at &lt;a class="reference external" href="http://www.pelicanthemes.com"&gt;http://www.pelicanthemes.com&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="using-themes"&gt;
+&lt;h2&gt;Using Themes&lt;/h2&gt;
+&lt;p&gt;These instructions assume you have already read all the &lt;a class="reference external" href="http://docs.getpelican.com/"&gt;Pelican documentation&lt;/a&gt;,
+have a working site, and would now like to apply a non-default theme.&lt;/p&gt;
+&lt;p&gt;First, choose a location to hold your themes. For this example, we'll use the
+directory &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;~/pelican-themes&lt;/span&gt;&lt;/tt&gt;, but yours could be different. Clone the
+&lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;pelican-themes&lt;/span&gt;&lt;/tt&gt; repository to that location on your local machine:&lt;/p&gt;
+&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git clone --recursive https://github.com/getpelican/pelican-themes ~/pelican-themes
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Now you should have your &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;pelican-themes&lt;/span&gt;&lt;/tt&gt; repository stored at
+&lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;~/pelican-themes/&lt;/span&gt;&lt;/tt&gt;.&lt;/p&gt;
+&lt;p&gt;To use one of the themes, edit your Pelican settings file to include this line:&lt;/p&gt;
+&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;THEME&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;/home/user/pelican-themes/theme-name&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;So, for instance, to use the &lt;tt class="docutils literal"&gt;mnmlist&lt;/tt&gt; theme, you would edit your settings
+file to include:&lt;/p&gt;
+&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;THEME&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;/home/user/pelican-themes/mnmlist&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Save the changes to your settings file and then regenerate your site by using
+the Makefile you should already have set up using &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;pelican-quickstart&lt;/span&gt;&lt;/tt&gt;:&lt;/p&gt;
+&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;make html
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Themes can also be specified directly via the &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;-t&lt;/span&gt; &lt;span class="pre"&gt;~/pelican-themes/theme-name&lt;/span&gt;&lt;/tt&gt;
+parameter to the &lt;tt class="docutils literal"&gt;pelican&lt;/tt&gt; command. If you want to edit your theme, make sure
+that any edits you make are made to the copy stored in
+&lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;~/pelican-themes/theme-name&lt;/span&gt;&lt;/tt&gt;. Any changes made to
+files stored in your site's &lt;tt class="docutils literal"&gt;output&lt;/tt&gt; directory will be deleted the next
+time you generate your site.&lt;/p&gt;
+&lt;/div&gt;
+</content></entry></feed>

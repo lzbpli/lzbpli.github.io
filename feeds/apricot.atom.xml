@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>码 链 - apricot</title><link href="http://lzbpli.github.io/" rel="alternate"></link><link href="http://lzbpli.github.io/feeds/apricot.atom.xml" rel="self"></link><id>http://lzbpli.github.io/</id><updated>2017-03-02T14:01:01+08:00</updated><entry><title>Apricot theme for Pelican</title><link href="http://lzbpli.github.io/apricot-theme-for-pelican.html" rel="alternate"></link><published>2017-03-02T14:01:01+08:00</published><updated>2017-03-02T14:01:01+08:00</updated><author><name>ikerbo</name></author><id>tag:lzbpli.github.io,2017-03-02:/apricot-theme-for-pelican.html</id><summary type="html">&lt;p&gt;&lt;em&gt;Apricot&lt;/em&gt; is a centered, fixed width, and simple-looking theme, designed from
+scratch for my personal blog, &lt;a class="reference external" href="https://pba.yjl.im"&gt;Pointless Blog of Apricot&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It's not a fork of any themes, not even a copy-and-pasting, but I might have
+checked up on the official simple theme, when I couldn't figure how what a
+attribute …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;Apricot&lt;/em&gt; is a centered, fixed width, and simple-looking theme, designed from
+scratch for my personal blog, &lt;a class="reference external" href="https://pba.yjl.im"&gt;Pointless Blog of Apricot&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It's not a fork of any themes, not even a copy-and-pasting, but I might have
+checked up on the official simple theme, when I couldn't figure how what a
+attribute is for. I wanted to release this theme in the public domain, so I
+avoided others' code as best as I can.&lt;/p&gt;
+&lt;p&gt;You can read this theme's &lt;a class="reference external" href="http://pelican-apricot.bitbucket.org"&gt;blog&lt;/a&gt; and check out the &lt;a class="reference external" href="http://pelican-apricot.bitbucket.org/pages/test-style.html"&gt;styles&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="contents local topic" id="contents"&gt;
+&lt;p class="topic-title first"&gt;&lt;strong&gt;Contents&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#features" id="id2"&gt;Features&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#issues-and-feature-requests" id="id3"&gt;Issues and feature requests&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#contributing" id="id4"&gt;Contributing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#faq" id="id5"&gt;FAQ&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#why-is-it-called-apricot" id="id6"&gt;Why is it called &amp;quot;Apricot?&amp;quot;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#copyright" id="id7"&gt;Copyright&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="features"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id2"&gt;Features&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;Primarily for blogging with reStructuredText&lt;/p&gt;
+&lt;p&gt;This is only meant for blogging usage and the stylesheet is designed for
+reStructuredText.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Simplicity&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;Simplified layout&lt;/p&gt;
+&lt;p&gt;Not minimalist, but many clutters have not been included or have been
+hidden by default to allow reading without distractions.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Monochrome colorscheme&lt;/p&gt;
+&lt;p&gt;One color tone throughout the whole blog.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Responsive design&lt;/p&gt;
+&lt;p&gt;It's readable on small screens.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Read more about the &lt;a class="reference external" href="docs/DESIGNS.rst"&gt;DESIGNS&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Schema.org Microdata vocabulary&lt;/p&gt;
+&lt;p&gt;Such as &lt;tt class="docutils literal"&gt;Breadcrumb&lt;/tt&gt; and &lt;tt class="docutils literal"&gt;BlogPosting&lt;/tt&gt; are marked, and there is more.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Apricot has a few &lt;a class="reference external" href="docs/SETTINGS.rst"&gt;settings&lt;/a&gt; that you can use and you may also want to read
+these &lt;a class="reference external" href="docs/NOTES.rst"&gt;notes&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="issues-and-feature-requests"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id3"&gt;Issues and feature requests&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Please feel free to report any issues, but remember to include your
+environment, such as related Pelican settings.&lt;/p&gt;
+&lt;p&gt;Feature requests are welcome, but due to the designs, they might not be easily
+to be implemented.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="contributing"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id4"&gt;Contributing&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;You are welcome for any pull requests, but even before you start, please open an
+issue to have a discussion with me since I personally use this theme and if you
+add stuff that I don't like to have on my blog, you would put me in rough spot.&lt;/p&gt;
+&lt;p&gt;So,&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;Agree to place your possible contribution in the public domain and license
+under the &lt;a class="reference external" href="UNLICENSE"&gt;UNLICENSE&lt;/a&gt; for where not applicable;&lt;/li&gt;
+&lt;li&gt;Open an issue to discuss first;&lt;/li&gt;
+&lt;li&gt;Work on it; and lastly&lt;/li&gt;
+&lt;li&gt;Open a pull request.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class="section" id="faq"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id5"&gt;FAQ&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="section" id="why-is-it-called-apricot"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id6"&gt;Why is it called &amp;quot;Apricot?&amp;quot;&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="admonition note"&gt;
+&lt;p class="first admonition-title"&gt;Note&lt;/p&gt;
+&lt;p class="last"&gt;This is not asked yet, but I foresee some people would have this question.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;The name is from the my blog's name, &amp;quot;Pointless Blog of Apricot.&amp;quot;&lt;/p&gt;
+&lt;p&gt;Originally, I was going to name it that, but it really is too long, so I picked
+the keyword -- or is it? -- &amp;quot;apricot&amp;quot; as the theme's name.&lt;/p&gt;
+&lt;p&gt;And I am sure you now would ask why &amp;quot;Pointless Blog of Apricot?&amp;quot; You will have
+to read it on &lt;a class="reference external" href="https://pba.yjl.im/about/#name"&gt;Pointless Blog of Apricot&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="copyright"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id7"&gt;Copyright&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This theme has been placed in the public domain, or via &lt;a class="reference external" href="UNLICENSE"&gt;UNLICENSE&lt;/a&gt;, if not
+applicable.&lt;/p&gt;
+&lt;/div&gt;
+</content></entry></feed>

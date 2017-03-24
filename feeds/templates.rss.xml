@@ -1,0 +1,1833 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>码 链 - templates</title><link>http://lzbpli.github.io/</link><description>每个人眼中，都是不同的世界 –柯宝！!</description><lastBuildDate>Thu, 02 Mar 2017 14:01:01 +0800</lastBuildDate><item><title>{% block title %}Blog about Me and my Linux{% endblock %} | {{ SITENAME }}</title><link>http://lzbpli.github.io/block-title-blog-about-me-and-my-linux-endblock-sitename.html</link><description>
+    {% include 'github.html' %}
+    &lt;div class="navbar navbar-fixed-top"&gt;
+      &lt;div class="navbar-inner"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"&gt;
+            &lt;span class="icon-bar"&gt;&lt;/span&gt;
+            &lt;span class="icon-bar"&gt;&lt;/span&gt;
+            &lt;span class="icon-bar"&gt;&lt;/span&gt;
+          &lt;/a&gt;
+          &lt;a class="brand" href="{{ SITEURL }}/index.html"&gt;{{ SITENAME }} {% if SITESUBTITLE %} &lt;strong&gt;{{ SITESUBTITLE }}&lt;/strong&gt;{% endif %}&lt;/a&gt;
+          &lt;div class="nav-collapse"&gt;
+            &lt;ul class="nav"&gt;
+              {% for title, link in MENUITEMS %}
+                  &lt;li&gt;&lt;a href="{{ link }}"&gt;{{ title }}&lt;/a&gt;&lt;/li&gt;
+              {% endfor %}
+              {% if DISPLAY_PAGES_ON_MENU %}
+              {% for gpage in PAGES %}
+                &lt;li {% if page="gpage" %}class="active" {% endif %}&gt;&lt;a href="{{ SITEURL }}/{{ gpage.url }}"&gt;{{ gpage.title }}&lt;/a&gt;&lt;/li&gt;
+              {% endfor %}
+                &lt;li class="divider-vertical"&gt;&lt;/li&gt;
+              {% endif %}
+              {% for cat, null in categories %}
+                &lt;li {% if cat="category" %}class="active" {% endif %}&gt;
+                  &lt;a href="{{ SITEURL }}/{{ cat.url }}"&gt;
+						        &lt;i class="icon-folder-open icon-large"&gt;&lt;/i&gt;{{ cat }}
+					         &lt;/a&gt;
+                &lt;/li&gt;
+              {% endfor %}
+              &lt;ul class="nav pull-right"&gt;
+                    &lt;li&gt;&lt;a href="{{ SITEURL }}/{{ ARCHIVES_URL }}"&gt;&lt;i class="icon-th-list"&gt;&lt;/i&gt;Archives&lt;/a&gt;&lt;/li&gt;
+              &lt;/ul&gt;
+
+            &lt;/ul&gt;
+            &lt;!--&lt;p class="navbar-text pull-right"&gt;Logged in as &lt;a href="#"&gt;username&lt;/a&gt;&lt;/p&gt;--&gt;
+          &lt;/div&gt;&lt;!--/.nav-collapse --&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="container"&gt;
+      &lt;div class="row"&gt;
+        &lt;div class="span8" id="content"&gt;
+            {% block content %}
+            {% endblock %}
+        &lt;/div&gt;&lt;!--/span--&gt;
+        &lt;div class="span3 well sidebar-nav" id="sidebar"&gt;
+            {% include 'sidebar.html' %}
+        &lt;/div&gt;&lt;!--/.well --&gt;
+
+      &lt;/div&gt;&lt;!--/row--&gt;
+
+      &lt;hr&gt;
+
+      {% include 'footer.html' %}
+    &lt;/div&gt;&lt;!--/.fluid-container--&gt;
+
+    {% include 'analytics.html' %}
+    {% include 'metryka.html' %}
+    {% include 'piwik …</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ AUTHOR }}</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-blog-about-me-and-my-linux-endblock-sitename.html</guid><category>{{ KEYWORDS }}</category></item><item><title>{% block title %}{% endblock %}{% if self.title() %} - {% endif %}{{ SITENAME }}</title><link>http://lzbpli.github.io/block-title-endblock-if-selftitle-endif-sitename.html</link><description>
+  &lt;div id="header"&gt;
+    &lt;div class="handle"&gt;&lt;span class="dots"&gt;&lt;/span&gt;&lt;/div&gt;
+    &lt;div class="content"&gt;
+      &lt;div itemscope itemtype="https://schema.org/Organization" itemid="{{ SITEURL }}"&gt;
+        &lt;header id="publisher"&gt;
+          &lt;h1&gt;&lt;a itemprop="url" rel="home" href="{{ SITEURL }}"&gt;&lt;span itemprop="name" id="publisher-name"&gt;{{ SITENAME|escape }}&lt;/span&gt;&lt;/a&gt;&lt;/h1&gt;
+          {% if SITE_DESCRIPTION %}
+            &lt;p itemprop="description" id="publisher-description"&gt;{{ SITE_DESCRIPTION}}&lt;/p&gt;
+          {% endif %}
+        &lt;/header&gt;
+      &lt;/div&gt;
+
+      {% include 'base_navigation.html' %}
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;main&gt;
+    {% if self.content_title() %}
+      &lt;h2 itemprop="headline" id="content-title"&gt;{% block content_title %}{% endblock %}&lt;/h2&gt;
+    {% endif %}
+
+    {% if article or page %}
+      {% block main %}
+      {% endblock %}
+    {% else %}
+      &lt;div itemprop="mainEntity" itemscope itemtype="https://schema.org/Blog"&gt;
+        {{ self.main() }}
+      &lt;/div&gt;
+    {% endif %}
+  &lt;/main&gt;
+
+  {% include 'base_pagination.html' %}
+
+  &lt;footer&gt;
+    {% set attribution = ATTRIBUTION if ATTRIBUTION is defined else 0 %}
+    {% if attribution is string %}
+      {{ attribution }}
+    {% elif attribution &gt; 0 %}
+    &lt;address class="vcard body attribution"&gt;
+      Proudly powered by …&lt;/address&gt;&lt;/footer&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-endblock-if-selftitle-endif-sitename.html</guid></item><item><title>{% block title %}{% endblock title %} - {{ SITENAME }}</title><link>http://lzbpli.github.io/block-title-endblock-title-sitename.html</link><description>
+    &lt;div class="container"&gt;
+      &lt;div class="row"&gt;
+        &lt;div class="span8"&gt;
+          {% block content %}
+          {% endblock %}
+        &lt;/div&gt;
+        &lt;div class="span3 offset1"&gt;
+          &lt;div class="well"&gt;
+            &lt;ul class="nav nav-list"&gt;
+              &lt;li class="nav-header"&gt;Blog&lt;/li&gt;
+              &lt;li {% if page_name="index" %}class="active" {% endif %}&gt;&lt;a href="{{ SITEURL }}"&gt;Index&lt;/a&gt;&lt;/li&gt;
+              &lt;li {% block menu_entry_tag %}{% endblock %}&gt;&lt;a href="{{ SITEURL }}/tags/"&gt;Tags&lt;/a&gt;&lt;/li&gt;
+              &lt;li {% block menu_entry_archive %}{% endblock %}&gt;&lt;a href="{{ SITEURL }}/archives/"&gt;Archiv&lt;/a&gt;&lt;/li&gt;
+              {% if DISPLAY_PAGES_ON_MENU %}
+              {% if PAGES %}
+              &lt;li class="nav-header"&gt;Seiten&lt;/li&gt;
+              {% for p in PAGES %}
+              &lt;li{% if p="page" %} class="active" {% endif %}&gt;&lt;a href="{{ SITEURL }}/{{ p.url }}"&gt;{{ p.title }}&lt;/a&gt;&lt;/li&gt;
+              {% endfor %}
+              {% endif %}
+              {% else %}
+{#            {% for cat, null in categories %}
+              &lt;li{% if cat="category" %} class="active" {% endif %}&gt;&lt;a href="{{ SITEURL }}/category/{{ cat }}/"&gt;{{ cat }}&lt;/a&gt;&lt;/li&gt;
+              {% endfor %}
+#}
+              {% endif %}
+              {% if MENUITEMS %}
+              &lt;li class="nav-header"&gt;Anderes&lt;/li&gt;
+              {% for title, link in MENUITEMS %}
+              &lt;li&gt;&lt;a href="{{ link }}"&gt;{{ title }}&lt;/a&gt;&lt;/li&gt;
+              {% endfor %}
+              {% endif %}
+              {% if LINKS %}
+              &lt;li class="nav-header"&gt;Links&lt;/li&gt;
+              {% for title, link in LINKS %}
+              &lt;li&gt;&lt;a href="{{ link }}"&gt;{{ title }}&lt;/a&gt;&lt;/li&gt;
+              {% endfor …&lt;/li{%&gt;&lt;/li{%&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-endblock-title-sitename.html</guid></item><item><title>{% block title %}{{ SITENAME }}{% endblock %}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+&lt;div class="container"&gt;
+	&lt;div class="page-header"&gt;
+		&lt;h1&gt;&lt;a href="{{ SITEURL }}/"&gt;{{ SITENAME }}&lt;/a&gt;
+			&lt;br&gt;{% if SITESUBTITLE %}&lt;small&gt;{{ SITESUBTITLE }}&lt;/small&gt;&lt;/h1&gt;{% endif %}
+	&lt;/div&gt;
+	&lt;div class="row"&gt;
+		&lt;div class="col-md-8 col-md-offset-2"&gt;
+			{% block content %}{% endblock %}
+		&lt;/div&gt;
+	&lt;/div&gt; {# End row #}
+	&lt;!-- &lt;hr&gt; --&gt;
+&lt;/div&gt; &lt;!-- /container --&gt;
+&lt;footer class="aw-footer bg-danger"&gt;
+	&lt;div class="container"&gt; &lt;!-- footer --&gt;
+		&lt;div class="row"&gt;
+			&lt;div class="col-md-10 col-md-offset-1"&gt;
+				&lt;div class="row"&gt;
+					&lt;div class="col-md-3"&gt;
+						&lt;h4&gt;Navigation&lt;/h4&gt;
+						&lt;ul class="list-unstyled my-list-style"&gt;
+							&lt;li&gt;&lt;a href="{{SITEURL}}"&gt;{{ SITENAME }}&lt;/a&gt;&lt;/li&gt;
+							{% for title, link in MENUITEMS %}
+							&lt;li&gt;&lt;a href="{{ SITEURL }}/{{ link }}"&gt;&lt;i class="fa fa-{{ title }} "&gt;&lt;/i&gt; {{title}}&lt;/a&gt;&lt;/li&gt;
+							{% endfor %}
+							{% if DISPLAY_PAGES_ON_MENU %}
+							{% for page in PAGES %}
+							&lt;li&gt;&lt;a href="{{ SITEURL }}/{{ page.url }}"&gt;&lt;i class="fa fa-{{ page.title }} "&gt;&lt;/i&gt; {{page.title}}&lt;/a&gt;&lt;/li&gt;
+							{% endfor %}
+							{% endif %}
+							{% if FEED_ALL_ATOM %}
+							&lt;li&gt;&lt;a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml"&gt;&lt;i class="fa fa-rss "&gt;&lt;/i&gt; atom&lt;/a&gt;&lt;/li&gt;
+							{% endif %}
+							{% if FEED_ALL_RSS %}
+							&lt;li&gt;&lt;a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml"&gt;&lt;i class="fa fa-rss "&gt;&lt;/i&gt; rss&lt;/a&gt;&lt;/li&gt;
+							{% endif %}
+						&lt;/ul&gt;
+					&lt;/div&gt;
+					&lt;div class="col-md-3"&gt;
+						&lt;h4&gt;Author&lt;/h4&gt;
+						&lt;ul class="list-unstyled my-list-style"&gt;
+						{% for name, link in SOCIAL %}
+							&lt;li&gt;&lt;a href="{{ link }}"&gt;{{ name }}&lt;/a&gt;&lt;/li&gt;
+						{% endfor %}
+						&lt;/ul&gt;
+					&lt;/div&gt;
+					&lt;div class="col-md-3"&gt;
+						&lt;h4&gt;Categories&lt;/h4&gt;
+						&lt;ul class="list-unstyled my-list-style"&gt;
+							{% for cat, art in …&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/footer&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ AUTHOR }}</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{ SITENAME }}{% endblock %}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+
+    &lt;div class="navbar navbar-fixed-top"&gt;
+      &lt;div class="navbar-inner"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"&gt;
+            &lt;span class="icon-bar"&gt;&lt;/span&gt;
+            &lt;span class="icon-bar"&gt;&lt;/span&gt;
+            &lt;span class="icon-bar"&gt;&lt;/span&gt;
+          &lt;/a&gt;
+          &lt;a class="brand" href="{{ SITEURL }}/index.html"&gt;{{ SITENAME }} {% if SITESUBTITLE %} &lt;strong&gt;{{ SITESUBTITLE }}&lt;/strong&gt;{% endif %}&lt;/a&gt;
+          &lt;div class="nav-collapse"&gt;
+            &lt;ul class="nav"&gt;
+              {% for title, link in MENUITEMS %}
+                  &lt;li&gt;&lt;a href="{{ link }}"&gt;{{ title }}&lt;/a&gt;&lt;/li&gt;
+              {% endfor %}
+              {% if DISPLAY_PAGES_ON_MENU %}
+              {% for page in PAGES %}
+                &lt;li&gt;&lt;a href="{{ SITEURL }}/{{ page.url }}"&gt;{{ page.title }}&lt;/a&gt;&lt;/li&gt;
+              {% endfor %}
+                          &lt;li class="divider-vertical"&gt;&lt;/li&gt;
+              {% endif %}
+              {% if DISPLAY_CATEGORIES_ON_MENU %}
+              {% for cat, null in categories %}
+                  &lt;li {% if cat="category" %}class="active" {% endif %}&gt;
+                    &lt;a href="{{ SITEURL }}/{{ cat.url }}"&gt;
+						&lt;i class="icon-folder-open icon-large"&gt;&lt;/i&gt;{{ cat }}
+					&lt;/a&gt;
+                  &lt;/li&gt;
+              {% endfor %}
+              {% endif %}
+
+                          &lt;ul class="nav pull-right"&gt;
+                                &lt;li&gt;&lt;a href="{{ SITEURL }}/archives.html"&gt;&lt;i class="icon-th-list"&gt;&lt;/i&gt;Archives&lt;/a&gt;&lt;/li&gt;
+                          &lt;/ul&gt;
+
+            &lt;/ul&gt;
+            &lt;!--&lt;p class="navbar-text pull-right"&gt;Logged in as &lt;a href="#"&gt;username&lt;/a&gt;&lt;/p&gt;--&gt;
+          &lt;/div&gt;&lt;!--/.nav-collapse --&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="container-fluid"&gt;
+      &lt;div class="row"&gt;
+        &lt;div class="span9" id="content"&gt;
+            {% block content %}
+            {% endblock %}
+        &lt;/div&gt;&lt;!--/span--&gt;
+
+                &lt;div class="span3 well sidebar-nav" id="sidebar"&gt;
+            {% include 'sidebar.html' %}
+        &lt;/div&gt;&lt;!--/.well --&gt;
+
+      &lt;/div&gt;&lt;!--/row--&gt;
+
+      &lt;hr&gt;
+
+      &lt;footer&gt;
+        &lt;address id="about"&gt;
+                Proudly powered by &lt;a href="http://pelican.notmyidea.org/"&gt;Pelican &lt;i class="icon-external-link"&gt;&lt;/i&gt;&lt;/a&gt;,
+                                which takes great advantage of &lt;a href="http://python.org"&gt;Python &lt;i class="icon-external-link"&gt;&lt;/i&gt;&lt;/a&gt;.
+        &lt;/address&gt;&lt;!-- /#about --&gt;
+
+        &lt;p&gt;The …&lt;/p&gt;&lt;/footer&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ AUTHOR }}</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{ SITENAME }}{% endblock %}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+
+    &lt;div class="navbar navbar-fixed-top"&gt;
+      &lt;div class="navbar-inner"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"&gt;
+            &lt;span class="icon-bar"&gt;&lt;/span&gt;
+            &lt;span class="icon-bar"&gt;&lt;/span&gt;
+            &lt;span class="icon-bar"&gt;&lt;/span&gt;
+          &lt;/a&gt;
+          &lt;a class="brand" href="{{ SITEURL }}/index.html"&gt;{{ SITENAME }} {% if SITESUBTITLE %} &lt;strong&gt;{{ SITESUBTITLE }}&lt;/strong&gt;{% endif %}&lt;/a&gt;
+          &lt;div class="nav-collapse"&gt;
+            &lt;ul class="nav"&gt;
+              {% for title, link in MENUITEMS %}
+                  &lt;li&gt;&lt;a href="{{ link }}"&gt;{{ title }}&lt;/a&gt;&lt;/li&gt;
+              {% endfor %}
+              {% if DISPLAY_PAGES_ON_MENU %}
+              {% for page in PAGES %}
+                &lt;li&gt;&lt;a href="{{ SITEURL }}/{{ page.url }}"&gt;{{ page.title }}&lt;/a&gt;&lt;/li&gt;
+              {% endfor %}
+                          &lt;li class="divider-vertical"&gt;&lt;/li&gt;
+              {% endif %}
+              {% for cat, null in categories %}
+                  &lt;li {% if cat="category" %}class="active" {% endif %}&gt;
+                    &lt;a href="{{ SITEURL }}/{{ cat.url }}"&gt;
+						&lt;i class="icon-folder-open icon-large"&gt;&lt;/i&gt;{{ cat }}
+					&lt;/a&gt;
+                  &lt;/li&gt;
+              {% endfor %}
+
+                          &lt;ul class="nav pull-right"&gt;
+                                &lt;li&gt;&lt;a href="{{ SITEURL }}/archives.html"&gt;&lt;i class="icon-th-list"&gt;&lt;/i&gt;Archives&lt;/a&gt;&lt;/li&gt;
+                          &lt;/ul&gt;
+
+            &lt;/ul&gt;
+            &lt;!--&lt;p class="navbar-text pull-right"&gt;Logged in as &lt;a href="#"&gt;username&lt;/a&gt;&lt;/p&gt;--&gt;
+          &lt;/div&gt;&lt;!--/.nav-collapse --&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="container-fluid"&gt;
+      &lt;div class="row"&gt;
+        &lt;div class="span9" id="content"&gt;
+            {% block content %}
+            {% endblock %}
+        &lt;/div&gt;&lt;!--/span--&gt;
+
+                &lt;div class="span3 well sidebar-nav" id="sidebar"&gt;
+            {% include 'sidebar.html' %}
+        &lt;/div&gt;&lt;!--/.well --&gt;
+
+      &lt;/div&gt;&lt;!--/row--&gt;
+
+      &lt;hr&gt;
+
+      &lt;footer&gt;
+        &lt;address id="about"&gt;
+                Proudly powered by &lt;a href="http://pelican.notmyidea.org/"&gt;Pelican &lt;i class="icon-external-link"&gt;&lt;/i&gt;&lt;/a&gt;,
+                                which takes great advantage of &lt;a href="http://python.org"&gt;Python &lt;i class="icon-external-link"&gt;&lt;/i&gt;&lt;/a&gt;.
+        &lt;/address&gt;&lt;!-- /#about --&gt;
+
+        &lt;p&gt;The theme is based …&lt;/p&gt;&lt;/footer&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ AUTHOR }}</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{ SITENAME }} {%endblock%}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+&lt;div id="conteneur"&gt;
+{% block content %}
+{% endblock %}
+&lt;footer&gt;
+&lt;nav&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://blog.getpelican.com/"&gt;Pelican&lt;/a&gt; &amp; &lt;a href=""&gt;brc theme&lt;/a&gt;&lt;/li&gt; 
+{% for page in PAGES %}
+&lt;li&gt;:: &lt;a href="{{ SITEURL }}/{{ page.url }}"&gt;{{ page.title }}&lt;/a&gt;{% if not loop.last %} ::{% endif %}&lt;/li&gt;
+{% endfor %}
+{% if categories|length &gt; 1 %}
+&lt;li&gt;:: &lt;a href="{{ SITEURL }}/categories.html"&gt;catégories&lt;/a&gt;&lt;/li&gt;
+{% endif %}
+{% if tags|length &gt; 1 %}
+&lt;li&gt;:: &lt;a href="{{ SITEURL }}/tags.html"&gt;tags&lt;/a&gt;&lt;/li&gt;
+{% endif %}
+&lt;li&gt;:: &lt;a href="{{ SITEURL }}/archives.html"&gt;archives&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;:: &lt;a href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}"&gt;atom&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/footer&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{ SITENAME }}{%endblock%}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+&lt;div id="wrapper"&gt;
+	&lt;div id="page"&gt;
+		&lt;div id="page-bgtop"&gt;
+			&lt;div id="page-bgbtm"&gt;
+				{% block content %}
+                                {% endblock %}
+				&lt;div id="sidebar"&gt;
+					&lt;div id="logo"&gt;
+						&lt;h1&gt;&lt;a href="{{ SITEURL }}"&gt;{{ SITENAME }}&lt;/a&gt;&lt;/h1&gt;
+						{% if SITESUBTITLE %}&lt;p&gt;{{ SITESUBTITLE }}&lt;/p&gt;{% endif %}
+					&lt;/div&gt;
+					&lt;div id="menu"&gt;
+						&lt;ul&gt;
+							&lt;li {% if page_name="index" %}class="current_page_item" {% endif %}&gt;&lt;a href="{{ SITEURL }}"&gt;Home&lt;/a&gt;&lt;/li&gt;
+							&lt;li {% if page_name="archives" %}class="current_page_item" {% endif %}&gt;&lt;a href="{{ SITEURL }}/archives.html"&gt;Archives&lt;/a&gt;&lt;/li&gt;
+							{% if DISPLAY_PAGES_ON_MENU %}
+                                                        {% for page in PAGES %}
+                                                            &lt;li {% if page_name="page_title" %}class="current_page_item" {% endif %}&gt;&lt;a href="{{ SITEURL }}/{{ page.url }}"&gt;{{ page.title }}&lt;/a&gt;&lt;/li&gt;
+                                                        {% endfor %}
+                                                        {% endif %}
+						&lt;/ul&gt;
+					&lt;/div&gt;
+					&lt;ul&gt;
+						&lt;li&gt;
+							&lt;h2&gt;Catégories&lt;/h2&gt;
+							&lt;ul&gt;
+							{% for cat, null in categories %}
+								 &lt;li {% if cat="category" %}class="active" {% endif %}&gt;&lt;a href="{{ SITEURL }}/{{ cat.url }}"&gt;{{ cat }}&lt;/a&gt;&lt;/li&gt;
+							{% endfor %}
+							&lt;/ul&gt;
+						&lt;/li&gt;
+						{% if LINKS %}
+						&lt;li&gt;
+							&lt;h2&gt;Blogroll&lt;/h2&gt;
+							&lt;ul&gt;
+							{% for name, link in LINKS %}
+                                                            &lt;li&gt;&lt;a href="{{ link }}"&gt;{{ name }}&lt;/a&gt;&lt;/li&gt;
+                                                        {% endfor %}
+							&lt;/ul&gt;
+						&lt;/li&gt;
+						{% endif %}
+						{% if SOCIAL %}
+                                                &lt;li&gt;
+                                                        &lt;h2&gt;Social&lt;/h2&gt;
+                                                        &lt;ul&gt;
+                                                            &lt;li&gt;&lt;a href="{{ SITEURL }}/{{ FEED }}" rel="alternate"&gt;Flux Atom&lt;/a&gt;&lt;/li&gt;
+                                                            {% if FEED_RSS %}
+                                                            &lt;li&gt;&lt;a href="{{ SITEURL }}/{{ FEED_RSS }}" rel="alternate"&gt;Flux Rss&lt;/a&gt;&lt;/li&gt;
+                                                            {% endif %}
+                                                        {% for …&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{ SITENAME }}{%endblock%}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+{% include 'github.html' %}
+        &lt;header id="banner" class="body"&gt;
+                &lt;h1&gt;&lt;a href="{{ SITEURL }}"&gt;{{ SITENAME }} {% if SITESUBTITLE %} &lt;strong&gt;{{ SITESUBTITLE }}&lt;/strong&gt;{% endif %}&lt;/a&gt;&lt;/h1&gt;
+                {% if SITETAGLINE %}
+                &lt;div id="tagline"&gt;{{SITETAGLINE}}&lt;/div&gt;
+                {% endif %}
+                &lt;nav&gt;
+                {% for title, link in MENUITEMS %}
+                    &lt;a href="{{ link }}"&gt;{{ title }}&lt;/a&gt;&amp;nbsp;
+                {% endfor %}
+                {% if DISPLAY_PAGES_ON_MENU %}
+                {% for page in PAGES %}
+                    &lt;a href="{{ SITEURL }}/{{ page.url }}"&gt;{{ page.title }}&lt;/a&gt;&amp;nbsp;
+                {% endfor %}
+                {% endif %}
+                {% for cat, null in categories %}
+                    &lt;a href="{{ SITEURL }}/{{ cat.url }}"&gt;{{ cat }}&lt;/a&gt;&amp;nbsp;
+                {% endfor %}
+                &lt;/nav&gt;
+        &lt;/header&gt;&lt;!-- /#banner --&gt;
+        {% block content %}
+        {% endblock %}
+        &lt;section id="extras" class="body"&gt;
+        {% if LINKS %}
+                &lt;div class="blogroll"&gt;
+                        &lt;h2&gt;blogroll&lt;/h2&gt;
+                        &lt;ul&gt;
+                        {% for name, link in LINKS %}
+                            &lt;li&gt;&lt;a href="{{ link }}"&gt;{{ name }}&lt;/a&gt;&lt;/li&gt;
+                        {% endfor %}
+                        &lt;/ul&gt;
+                &lt;/div&gt;&lt;!-- /.blogroll --&gt;
+        {% endif …&lt;/section&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ AUTHOR }}</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{ SITENAME }}{%endblock%}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+    &lt;div class="page"&gt;
+      &lt;header class="page-head"&gt;
+        &lt;h1&gt;
+          &lt;a href="{{ SITEURL }}/index.html"&gt;{{ SITENAME }}&lt;/a&gt;
+        &lt;/h1&gt;
+      &lt;/header&gt;
+
+      &lt;div class="page-content"&gt;
+        {% block content %}
+        {% endblock content %}
+      &lt;/div&gt;
+      {% include "includes/sidebar.html" %} 
+
+      &lt;footer class="page-footer"&gt;
+        &lt;p&gt; {{ FOOTER_TEXT or 'Powered by &lt;a href="http://pelican.readthedocs.org"&gt;Pelican&lt;/a&gt;' }}&lt;/p&gt;
+        {% if GITHUB_URL %}&lt;p&gt;&lt;a id="github-link" href="{{ GITHUB_URL}}"&gt;Fork me on Github&lt;/a&gt;&lt;/p&gt;{% endif %}
+      &lt;/footer&gt;
+    &lt;/div&gt;
+  </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{ SITENAME }}{%endblock%}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+    &lt;div id="page"&gt;
+      &lt;header id="page-head"&gt;
+        &lt;h1&gt;
+          &lt;a href="{{ SITEURL }}/index.html"&gt;{{ SITENAME }}&lt;/a&gt;
+        &lt;/h1&gt;
+      &lt;/header&gt;
+      
+      &lt;div id="page-body"&gt;
+        &lt;{%- if article %}article class="post" {% else %}section {% endif -%}id="page-main" role="main"&gt;
+{% block content %}
+{% endblock content %}
+      &lt;!--{%- if article %}article{% else %}section{% endif -%}--&gt; &lt;!-- /#page-main --&gt;
+
+        &lt;aside id="page-side"&gt;
+          {%- include "includes/sidebar.html" -%}
+        &lt;/aside&gt; &lt;!-- /#page-side --&gt;
+      &lt;/div&gt;  &lt;!-- /#page-body --&gt;
+
+      &lt;footer id="page-foot"&gt;
+        &lt;p&gt; {{ FOOTER_TEXT or 'Powered by &lt;a href="http://pelican.readthedocs.org"&gt;Pelican&lt;/a&gt;' }}&lt;/p&gt;
+        {% if GITHUB_URL %}&lt;p&gt;&lt;a id="github-link" href="{{ GITHUB_URL}}"&gt;Fork me on Github&lt;/a&gt;&lt;/p&gt;{% endif %}
+      &lt;/footer&gt;
+    &lt;/div&gt; &lt;!-- /#page --&gt;
+    {% if GOOGLE_ANALYTICS %}
+    &lt;script type="text/javascript"&gt;
+      var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', '{{ GOOGLE_ANALYTICS }}']);
+          _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement …&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{ SITENAME }}{%endblock%}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>		
+	&lt;header class="clearfix" role="banner"&gt;
+		&lt;div class="wrapper"&gt;
+			&lt;h1 class="huge"&gt;&lt;a href="{{ SITEURL }}"&gt;{{ SITENAME }}&lt;/a&gt;&lt;/h1&gt;
+		&lt;/div&gt;
+	&lt;/header&gt;
+	
+	{% block content %}
+	{% endblock %}
+	
+		
+&lt;footer class="clearfix"&gt;
+	&lt;div class="wrapper pages"&gt;
+		&lt;ul class="nav"&gt;
+		{% for p in PAGES %}
+			&lt;li&gt;&lt;a href="{{ SITEURL }}/{{ p.url }}"&gt;{{ p.title }}&lt;/a&gt;&lt;/li&gt;
+		{% endfor %}
+			&lt;li&gt;&lt;a href="{{ SITEURL }}/archives.html"&gt;Archive&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	
+	&lt;div class="copy wrapper"&gt;
+		&lt;ul class="social"&gt;
+			{% for name, link in SOCIAL %}
+			&lt;li&gt;&lt;a href="{{ link }}"&gt;{{ name }}&lt;/a&gt;&lt;/li&gt;
+			{% endfor %}
+		&lt;/ul&gt;
+	
+		&lt;p role="contentinfo"&gt;© 2012 {{ AUTHOR }}&lt;br&gt;
+		Proudly powered by &lt;a href="http://alexis.notmyidea.org/pelican/"&gt;Pelican&lt;/a&gt;.&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/footer&gt;
+	
+	&lt;script&gt;
+	  var _gaq=[['_setAccount','{{ GOOGLE_ANALYTICS }}'],['_trackPageview']];
+	  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	  g.src=('https:'==location.protocol?'//ssl':'//www' …&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ AUTHOR }}</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{ SITENAME }}{%endblock%}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+&lt;div id="page"&gt;
+
+  &lt;header id="header"&gt;
+    &lt;h1&gt;&lt;a href="{{ SITEURL }}/index.html"&gt;{{ SITENAME }}&lt;/a&gt;&lt;/h1&gt;
+  &lt;/header&gt;
+
+{% include 'menu.html' %}
+
+  &lt;section id="content"&gt;
+{% block content %}
+{% endblock %}
+  &lt;/section&gt; &lt;!-- /#content --&gt;
+
+{% include 'sidebar.html' %}
+
+
+  &lt;footer id="footer"&gt;
+    &lt;p&gt;Propulsé par &lt;a href="http://docs.notmyidea.org/alexis/pelican/index.html"&gt;Pelican&lt;/a&gt;.&lt;/p&gt;
+  &lt;/footer&gt;
+&lt;/div&gt; &lt;!-- /#page --&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{ SITENAME }}{%endblock%}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+    {% block content %} {% endblock %}
+
+    &lt;div class="copyright info vcard"&gt;Design by &lt;a class="fn url" href="http://martyalchin.com"&gt;Marty Alchin&lt;/a&gt;, &lt;a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/us/"&gt;some rights reserved&lt;/a&gt;. Powered by &lt;a href="http://alexis.notomyidea.org/pelican/"&gt;pelican&lt;/a&gt;&lt;/div&gt;
+    </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{ SITENAME }}{%endblock%}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+{% include 'github.html' %}
+        {% block content %}
+        {% endblock %}
+
+        &lt;footer&gt;
+            &lt;nav&gt;
+                &lt;ul&gt;
+                {% for page in PAGES %}
+                    &lt;li&gt;&lt;a href="{{ SITEURL }}/{{ page.url }}"&gt;{{ page.title }}&lt;/a&gt;{% if not loop.last %} ::{% endif %}&lt;/li&gt;
+                {% endfor %}
+                {% if categories|length &gt; 1 %}
+                    &lt;li&gt;:: &lt;a href="{{ SITEURL }}/categories.html"&gt;Categories&lt;/a&gt;&lt;/li&gt;
+                {% endif %}
+                {% if tags|length &gt; 1 %}
+                    &lt;li&gt;:: &lt;a href="{{ SITEURL }}/tags.html"&gt;Tags&lt;/a&gt;&lt;/li&gt;
+                {% endif %}
+                &lt;/ul&gt;
+            &lt;/nav&gt;
+                &lt;p id="theme-credit"&gt;&lt;a href="http://mathieu.agopian.info/mnmlist/theme.html"&gt;Thème mnmlist&lt;/a&gt;&lt;/p&gt;
+        &lt;/footer&gt;
+
+{% include 'analytics.html' %}
+{% include 'piwik.html' %}
+{% include 'disqus_script.html' %}
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{ SITENAME }}{%endblock%}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+	&lt;div id="wrap" style="width:850px"&gt;
+	    &lt;div id="container" style="width:560px"&gt;
+            {% include 'github.html' %}
+
+
+            &lt;div class="entry"&gt;
+                {% block content %}
+                {% endblock %}
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+        &lt;div id="sidebar"&gt;
+            &lt;h1&gt;&lt;a href="{{ SITEURL }} " title="title"&gt;{{ SITENAME }}&lt;/a&gt;&lt;/h1&gt;
+            &lt;span class="description"&gt;{{ DESCRIPTION }} &lt;/span&gt;
+            &lt;!-- &lt;span class="feed"&gt;&lt;a href=""&gt;RSS&lt;/a&gt; | &lt;a href=""&gt;Atom&lt;/a&gt;&lt;/span&gt; --&gt;
+        &lt;/div&gt;
+
+        &lt;div id="footer"&gt;
+            &lt;nav&gt;
+                &lt;ul&gt;
+                {% for page in PAGES %}
+                    &lt;li&gt;&lt;a href="{{ SITEURL }}/{{ page.url }}"&gt;{{ page.title }}&lt;/a&gt;{% if not loop.last %} ::{% endif %}&lt;/li&gt;
+                {% endfor %}
+                {% if categories|length &gt; 1 %}
+                    &lt;li&gt;:: &lt;a href="{{ SITEURL }}/categories.html"&gt;Categories&lt;/a&gt;&lt;/li&gt;
+                {% endif %}
+                {% if tags|length &gt; 1 %}
+                    &lt;li&gt;:: &lt;a href="{{ SITEURL }}/tags.html"&gt;Tags&lt;/a&gt;&lt;/li&gt;
+                {% endif %}
+                &lt;/ul&gt;
+            &lt;/nav&gt;
+
+            &lt;div id="credits"&gt;
+                &lt;span&gt;Adapted from &lt;a href="http://wordpress.org/themes/monospace"&gt;Monospace&lt;/a&gt; || Created with &lt;a href=""&gt;Pelican&lt;/a&gt;&lt;/span&gt;
+            &lt;/div&gt;
+                
+        &lt;/div&gt;
+
+    {% include 'analytics.html' %}
+    {% include 'piwik.html' %}
+    {% include 'disqus_script.html' %}
+
+    &lt;/div&gt;
+
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{ SITENAME }}{%endblock%}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+{% include 'github.html' %}
+        {% block content %}
+        {% endblock %}
+
+        &lt;footer&gt;
+            &lt;nav&gt;
+                &lt;ul&gt;
+                {% for page in PAGES %}
+                    &lt;li&gt;&lt;a href="{{ SITEURL }}/{{ page.url }}"&gt;{{ page.title }}&lt;/a&gt;{% if not loop.last %} ::{% endif %}&lt;/li&gt;
+                {% endfor %}
+                {% if categories|length &gt; 1 %}
+                    &lt;li&gt;:: &lt;a href="{{ SITEURL }}/categories.html"&gt;Categories&lt;/a&gt;&lt;/li&gt;
+                {% endif %}
+                {% if tags|length &gt; 1 %}
+                    &lt;li&gt;:: &lt;a href="{{ SITEURL }}/tags.html"&gt;Tags&lt;/a&gt;&lt;/li&gt;
+                {% endif %}
+                &lt;/ul&gt;
+            &lt;/nav&gt;
+                &lt;p id="theme-credit"&gt;Proudly powered by &lt;a href="http://docs.notmyidea.org/alexis/pelican/"&gt;pelican&lt;/a&gt;&lt;/p&gt;
+        &lt;/footer&gt;
+
+{% include 'analytics.html' %}
+{% include 'piwik.html' %}
+{% include 'disqus_script.html' %}
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{ SITENAME }}{% endblock %}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+  &lt;!-- Sidebar --&gt;
+  &lt;aside&gt;
+    &lt;p&gt;&lt;a href="{{ SITEURL }}"&gt;&lt;img id="avatar" src="{{ SITEURL }}/{{ AVATAR }}"&gt;&lt;/a&gt;&lt;/p&gt;
+    &lt;h1&gt;{{ SITENAME }}&lt;/h1&gt;
+    &lt;p&gt;{{ SIDEBAR_DIGEST }}&lt;/p&gt;
+    &lt;hr&gt;
+    &lt;h2&gt;Social&lt;/h2&gt;
+    &lt;ul class="social"&gt;
+      {% for name, link in SOCIAL %}
+      &lt;li style="list-style-image : url({{ SITEURL }}/theme/images/icons/{{ name|lower }}.png);"&gt;&lt;a href="{{ link }}"&gt;{{ name }}&lt;/a&gt;&lt;/li&gt;
+      {% endfor %}
+      &lt;li style="list-style-image : url({{ SITEURL }}/theme/images/icons/rss.png);"&gt;&lt;a href="{{ SITEURL }}/{{ FEED_ATOM }}" rel="alternate"&gt;&lt;i class="icon-bookmark icon-large"&gt;&lt;/i&gt;Atom feed&lt;/a&gt;&lt;/li&gt;
+      {% if FEED_RSS %}
+      &lt;li style="list-style-image : url({{ SITEURL }}/theme/images/icons/rss.png);"&gt;&lt;a href="{{ SITEURL }}/{{ FEED_RSS }}" rel="alternate"&gt;RSS feed&lt;/a&gt;&lt;/li&gt;
+      {% endif %}
+    &lt;/ul&gt;
+    {% for title, link in MENUITEMS %}
+    &lt;li&gt;&lt;a href="{{ link }}"&gt;{{ title }}&lt;/a&gt;&lt;/li&gt;
+    {% endfor %}
+    {% if DISPLAY_PAGES_ON_MENU and PAGES %}
+    &lt;h2&gt;Pages&lt;/h2&gt;
+    &lt;ul class="navbar"&gt;
+      {% for p in PAGES %}
+      &lt;li&gt;&lt;a href="{{ SITEURL }}/{{ p.url }}"&gt;{{ p.title }}&lt;/a&gt;&lt;/li&gt;
+      {% endfor %}
+    &lt;/ul&gt;
+    {% endif %}
+    {% if categories %}
+    &lt;h2&gt;Categories&lt;/h2&gt;
+    &lt;ul class="navbar"&gt;
+      {% for cat, null in categories %}
+      &lt;li{% if cat="category" %} class="active" {% endif %}&gt;&lt;a href="{{ SITEURL }}/{{ cat.url }}"&gt;{{ cat }}&lt;/a&gt;&lt;/li&gt;
+      {% endfor %}
+    &lt;/ul&gt; 
+    {% endif %}
+  &lt;/aside&gt;
+
+  &lt;!-- Content --&gt;
+  &lt;article&gt;
+    {% block content …&lt;/article&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ AUTHOR }}</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{ SITENAME }}{%endblock%}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+{% include 'github.html' %}
+        &lt;header id="banner" class="body"&gt;
+                &lt;h1&gt;&lt;a href="{{ SITEURL }}/index.html"&gt;{{ SITENAME }} {% if SITESUBTITLE %} &lt;strong&gt;{{ SITESUBTITLE }}&lt;/strong&gt;{% endif %}&lt;/a&gt;&lt;/h1&gt;
+                &lt;nav&gt;&lt;ul&gt;
+                {% for title, url in MENUITEMS %}
+                    &lt;li {% if page is defined and url="page.url" %} class="active" {% endif %}&gt;
+                        &lt;a href="{{ SITEURL }}/{{ url }}"&gt;{{ title }}&lt;/a&gt;
+                    &lt;/li&gt;
+                {% endfor %}
+                {% if DISPLAY_PAGES_ON_MENU != False %}
+                {% for p in PAGES %}
+                    &lt;li {% if p="page" %}class="active" {% endif %}&gt;&lt;a href="{{ SITEURL }}/{{ p.url }}"&gt;{{ p.title }}&lt;/a&gt;&lt;/li&gt;
+                {% endfor %}
+                {% endif %}
+                &lt;li&gt;&lt;a href="{{ SITEURL }}/{{ ARCHIVES_URL }}"&gt;Archives&lt;/a&gt;&lt;/li&gt;
+                {#{% for cat, null in categories %}
+                    &lt;li {% if cat="category" %}class="active" {% endif %}&gt;&lt;a href="{{ SITEURL }}/{{ cat.url }}"&gt;{{ cat }}&lt;/a&gt;&lt;/li&gt;
+                {% endfor %}#}
+                &lt;/ul&gt;&lt;/nav&gt;
+        &lt;/header&gt;&lt;!-- /#banner --&gt;
+
+        {% block content %}
+        {% endblock %}
+
+        &lt;aside id="sidebar"&gt;
+                &lt;div class="widget"&gt;
+                        &lt;h2&gt;Categories&lt;/h2&gt;
+                        &lt;ul&gt;
+                        {% for cat, null in categories %}
+                           &lt;li {% if cat="category" %}class="active" {% endif %}&gt;&lt;a href="{{ SITEURL }}/{{ cat.url }}"&gt;{{ cat }}&lt;/a&gt;&lt;/li&gt;
+                        {% endfor %}
+                        &lt;/ul&gt;
+                &lt;/div&gt;
+        {% if LINKS %}
+                &lt;div class="widget blogroll"&gt;
+                        &lt;h2&gt;Blogroll&lt;/h2&gt;
+                        &lt;ul&gt;
+                        {% for name …&lt;/ul&gt;&lt;/div&gt;&lt;/aside&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{ SITENAME }}{%endblock%}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+{% include 'github.html' %}
+        &lt;header id="banner" class="body"&gt;
+                &lt;h1&gt;&lt;a href="{{ SITEURL }}/index.html"&gt;{{ SITENAME }} {% if SITESUBTITLE %} &lt;strong&gt;{{ SITESUBTITLE }}&lt;/strong&gt;{% endif %}&lt;/a&gt;&lt;/h1&gt;
+                &lt;nav&gt;&lt;ul&gt;
+                {% for title, link in MENUITEMS %}
+                    &lt;li&gt;&lt;a href="{{ link }}"&gt;{{ title }}&lt;/a&gt;&lt;/li&gt;
+                {% endfor %}
+                {% if DISPLAY_PAGES_ON_MENU != False %}
+                &lt;li&gt;&lt;a href="{{ SITEURL }}/index.html"&gt;Accueil&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="{{ SITEURL }}/archives.html"&gt;Archives&lt;/a&gt;&lt;/li&gt;
+                {% for p in PAGES %}
+                    &lt;li {% if p="page" %}class="active" {% endif %}&gt;&lt;a href="{{ SITEURL }}/{{ p.url }}"&gt;{{ p.title }}&lt;/a&gt;&lt;/li&gt;
+                {% endfor %}
+                {% endif %}
+                {#{% for cat, null in categories %}
+                    &lt;li {% if cat="category" %}class="active" {% endif %}&gt;&lt;a href="{{ SITEURL }}/{{ cat.url }}"&gt;{{ cat }}&lt;/a&gt;&lt;/li&gt;
+                {% endfor %}#}
+                &lt;/ul&gt;&lt;/nav&gt;
+        &lt;/header&gt;&lt;!-- /#banner --&gt;
+
+        {% block content %}
+        {% endblock %}
+
+        &lt;aside id="sidebar"&gt;
+                &lt;div class="widget"&gt;
+                        &lt;h2&gt;Catégories&lt;/h2&gt;
+                        &lt;ul&gt;
+                        {% for cat, null in categories %}
+                           &lt;li {% if cat="category" %}class="active" {% endif %}&gt;&lt;a href="{{ SITEURL }}/{{ cat.url }}"&gt;{{ cat }}&lt;/a&gt;&lt;/li&gt;
+                        {% endfor %}
+                        &lt;/ul&gt;
+                &lt;/div&gt;
+        {% if LINKS %}
+                &lt;div class="widget blogroll"&gt;
+                        &lt;h2&gt;Liens&lt;/h2&gt;
+                        &lt;ul&gt;
+                        {% for …&lt;/ul&gt;&lt;/div&gt;&lt;/aside&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %} {{ SITENAME }}{% endblock %}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+
+&lt;div class="navbar-spacer"&gt;&lt;/div&gt;
+&lt;nav class="navbar"&gt;
+    &lt;div class="container"&gt;
+        &lt;ul class="navbar-list"&gt;
+            &lt;li class="navbar-item"&gt;
+                &lt;a class="navbar-link" href="{{ SITEURL }}/"&gt;
+                    HOME
+                &lt;/a&gt;
+            &lt;/li&gt;
+            {% for page in pages|sort %}
+                &lt;li class="navbar-item"&gt;
+                    &lt;a class="navbar-link" href="{{ SITEURL }}/{{ page.url }}"&gt;
+                        {{ page.title }}
+                    &lt;/a&gt;
+                &lt;/li&gt;
+            {% endfor %}
+        &lt;/ul&gt;
+        &lt;div class="navbar-link"&gt;
+            &lt;a href="{{ SITEURL }}/"&gt;&lt;img src="{{ SITEURL }}/{{ SITEICON }}" class="site-icon" /&gt;&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/nav&gt;
+&lt;div class="container"&gt;
+    {% block container %}
+    {% endblock %}
+&lt;/div&gt;
+
+{% block footer %}
+{% endblock %}
+
+&lt;script&gt;
+{% if BAIDUID %}
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?{{ BAIDUID }}";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+    })();
+{% endif %}
+{% if DUOSHUONAME %}
+&lt;!-- 多说公共JS代码 …&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ AUTHOR }}</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}| {{ SITENAME }}{% endblock %}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+  &lt;header class="header"&gt;
+    &lt;div class="container"&gt;
+      &lt;div class="row"&gt;
+        {% if SITEIMAGE %}
+        &lt;div class="col-sm-4"&gt;
+          &lt;a href="{{ SITEURL }}"&gt;
+            &lt;img class="img-fluid" src="{{" siteurl }}{{ siteimage }} alt="{{ SITENAME }}"&gt;
+          &lt;/a&gt;
+        &lt;/div&gt;
+        {% endif %}
+        &lt;div class="col-sm-{% if SITEIMAGE %}8{% else %}12{% endif %}"&gt;
+          &lt;h1 class="title"&gt;&lt;a href="{{ SITEURL }}"&gt;{{ SITENAME }}&lt;/a&gt;&lt;/h1&gt;
+          {% if SITESUBTITLE %}
+          &lt;p class="text-muted"&gt;{{ SITESUBTITLE }}&lt;/p&gt;
+          {% endif %}
+          {% if LINKS or (DISPLAY_PAGES_ON_MENU and pages) or ICONS %}
+          &lt;ul class="list-inline"&gt;
+            {% for title, link in LINKS %}
+            &lt;li class="list-inline-item"&gt;&lt;a href="{{ link }}" target="_blank"&gt;{{ title }}&lt;/a&gt;&lt;/li&gt;
+            {% endfor %}
+            {% if DISPLAY_PAGES_ON_MENU %}
+            {% for page in pages %}
+            {% if LINKS and loop.first %}
+            &lt;li class="list-inline-item text-muted"&gt;|&lt;/li&gt;
+            {% endif %}
+            &lt;li class="list-inline-item"&gt;&lt;a href="{{ SITEURL }}/{{ page.url }}"&gt;{{ page.title }}&lt;/a&gt;&lt;/li&gt;
+            {% endfor %}
+            {% endif %}
+            {% for icon, link in ICONS %}
+            {% if (LINKS or (DISPLAY_PAGES_ON_MENU and pages …&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/header&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{ SITENAME }}{% endblock %}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+
+&lt;div class="navbar {% if BOOTSTRAP_NAVBAR_INVERSE %}navbar-inverse{% else %}navbar-default{% endif %} navbar-fixed-top" role="navigation"&gt;
+	&lt;div class="container{% if BOOTSTRAP_FLUID %}-fluid{% endif %}"&gt;
+        &lt;div class="navbar-header"&gt;
+            {% if MENUITEMS or (pages and DISPLAY_PAGES_ON_MENU) or (categories and DISPLAY_CATEGORIES_ON_MENU) %}
+            &lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"&gt;
+                &lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+                &lt;span class="icon-bar"&gt;&lt;/span&gt;
+                &lt;span class="icon-bar"&gt;&lt;/span&gt;
+                &lt;span class="icon-bar"&gt;&lt;/span&gt;
+            &lt;/button&gt;
+            {% endif %}
+            &lt;a href="{{ SITEURL }}/" class="navbar-brand"&gt;
+                {% if SITELOGO %}&lt;img class="img-responsive pull-left gap-right" src="{{ SITEURL }}/{{ SITELOGO }}" width="{{ SITELOGO_SIZE }}" /&gt; {% endif %}
+                {% if not HIDE_SITENAME %}{{ SITENAME }}{% endif %}
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="collapse navbar-collapse navbar-ex1-collapse"&gt;
+            &lt;ul class="nav navbar-nav"&gt;
+                {% for title, link in MENUITEMS %}
+                    &lt;li&gt;&lt;a href="{{ link }}"&gt;{{ title }}&lt;/a&gt;&lt;/li&gt;
+                {% endfor %}
+                {% if not PAGES_SORT_ATTRIBUTE -%}
+                    {% set PAGES_SORT_ATTRIBUTE = 'title' %}
+                {%- endif %}
+                {% if DISPLAY_PAGES_ON_MENU %}
+                    {% for p in pages | sort(attribute=PAGES_SORT_ATTRIBUTE) %}
+                        {% if p.url %}
+                         &lt;li{% if p="page" %} class="active" {% endif %}&gt;&lt;a href="{{ SITEURL }}/{{ p.url }}"&gt;
+                             {{ p.menulabel|default …&lt;/a&gt;&lt;/li{%&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ AUTHOR }}</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{ SITENAME }}{%endblock%}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+&lt;script&gt;
+function greyoff(img)
+{
+	document.getElementById(img).className = "greyoff";
+}
+
+function greyon(img)
+{
+	document.getElementById(img).className = "greyon";
+}
+&lt;/script&gt;
+
+{% include 'github.html' %}
+        &lt;header id="banner" class="body"&gt;
+                &lt;h1&gt;&lt;a href="{{ SITEURL }}/"&gt;{{ SITENAME }} {% if SITESUBTITLE %} &lt;strong&gt;{{ SITESUBTITLE }}&lt;/strong&gt;{% endif %}&lt;/a&gt;&lt;/h1&gt;
+                &lt;!--nav&gt;&lt;ul&gt;
+                {% for title, link in MENUITEMS %}
+                    &lt;li&gt;&lt;a href="{{ link }}"&gt;{{ title }}&lt;/a&gt;&lt;/li&gt;
+                {% endfor %}
+                {% if DISPLAY_PAGES_ON_MENU -%}
+                {% for pg in PAGES %}
+                    &lt;li{% if pg == page %} class="active"{% endif %}&gt;&lt;a href="{{ SITEURL }}/{{ pg.url }}"&gt;{{ pg.title }}&lt;/a&gt;&lt;/li&gt;
+                {% endfor %}
+                {% endif %}
+                {% if DISPLAY_CATEGORIES_ON_MENU -%}
+                {% for cat, null in categories %}
+                    &lt;li{% if cat == category %} class="active"{% endif %}&gt;&lt;a href="{{ SITEURL }}/{{ cat.url }}"&gt;{{ cat }}&lt;/a&gt;&lt;/li&gt;
+                {% endfor %}
+                {% endif %}
+                &lt;/ul&gt;&lt;/nav--&gt;
+        &lt;/header&gt;&lt;!-- /#banner --&gt;
+        {% block content %}
+        {% endblock %}
+        &lt;section id="extras" class="body"&gt;
+        {% if LINKS %}
+        {% endif %}
+        {% if SOCIAL or FEED_ALL_ATOM or FEED_ALL_RSS %}
+                &lt;div class="social"&gt;
+                        &lt;ul&gt;
+                            {% if FEED_ALL_ATOM %}
+                            &lt;li&gt;&lt;a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate"&gt;atom feed&lt;/a&gt;&lt;/li&gt;
+                            {% endif %}
+                            {% if FEED_ALL_RSS %}
+                            &lt;li&gt;&lt;a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate"&gt;rss feed&lt;/a&gt;&lt;/li&gt;
+                            {% endif %}
+
+                        {% for name, link in …&lt;/ul&gt;&lt;/div&gt;&lt;/section&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{ SITENAME }}{% endblock %}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+        &lt;div class="container"&gt;
+            &lt;div class="header"&gt;
+                &lt;ul class="nav nav-pills pull-right"&gt;
+                    &lt;li class="{% block navclass %}{{ NAVCLASS }}{% endblock navclass %}"&gt;&lt;a href="{{ SITEURL }}"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                {% for p in PAGES %}
+                    &lt;li{% if p="page" %} class="active" {% endif %}&gt;&lt;a href="{{ SITEURL }}/{{ p.url }}"&gt;{{ p.title }}&lt;/a&gt;&lt;/li&gt;
+                {% endfor %}
+                    &lt;li{% if author or tag %} class="active" {% endif %}{% block archclass %}{{ archclass }}{% endblock archclass %}&gt;&lt;a href="{{ SITEURL }}/archives.html"&gt;Archives&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;h3 class="text-muted"&gt;&lt;a href="{{ SITEURL }}"&gt;{{ SITENAME }}&lt;/a&gt;&lt;/h3&gt;
+				&lt;h2 class="text-muted"&gt;{{ SITESUBTITLE }}&lt;/h2&gt;
+             &lt;/div&gt;
+            {% block content %}
+            {% endblock %}
+            &lt;footer id="contentinfo" class="footer"&gt;
+                    &lt;nav class="pull-right bottom-nav"&gt;
+                        &lt;a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}"&gt;RSS&lt;/a&gt;
+                    &lt;/nav&gt;
+                    &lt;address id="about" class="vcard body"&gt;
+                    &amp;copy; &lt;a href="{{SITEURL}}"&gt;{{SITENAME}}&lt;/a&gt; Proudly powered by &lt;a href="http://getpelican.com/"&gt;Pelican&lt;/a&gt;
+                    &lt;/address&gt;&lt;!-- /#about --&gt;
+            &lt;/footer&gt;&lt;!-- /#contentinfo --&gt;
+        &lt;/div&gt;&lt;!-- container --&gt;
+		{% include 'analytics.html' %}
+                {% include 'piwik.html' %}
+    </description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{ SITENAME }}{%endblock%}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+{% include 'github.html' %}
+        &lt;header id="banner" class="body"&gt;
+                &lt;h1&gt;&lt;a href="{{ SITEURL }}"&gt;{{ SITENAME }} {% if SITESUBTITLE %} &lt;strong&gt;{{ SITESUBTITLE }}&lt;/strong&gt;{% endif %}&lt;/a&gt;&lt;/h1&gt;
+                &lt;nav&gt;&lt;ul&gt;
+                {% if DISPLAY_PAGES_ON_MENU %}
+                    {% for current_page in PAGES %}
+                        &lt;li {% if page %}{% if page='current_page%}class="active"{%' endif %}{% endif %}&gt;
+                            &lt;a href="{{ SITEURL }}/{{ current_page.url }}"&gt;{{ current_page.title }}&lt;/a&gt;
+                        &lt;/li&gt;
+                    {% endfor %}
+                {% endif %}
+                {% for cat, null in categories %}
+                    &lt;li {% if cat="category" and not article %}class="active" {% endif %}&gt;&lt;a href="{{ SITEURL }}/{{ cat.url }}"&gt;{{ cat }}&lt;/a&gt;&lt;/li&gt;
+                {% endfor %}
+                {% for title, link in MENUITEMS %}
+                    &lt;li&gt;&lt;a href="{{ SITEURL }}/{{ link }}"&gt;{{ title }}&lt;/a&gt;&lt;/li&gt;
+                {% endfor %}
+                &lt;/ul&gt;&lt;/nav&gt;
+        &lt;/header&gt;&lt;!-- /#banner --&gt;
+        {% block content %}
+        {% endblock %}
+        &lt;section id="extras" class="body"&gt;
+        {% if LINKS %}
+                &lt;div class="blogroll"&gt;
+                        &lt;h2&gt;blogroll&lt;/h2&gt;
+                        &lt;ul&gt;
+                        {% for name, link in LINKS %}
+                            &lt;li&gt;&lt;a href="{{ link }}"&gt;{{ name }}&lt;/a&gt;&lt;/li&gt;
+                        {% endfor %}
+                        &lt;/ul&gt;
+                &lt;/div&gt;&lt;!-- /.blogroll --&gt;
+        {% endif %}
+        {% if SOCIAL %}
+                &lt;div class="social"&gt;
+                        &lt;h2&gt;social&lt;/h2&gt;
+                        &lt;ul&gt;
+                            &lt;li&gt;&lt;a href="{{ SITEURL }}/{{ FEED }}" rel="alternate"&gt;atom …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/section&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{ SITENAME }}{%endblock%}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+{% include 'github.html' %}
+	
+  &lt;!--      &lt;header id="banner" class="body"&gt;
+                &lt;h1&gt;&lt;a href="{{ SITEURL }}/"&gt;&lt;img src="http://www.launchyard.com/images/logo.png" /&gt;{% if SITESUBTITLE %}&lt;strong&gt;{{ SITESUBTITLE }}&lt;/strong&gt;{% endif %}&lt;/a&gt;&lt;/h1&gt;
+        &lt;/header&gt; --&gt;
+&lt;!-- /#banner --&gt;
+	      &lt;div class="LaunchyardDetail"&gt;&lt;p&gt;&lt;a href="{{ SITEURL }}/"&gt;{% if SITESUBTITLE %}{{ SITESUBTITLE }}{% endif %}&lt;/a&gt;&lt;img src="http://www.launchyard.com/images/LY-identity.png" width="100" height="100" alt="LaunchYard logo"&gt;&lt;br /&gt;LaunchYard helps launch startups&lt;br /&gt;&lt;a href="http://launchyard.com/"&gt;Learn more &amp;rarr;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+
+        {% block content %}
+        {% endblock %}
+        &lt;section id="extras"&gt;
+       
+        
+        &lt;/section&gt;&lt;!-- /#extras --&gt;
+	
+        &lt;footer id="contentinfo"&gt;
+                &lt;address id="about" class="vcard "&gt;
+                Proudly powered by &lt;a href="http://getpelican.com/" target="_blank"&gt;Pelican&lt;/a&gt;, which takes
+                great advantage of &lt;a href="http://python.org" target="_blank"&gt;Python&lt;/a&gt;. &amp;copy; &lt;a class="url fn" href="http://launchyard.com"&gt;LaunchYard&lt;/a&gt;
+		
+                &lt;/address&gt;&lt;!-- /#about --&gt;
+		
+
+                
+        &lt;/footer&gt;&lt;!-- /#contentinfo --&gt;
+
+{% include 'analytics.html' %}
+{% include 'piwik.html' %}
+{% include 'facebook_script.html' %}
+{% include 'disqus_script.html' %}
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{ SITENAME }}{%endblock%}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+{% include 'github.html' %}
+	
+  &lt;!-- &lt;header id="banner" class="body"&gt; --&gt;
+  &lt;!--               &lt;h1&gt;&lt;a href="{{ SITEURL }}/"&gt;&lt;img src="http://www.launchyard.com/images/logo.png" /&gt;{% if SITESUBTITLE %}&lt;strong&gt;{{ SITESUBTITLE }}&lt;/strong&gt;{% endif %}&lt;/a&gt;&lt;/h1&gt; --&gt;
+  &lt;!--       &lt;/header&gt; --&gt; 
+
+  &lt;div class="LaunchyardDetail"&gt;
+    &lt;!-- &lt;p&gt; --&gt;
+    &lt;!-- &lt;img src="{{ SITEURL }}/theme/images/blue-pin.png" width="100" height="100" alt="Graph icon"&gt; --&gt;
+    &lt;!-- &lt;/p&gt; --&gt;
+    &lt;p&gt;&lt;a id="sitesubtitle" href="{{ SITEURL }}/"&gt;{% if SITESUBTITLE %}{{ SITESUBTITLE }}{% endif %}&lt;/a&gt;&lt;/p&gt;
+    {% if SITETAGLINE %}&lt;p id="sitetagline"&gt;{{ SITETAGLINE }}&lt;/p&gt;{% endif %}
+    &lt;p&gt;&lt;a id="aboutlink" href="{{ SITEURL }}/pages/about.html"&gt;about&lt;/a&gt;&lt;/p&gt;
+
+    &lt;!-- &lt;ul&gt; --&gt;
+    &lt;!--   &lt;li&gt;&lt;a href="{{ SITEURL }}/pages/about.html"&gt;about&lt;/a&gt;&lt;/li&gt; --&gt;
+      &lt;!-- &lt;li&gt;&lt;a href="{{ SITEURL }}/pages/about.html"&gt;articles&lt;/a&gt;&lt;/li&gt; --&gt;
+&lt;!-- {% if articles %} --&gt;
+&lt;!--         &lt;br/&gt; --&gt;
+&lt;!--         &lt;br/&gt; --&gt;
+&lt;!--     {% for article in articles %} --&gt;        
+&lt;!--       &lt;li&gt;&lt;a href=""&gt;{{ article.title }}&lt;/a&gt;&lt;/li&gt; --&gt;
+&lt;!--     {% endfor %} --&gt;
+&lt;!-- {% endif %} --&gt;
+    &lt;!-- &lt;/ul&gt; --&gt;
+
+    &lt;!-- This belongs in the about page --&gt;
+      &lt;!-- {% for name, link in SOCIAL %} --&gt;
+      &lt;!-- &lt;a href="{{ link }}"&gt;{{ name }}&lt;/a&gt; --&gt;
+      &lt;!-- &lt;br/&gt; --&gt;
+      &lt;!-- {% endfor %} --&gt;
+
+&lt;!-- {% include 'categories.html' %} --&gt;
+  &lt;/div&gt;
+
+        {% block content %}
+        {% endblock %}
+        &lt;section id="extras"&gt;
+        
+        &lt;/section&gt;&lt;!-- /#extras --&gt;
+	
+        &lt;footer id="contentinfo"&gt;
+                &lt;address id="about" class="vcard "&gt;
+                Proudly powered by &lt;a href="http://getpelican.com/" target="_blank"&gt;Pelican&lt;/a&gt;, which takes
+                great advantage of &lt;a href="http://python.org" target="_blank"&gt;Python&lt;/a&gt;.
+		
+                &lt;/address&gt;&lt;!-- /#about --&gt;
+		
+
+                
+        &lt;/footer&gt;&lt;!-- /#contentinfo --&gt;
+
+{% include 'analytics.html' %}
+{% include 'piwik.html' %}
+{% include 'facebook_script.html' %}
+{% include 'disqus_script.html' %}
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{ SITENAME }}{%endblock%}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+{% include 'github.html' %}
+        &lt;header id="banner" class="body"&gt;
+                &lt;h1&gt;&lt;a href="{{ SITEURL }}"&gt;{{ SITENAME }} {% if SITESUBTITLE %} &lt;strong&gt;{{ SITESUBTITLE }}&lt;/strong&gt;{% endif %}&lt;/a&gt;&lt;/h1&gt;
+                &lt;nav&gt;&lt;ul&gt;
+                {% for title, link in MENUITEMS %}
+                    &lt;li&gt;&lt;a href="{{ link }}"&gt;{{ title }}&lt;/a&gt;&lt;/li&gt;
+                {% endfor %}
+                {% if DISPLAY_PAGES_ON_MENU %}
+                {% for page in PAGES %}
+                    &lt;li&gt;&lt;a href="{{ SITEURL }}/{{ page.url }}"&gt;{{ page.title }}&lt;/a&gt;&lt;/li&gt;
+                {% endfor %}
+                {% endif %}
+                {% for cat, null in categories %}
+                    &lt;li {% if cat="category" %}class="active" {% endif %}&gt;&lt;a href="{{ SITEURL }}/{{ cat.url }}"&gt;{{ cat }}&lt;/a&gt;&lt;/li&gt;
+                {% endfor %}
+                &lt;/ul&gt;&lt;/nav&gt;
+        &lt;/header&gt;&lt;!-- /#banner --&gt;
+        {% block content %}
+        {% endblock %}
+        &lt;section id="extras" class="body"&gt;
+        {% if LINKS %}
+                &lt;div class="blogroll"&gt;
+                        &lt;h2&gt;blogroll&lt;/h2&gt;
+                        &lt;ul&gt;
+                        {% for name, link in LINKS %}
+                            &lt;li&gt;&lt;a href="{{ link }}"&gt;{{ name }}&lt;/a&gt;&lt;/li&gt;
+                        {% endfor %}
+                        &lt;/ul&gt;
+                &lt;/div&gt;&lt;!-- /.blogroll --&gt;
+        {% endif %}
+        {% if SOCIAL %}
+                &lt;div class="social"&gt;
+                        &lt;h2&gt;social&lt;/h2&gt;
+                        &lt;ul&gt;
+                            
+                        {% for …&lt;/ul&gt;&lt;/div&gt;&lt;/section&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{SITENAME}}{% endblock %}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+&lt;header class="main-header"&gt;
+  {% include 'github.html' %}
+  &lt;hgroup&gt;
+    &lt;div&gt;
+      &lt;img src="{{ GRAVATAR }}" style="margin-left: 34px; margin-top: 30px;"&gt;
+    &lt;/div&gt;
+    &lt;h1&gt;&lt;a href="{{" siteurl }} id="home-link"&gt;{{ SITENAME }}&lt;/a&gt;&lt;/h1&gt;
+    &lt;h2&gt;{{ ABOUT }}&lt;/h2&gt;
+  &lt;/hgroup&gt;
+  &lt;nav&gt;
+    &lt;ul class="main-nav"&gt;
+      {% if DISPLAY_HOME_ON_MENU %}
+      &lt;li&gt;&lt;a href="{{ SITEURL }}/"&gt;Home&lt;/a&gt;&lt;/li&gt;
+      {% endif %}
+
+      {% if DISPLAY_PAGES_ON_MENU %}
+        {% for current_page in PAGES %}
+      &lt;li&gt;&lt;a href="{{ SITEURL }}/{{ current_page.url }}"&gt;{{ current_page.title }}&lt;/a&gt;&lt;/li&gt;
+        {% endfor %}
+      {% endif %}
+
+      {% for title, url in SOCIAL %}
+      &lt;li&gt;&lt;a href="{{ url }}" id="{{ title }}-link"&gt;{{ title }}&lt;/a&gt;&lt;/li&gt;
+      {% endfor %}
+
+      &lt;li&gt;&lt;a href="{{ SITEURL }}/{{ FEED_RSS }}" id="feed-link"&gt;Feed&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="mailto:{{ CONTACT }}?subject=Hello" id="contact-link"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/nav&gt;
+  &lt;a href="http://pelican.notmyidea.org" class="fork-me"&gt;Powered by Pelican.&lt;/a&gt;
+
+&lt;/header&gt;
+{% block main_section %}{% endblock %}
+&lt;div class="mobile-nav"&gt;
+  &lt;span class="nav-btn" id="mobile-nav-btn"&gt;
+    &lt;span class="nav-btn-bar"&gt;&lt;/span&gt;
+    &lt;span class="nav-btn-bar"&gt;&lt;/span&gt;
+    &lt;span class="nav-btn-bar"&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;h3&gt;
+    &lt;a href="{{ SITEURL }}/" id="mobile-title"&gt;{{ SITEURL }}&lt;/a&gt;
+  &lt;/h3&gt;
+&lt;/div&gt;
+
+{% assets filters="rjsmin", output="gen/packed.js", "js/libs/jquery-1.7.2.min.js", "js …</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid><category>{{ SITE_KEYWORDS }}</category></item><item><title>{% block title %}{{ SITENAME }}{% endblock %}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+
+&lt;div class="navbar"&gt;
+    &lt;div class="navbar-inner"&gt;
+    &lt;div class="container"&gt;
+
+         &lt;a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"&gt;
+             &lt;span class="icon-bar"&gt;&lt;/span&gt;
+             &lt;span class="icon-bar"&gt;&lt;/span&gt;
+             &lt;span class="icon-bar"&gt;&lt;/span&gt;
+         &lt;/a&gt;
+
+        &lt;a class="brand" href="{{ SITEURL }}"&gt;{{ SITENAME }}&lt;/a&gt;
+
+        &lt;div class="nav-collapse"&gt;
+        &lt;ul class="nav"&gt;
+        {% for title, link in MENUITEMS %}
+            &lt;li&gt;&lt;a href="{{ link }}"&gt;{{ title }}&lt;/a&gt;&lt;/li&gt;
+        {% endfor %}
+            
+        {% if DISPLAY_PAGES_ON_MENU %}
+        {% for page in pages %}
+            &lt;li&gt;&lt;a href="{{ SITEURL }}/{{ page.url }}"&gt;{{ page.title }}&lt;/a&gt;&lt;/li&gt;
+        {% endfor %}
+        {% endif %}
+        &lt;/ul&gt;
+        &lt;/div&gt;
+        
+    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="container"&gt;
+    &lt;div class="content"&gt;
+    &lt;div class="row"&gt;
+
+        &lt;div class="span9"&gt;
+        {% block content %}{% endblock %}
+        &lt;/div&gt;
+        
+        &lt;div class="span3"&gt;
+
+            &lt;div class="well" style="padding: 8px 0; background-color: #FBFBFB;"&gt;
+            &lt;ul class="nav nav-list"&gt;
+                &lt;li class="nav-header"&gt; 
+                Site
+                &lt;/li&gt;
+            
+                &lt;li&gt;&lt;a href="{{ SITEURL }}/archives.html"&gt;Archives&lt;/a&gt;
+                &lt;li&gt;&lt;a href="{{ SITEURL }}/tags.html"&gt;Tags&lt;/a&gt;
+
+
+
+                {% if FEED_ALL_ATOM %}
+                &lt;li&gt;&lt;a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" rel="alternate"&gt;Atom feed&lt;/a&gt;&lt;/li&gt;
+                {% endif %}
+                {% if FEED_ATOM %}
+                &lt;li&gt;&lt;a href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" rel="alternate"&gt;Atom feed&lt;/a&gt;&lt;/li&gt;
+                {% endif %}
+                {% if FEED_RSS %}
+                &lt;li&gt;&lt;a href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" rel="alternate"&gt;RSS feed&lt;/a&gt;&lt;/li&gt;
+                {% endif %}
+                {% if FEED_ALL_RSS %}
+                &lt;li&gt;&lt;a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" rel="alternate"&gt;RSS feed&lt;/a&gt;&lt;/li&gt;
+                {% endif %}
+
+            &lt;/ul&gt;
+            &lt;/div&gt;
+
+
+            {% if categories %}
+            &lt;div class="well" style="padding: 8px 0; background-color: #FBFBFB;"&gt;
+            &lt;ul class="nav nav-list"&gt;
+                &lt;li class="nav-header"&gt; 
+                Categories
+                &lt;/li&gt;
+                
+                {% for cat, null …&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ AUTHOR }}</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{ SITENAME }}{%endblock%}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description></description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{ SITENAME }}{%endblock%}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+
+&lt;div id="container"&gt;
+
+  &lt;div id="header"&gt;
+  &lt;h1&gt;&lt;a href="{{ SITEURL }}"&gt;{{ SITENAME }}&lt;/h1&gt;
+  {% if SITESUBTITLE %}&lt;h2&gt;{{ SITESUBTITLE }}&lt;/h2&gt;{% endif %}
+  
+  &lt;/div&gt;&lt;!-- end #header --&gt;
+  
+  &lt;div id="topMenu"&gt;
+  
+    &lt;ul&gt;
+    	&lt;li&gt;&lt;a href="{{ SITEURL }}"&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&amp;ndash;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="{{ SITEURL }}/archives.html"&gt;Archives&lt;/a&gt;&lt;/li&gt;
+        
+    &lt;/ul&gt;
+  
+  &lt;/div&gt;&lt;!-- end #topMenu --&gt;
+
+  &lt;div id="sidebar"&gt;
+  	{% if DISPLAY_PAGES_ON_MENU %}
+	&lt;h3&gt;Pages&lt;/h3&gt;
+	&lt;ul&gt;
+        {% for page in PAGES %}
+            &lt;li&gt;&lt;a href="{{ SITEURL }}/{{ page.url }}"&gt;{{ page.title }}&lt;/a&gt;&lt;/li&gt;
+        {% endfor %}
+	&lt;/ul&gt;
+        {% endif %}
+    &lt;h3&gt;Categories&lt;/h3&gt;
+    &lt;ul&gt;
+	{% for cat, null in categories %}
+		 &lt;li {% if cat="category" %}class="active" {% endif %}&gt;&lt;a href="{{ SITEURL }}/{{ cat.url }}"&gt;{{ cat }}&lt;/a&gt;&lt;/li&gt;
+	{% endfor %}
+	&lt;/ul&gt;
+    {% if LINKS %}
+	&lt;li&gt;
+		&lt;h3&gt;Blogroll&lt;/h3&gt;
+		&lt;ul&gt;
+		{% for name, link in LINKS %}
+                    &lt;li&gt;&lt;a href="{{ link }}"&gt;{{ name }}&lt;/a&gt;&lt;/li&gt;
+                {% endfor %}
+		&lt;/ul&gt;
+	&lt;/li&gt;
+	{% endif %}
+	{% if SOCIAL %}
+        &lt;li&gt;
+                &lt;h3&gt;Social&lt;/h3&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;&lt;a href="{{ SITEURL }}/{{ FEED }}" rel="alternate"&gt;Flux Atom&lt;/a&gt;&lt;/li&gt;
+                    {% if FEED_RSS %}
+                    &lt;li&gt;&lt;a href="{{ SITEURL }}/{{ FEED_RSS }}" rel="alternate"&gt;Flux Rss&lt;/a&gt;&lt;/li&gt;
+                    {% endif %}
+                {% for name, link …&lt;/ul&gt;&lt;/li&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{ SITENAME }}{%endblock%}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+
+&lt;div id="container"&gt;
+
+  &lt;div id="header"&gt;
+  &lt;h1&gt;&lt;a href="{{ SITEURL }}/index.html"&gt;{{ SITENAME }}&lt;/h1&gt;
+  {% if SITESUBTITLE %}&lt;h2&gt;{{ SITESUBTITLE }}&lt;/h2&gt;{% endif %}
+  
+  &lt;/div&gt;&lt;!-- end #header --&gt;
+  
+  &lt;div id="topMenu"&gt;
+  
+    &lt;ul&gt;
+        {% for item in BEFORE_MENU %}
+          &lt;li&gt;&lt;a href="{{ item.url }}"&gt;{{ item.name }}&lt;/li&gt;
+          &lt;li&gt;&amp;ndash;&lt;/li&gt;
+        {% endfor %}
+    	&lt;li&gt;&lt;a href="{{ SITEURL }}/index.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&amp;ndash;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="{{ SITEURL }}/archives.html"&gt;Archives&lt;/a&gt;&lt;/li&gt;
+        {% for item in AFTER_MENU %}
+          &lt;li&gt;&amp;ndash;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="{{ item.url }}"&gt;{{ item.name }}&lt;/li&gt;
+        {% endfor %}
+        
+    &lt;/ul&gt;
+  
+  &lt;/div&gt;&lt;!-- end #topMenu --&gt;
+
+  &lt;div id="sidebar"&gt;
+    &lt;ul&gt;
+  	{% if DISPLAY_PAGES_ON_MENU %}
+	&lt;li&gt;
+	    &lt;h3&gt;Pages&lt;/h3&gt;
+	    &lt;ul&gt;
+            {% for page in PAGES %}
+                &lt;li&gt;&lt;a href="{{ SITEURL }}/{{ page.url }}"&gt;{{ page.title }}&lt;/a&gt;&lt;/li&gt;
+            {% endfor %}
+	    &lt;/ul&gt;
+	&lt;/li&gt;
+        {% endif %}
+  	{% if not SUPPRESS_CATEGORIES_ON_MENU %}
+	&lt;li&gt;
+            &lt;h3&gt;Categories&lt;/h3&gt;
+            &lt;ul&gt;
+	        {% for cat, null in categories %}
+		     &lt;li {% if cat="category" %}class="active" {% endif %}&gt;&lt;a href="{{ SITEURL }}/{{ cat.url }}"&gt;{{ cat }}&lt;/a&gt;&lt;/li&gt;
+	        {% endfor %}
+	    &lt;/ul&gt;
+	&lt;/li&gt;
+        {% endif %}
+        {% if LINKS %}
+	&lt;li&gt;
+		&lt;h3&gt;Blogroll&lt;/h3&gt;
+		&lt;ul&gt;
+		{% for name, link …&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{ SITENAME }}{%endblock%}</title><link>http://lzbpli.github.io/block-title-sitename-endblock.html</link><description>
+
+&lt;!-- Nav Bar --&gt;
+&lt;nav&gt;
+&lt;div class="top-bar"&gt;
+&lt;div class="row"&gt;
+    &lt;div class="large-9 large-centered columns"&gt;
+	    &lt;h1&gt;&lt;a href="{{ SITEURL }}"&gt;{{ SITENAME }}&lt;/a&gt;&lt;/h1&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Show menu items and pages --&gt;
+&lt;div class="row"&gt;
+&lt;div class="large-9 columns"&gt;
+    &lt;ul class="button-group navigation"&gt;
+	{% for title, link in MENUITEMS %}
+    &lt;li&gt;&lt;a href="{{ link }}" class="button secondary small"&gt;{{ title }}&lt;/a&gt;&lt;/li&gt;
+    {% endfor %}
+
+    {% if DISPLAY_PAGES_ON_MENU %}
+        {% for page in PAGES %}
+            &lt;li&gt;&lt;a href="{{ SITEURL }}/{{ page.url }}" class="button secondary small"&gt;{{ page.title }}&lt;/a&gt;&lt;/li&gt;
+        {% endfor %}
+    {% endif %}
+    &lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/nav&gt;
+&lt;!-- End Nav --&gt;
+
+
+&lt;!-- Main Page Content and Sidebar --&gt;
+&lt;div class="row"&gt;
+
+    &lt;!-- Main Blog Content --&gt;
+    &lt;div class="large-9 columns"&gt;
+    {% block content %}{% endblock %}
+    &lt;/div&gt;
+    &lt;!-- End Main Content --&gt;
+
+    &lt;!-- Sidebar --&gt;
+    &lt;aside class="large-3 columns"&gt;
+        &lt;h5 class="sidebar-title"&gt;Site&lt;/h5&gt;
+        &lt;ul class="side-nav"&gt;
+            &lt;li&gt;&lt;a href="{{ SITEURL }}/archives.html"&gt;Archives&lt;/a&gt;
+            &lt;li&gt;&lt;a href="{{ SITEURL }}/tags.html"&gt;Tags&lt;/a&gt;
+            {% if FEED_RSS %}
+            &lt;li&gt;&lt;a href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" rel="alternate"&gt;Atom feed&lt;/a&gt;&lt;/li&gt;
+            {% endif %}
+            {% if FEED_RSS %}
+            &lt;li&gt;&lt;a href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" rel="alternate"&gt;RSS feed&lt;/a&gt;&lt;/li&gt;
+            {% endif %}
+        &lt;/ul&gt;
+
+        {% if categories %}		
+        &lt;h5 class="sidebar-title"&gt;Categories&lt;/h5&gt;
+        &lt;ul class="side-nav"&gt;
+        {% for cat, null in categories %}
+            &lt;li&gt;&lt;a href="{{ SITEURL }}/{{ cat.url }}"&gt;{{ cat }}&lt;/a&gt;&lt;/li&gt;
+        {% endfor %}   
+        &lt;/ul&gt;
+        {% endif %}
+
+        {% if LINKS %}
+        &lt;h5 class="sidebar-title"&gt;Links&lt;/h5&gt;
+        &lt;ul class="side-nav"&gt;
+        {% for name …&lt;/ul&gt;&lt;/aside&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock.html</guid></item><item><title>{% block title %}{{ SITENAME }}{% endblock title %}</title><link>http://lzbpli.github.io/block-title-sitename-endblock-title.html</link><description>
+    {% include "fragments/header.html" %}
+
+    &lt;section class="main-content"&gt;
+    {% block content %}{% endblock %}
+    &lt;/section&gt;
+
+    {% include "fragments/footer.html" %}
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock-title.html</guid></item><item><title>{% block title %}{{ SITENAME }}{% endblock title %}</title><link>http://lzbpli.github.io/block-title-sitename-endblock-title.html</link><description>
+        &lt;div class="master-row"&gt;
+
+            &lt;div class="content-pane main-content"&gt;
+                &lt;nav class="top-bar" data-topbar role="navigation"&gt;
+                    &lt;ul class="title-area"&gt;
+                        &lt;li class="name"&gt;&lt;!-- Leave this empty --&gt;&lt;/li&gt;
+                        &lt;li class="toggle-topbar menu-icon"&gt;&lt;a href="#"&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;section class="top-bar-section"&gt;
+                        &lt;ul class="left"&gt;
+                        {% for p in pages %}
+                            &lt;li{% if p="page" %} class="active" {% endif %}&gt;&lt;a href="{{ SITEURL }}/{{ p.url }}"&gt;{{ p.title }}&lt;/a&gt;&lt;/li&gt;
+                        {% endfor %}
+                        &lt;/ul&gt;
+                        &lt;ul class="right"&gt;
+                        {% for cat, null in categories %}
+                            &lt;li{% if cat="category" %} class="active" {% endif %}&gt;&lt;a href="{{ SITEURL }}/{{ cat.url }}"&gt;{{ cat }}&lt;/a&gt;&lt;/li&gt;
+                        {% endfor %}
+                        &lt;/ul&gt;
+                    &lt;/section&gt;
+                &lt;/nav&gt;
+
+                &lt;div class="row title-bar"&gt;
+                    &lt;div class="small-12 columns"&gt;
+                        &lt;h1&gt;&lt;a href="{{ SITEURL }}"&gt;{{ SITENAME }}&lt;/a&gt;&lt;/h1&gt;&lt;h2&gt; &lt;small&gt;{{ SITESUBTITLE }}&lt;/small&gt;&lt;/h2&gt;
+                        &lt;hr&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            
+                &lt;div id="contents"&gt;
+                {% block content %}
+                    &lt;div class="row"&gt;
+                    &lt;/div&gt;
+                {% endblock content %}
+                &lt;/div&gt;
+
+                &lt;footer class="show-for-large-up"&gt;
+                    {% include 'footer.html' %}
+                &lt;/footer&gt;
+            &lt;/div&gt;
+            
+            &lt;div class="image-pane main-content" style="background: url('{{ BACKDROP_IMAGE|replace('{filename}',SITEURL)|replace('|filename|',SITEURL) }}'); background-size:cover; background-position: right;"&gt;
+                &lt;div class="row"&gt;
+                    &lt;div class="small-12 medium-4 large-12 columns"&gt;
+                    {% if SITE_DESCRIPTION or EMAIL or SOCIAL %}
+                        &lt;h5 class="text-center"&gt;About&lt;/h5&gt;
+                        &lt;div class="about-me"&gt;
+                        {% if PROFILE_IMAGE %}
+                            &lt;div class="hide-for-medium-only small-3 columns no-buffer"&gt;
+                                &lt;a class="th" href="{{ PROFILE_IMAGE|replace('{filename}',SITEURL)|replace('|filename|',SITEURL) }}"&gt;
+                                    &lt;img src="{{ PROFILE_IMAGE|replace('{filename}',SITEURL)|replace('|filename|',SITEURL) }}"&gt;
+                                &lt;/a&gt;
+                            &lt;/div&gt;
+                        {% endif %}
+                            &lt;div class="{% if PROFILE_IMAGE %}small-9 medium-12 large-9{% else %}small-12{% endif %} columns text-justify"&gt;
+                                {{ SITE_DESCRIPTION }}
+                            &lt;/div&gt;
+                        {% if EMAIL or SOCIAL %}
+                            &lt;div class="small-12 columns"&gt;
+                                &lt;ul class="inline-center social-list"&gt;
+                                {% if EMAIL%}
+                                    &lt;li&gt;&lt;a href="mailto:{{ EMAIL}}"&gt;&lt;i class="fa fa-envelope"&gt;&lt;/i&gt;&amp;nbsp; Email&lt;/a&gt;&lt;/li&gt;
+                                {% endif %}
+                                {% for name,link in SOCIAL %}
+                                    &lt;li&gt;&lt;a href="{{ link }}"&gt;&lt;i class="fa fa-{{ name|lower }}"&gt;&lt;/i&gt;&amp;nbsp; {{ name }}&lt;/a&gt;&lt;/li&gt;
+                                {% endfor %}
+                                &lt;/ul&gt;
+                            &lt;/div&gt;
+                        {% endif …&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{AUTHOR}}</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock-title.html</guid><category>Blog{% for keyword in BLOGKEYWORDS %} {{ keyword }}{% endfor %}</category></item><item><title>{% block title %}{{ SITENAME }}{% endblock title %}</title><link>http://lzbpli.github.io/block-title-sitename-endblock-title.html</link><description>
+    &lt;div class="pages"&gt;
+        &lt;ul&gt;
+            &lt;li class="home"&gt;&lt;a href="{{ SITEURL }}/index.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
+            {% for p in pages %}
+            &lt;li {% if p="page" %} class="active" {% endif %}&gt;&lt;a href="{{ SITEURL }}/{{ p.url }}"&gt;{{ p.title }}&lt;/a&gt;&lt;/li&gt;
+            {% endfor %}
+        &lt;/ul&gt;
+    &lt;/div&gt;
+    {% block pageheader %}
+    &lt;div class="hp-header"&gt;
+        &lt;div class="page-header"&gt;
+            &lt;div class="content-header"&gt;
+                &lt;div id="title-block"&gt;
+                &lt;h1&gt;&lt;a href="{{ SITEURL }}/"&gt;{{ SITENAME }}&lt;/a&gt;&lt;/h1&gt;
+                &lt;p class="blurb"&gt;{{ SITESUBTITLE }}&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    {% endblock %}
+    &lt;div class="content"&gt;
+        &lt;div class="data-holder"&gt;
+        &lt;div class="row"&gt;
+           &lt;div class="large-10 content-column column"&gt;
+                {% block content %}
+                {% endblock %}
+            &lt;/div&gt;
+            &lt;div class="large-2 aside column"&gt;
+                &lt;h3&gt;Links&lt;/h3&gt;
+                &lt;ul&gt;
+                    {% for title,link in LINKS %}
+                    &lt;li&gt;&lt;a href="{{ link }}"&gt;{{ title }}&lt;/a&gt;&lt;/li&gt;
+                    {% endfor %}
+                &lt;/ul&gt;
+            &lt;/div&gt;
+         &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+    &lt;div class="footer"&gt;
+        &lt;div class="data-holder"&gt;
+        {% block footer %}
+        &lt;div class="row"&gt;
+            &lt;div class="large-3 column"&gt;
+            {% include 'credits.html' %}
+           &lt;/div&gt;
+           &lt;div class="large-6 tag-cloud column"&gt;
+                &lt;h3&gt;Tags&lt;/h3&gt;
+                &lt;ul&gt;
+                    {% for t,tx in tags %}
+                    &lt;li{% if t="tag" %} class="active" {% endif %}&gt;&lt;a href="{{ SITEURL }}/{{ t.url }}"&gt;{{ t }}&lt;/a&gt;({{ tx | length }})&lt;/li&gt;
+                    {% endfor %}
+                &lt;/ul&gt;
+            &lt;/div&gt;
+            &lt;div class="large-3 category-column column"&gt;
+                &lt;h3&gt;Categories&lt;/h3&gt;
+                &lt;ul&gt;
+                    {% for cat,l in categories %}
+                    &lt;li{% if cat="category" %} class="active" {% endif %}&gt;&lt;a href="{{ SITEURL }}/{{ cat.url }}"&gt;{{ cat }}&lt;/a&gt; ({{ l | length }})&lt;/li&gt;
+                    {% endfor %}
+                &lt;/ul&gt;
+             
+            &lt;/div&gt;
+        &lt;/row&gt;
+        {% endblock …&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock-title.html</guid></item><item><title>{% block title %}{{ SITENAME }}{% endblock title %}</title><link>http://lzbpli.github.io/block-title-sitename-endblock-title.html</link><description>
+&lt;header class="blog-header"&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="row-fluid"&gt;
+      &lt;div class="span9"&gt;
+	&lt;a href="{{ SITEURL }}" class="brand"&gt;{{SITENAME}}&lt;/a&gt;
+      &lt;/div&gt;
+
+      &lt;div class="span3" id="blog-nav"&gt;
+	&lt;ul class="nav nav-pills pull-right"&gt;
+	  {% if DISPLAY_PAGES_ON_MENU %}
+          {% for page in PAGES %}
+            &lt;li&gt;&lt;a href="{{ SITEURL }}/{{ page.url }}"&gt;{{ page.title }}&lt;/a&gt;&lt;/li&gt;
+            {% endfor %}
+            {% endif %}
+	   {% for cat, null in categories %}
+	    &lt;li {% if cat="category" %} class="active" {% endif %}&gt;
+	      &lt;a href="{{ SITEURL }}/{{ cat.url }} "&gt;{{ cat }}&lt;/a&gt;
+	   {% endfor %}
+	&lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt; &lt;!-- End of fluid row--&gt;
+  &lt;/div&gt;   &lt;!-- End of Container--&gt;
+&lt;/header&gt;
+    
+&lt;div class="container"&gt;
+    &lt;div class="content"&gt;
+    &lt;div class="row-fluid"&gt;
+
+        &lt;div class="span10"&gt;
+        {% block content %}{% endblock %}
+        &lt;/div&gt;
+        
+        
+    &lt;/div&gt; {# End row #}
+    &lt;/div&gt; {# End content #}
+&lt;/div&gt;
+
+&lt;!--footer--&gt;
+&lt;div class="container"&gt;
+  &lt;div class="well" style="background-color: #E9EFF6"&gt;
+    &lt;div id="blog-footer"&gt;
+      &lt;div class="row-fluid"&gt;
+	{% if SOCIAL %}
+	&lt;div class="social span2" align="center" id="socialist"&gt;
+	  &lt;ul class="nav nav-list"&gt;
+	    &lt;li class="nav-header"&gt;
+	      Social
+	    &lt;/li&gt;
+	    {% for name,link in SOCIAL %}
+	    &lt;li&gt;&lt;a href="{{ link }}"&gt;&lt;i class="icon-{{ name }}" style="color: #1f334b"&gt;&lt;/i&gt;{{name}}&lt;/a&gt;&lt;/li&gt;
+	    {% endfor %}
+            {% if EMAIL%}
+            &lt;a href="mailto:{{ EMAIL}}"&gt;&lt;i class="icon-envelope" style="color: #1f334b"&gt;&lt;/i&gt; email&lt;/a&gt;
+            {% endif %}
+
+	  &lt;/ul&gt;
+	&lt;/div&gt;
+	{% endif %}
+	{% include "colophon.html" %}
+        {% if LINKS %}
+        &lt;div class="links span2" align="center"&gt;
+          &lt;ul class="nav nav-list"&gt;
+            &lt;li class="nav-header"&gt; 
+              Links
+            &lt;/li&gt;
+            
+            {% for name, link in …&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ AUTHOR }}</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock-title.html</guid></item><item><title>{% block title %}{{ SITENAME }}{% endblock title %}</title><link>http://lzbpli.github.io/block-title-sitename-endblock-title.html</link><description>
+		&lt;div class="nav-banner"&gt;
+		&lt;a href="{{ SITEURL }}"&gt;{{ SITENAME }}&lt;/a&gt;
+		&lt;/div&gt;
+		
+		&lt;div class="content"&gt;
+		{% block content %}
+		{% endblock content %}
+		&lt;/div&gt;
+		
+		&lt;div class="sidebar"&gt;
+		{% include 'sidebar.html' %}
+		&lt;/div&gt;
+		
+		&lt;footer id="contentinfo" class="body"&gt;
+                &lt;address id="about" class="vcard body"&gt;
+                Proudly powered by &lt;a href="http://getpelican.com/"&gt;Pelican&lt;/a&gt;,
+                which takes great advantage of &lt;a href="http://python.org"&gt;Python&lt;/a&gt;,
+				Theme by &lt;a href="http://frantic1048.com/"&gt;Frantic1048&lt;/a&gt;.
+                &lt;/address&gt;&lt;!-- /#about --&gt;
+        &lt;/footer&gt;&lt;!-- /#contentinfo --&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ AUTHOR }}</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock-title.html</guid></item><item><title>{% block title %}{{ SITENAME }}{% endblock title %}</title><link>http://lzbpli.github.io/block-title-sitename-endblock-title.html</link><description>
+
+
+    &lt;div class="container"&gt;
+
+        &lt;div class="row"&gt;
+
+          &lt;header id="banner" class="body"&gt;
+                  &lt;h1&gt;&lt;a href="{{ SITEURL }}/"&gt;{{ SITENAME }} &lt;strong&gt;{{ SITESUBTITLE }}&lt;/strong&gt;&lt;/a&gt;&lt;/h1&gt;
+          &lt;/header&gt;&lt;!-- /#banner --&gt;
+
+            &lt;div id="navigation" class="navbar row"&gt;
+              &lt;a href="#" gumby-trigger="#navigation &amp;gt; ul" class="toggle"&gt;&lt;i class="icon-menu"&gt;&lt;/i&gt;&lt;/a&gt;
+             
+              &lt;ul class="columns"&gt;
+                &lt;li&gt;&lt;a href="{{ SITEURL }}/"&gt;Home&lt;/a&gt;&lt;/li&gt;
+
+            {% for title, link in MENUITEMS %}
+                &lt;li&gt;&lt;a href="{{ link }}"&gt;{{ title }}&lt;/a&gt;&lt;/li&gt;
+            {% endfor %}
+            {% if DISPLAY_PAGES_ON_MENU %}
+              {% for p in PAGES %}
+                &lt;li{% if p="page" %} class="active" {% endif %}&gt;&lt;a href="{{ SITEURL }}/{{ p.url }}"&gt;{{ p.title }}&lt;/a&gt;&lt;/li&gt;
+              {% endfor %}
+            {% else %}
+              {% if DISPLAY_CATEGORIES_ON_MENU %}
+                {% for cat, null in categories %}
+                  &lt;li{% if cat="category" %} class="active" {% endif %}&gt;&lt;a href="{{ SITEURL }}/{{ cat.url }}"&gt;{{ cat }}&lt;/a&gt;&lt;/li&gt;
+                {% endfor %}
+              {% endif %}
+            {% endif %}
+
+              &lt;/ul&gt;
+            &lt;/div&gt;
+
+          {% block content %}
+
+          {% endblock %}
+
+       &lt;/div&gt;&lt;!-- /.row --&gt;
+    &lt;/div&gt;&lt;!-- /.container --&gt;
+
+
+       &lt;div class="container.nopad bg"&gt;
+
+    
+        &lt;footer id="credits" class="row"&gt;
+          &lt;div class="seven columns left-center"&gt;
+
+                   &lt;address id="about" class="vcard body"&gt;
+                    Proudly powered by &lt;a href="http://getpelican.com/"&gt;Pelican&lt;/a&gt;,
+                    which takes great advantage of &lt;a href="http://python.org"&gt;Python&lt;/a&gt;.
+                    &lt;br /&gt;
+                    Based on the &lt;a target="_blank" href="http://gumbyframework.com"&gt;Gumby Framework&lt;/a&gt;
+                    &lt;/address&gt;
+          &lt;/div&gt;
+
+
+          &lt;div class="seven columns"&gt;
+            &lt;div class="row"&gt;
+              &lt;ul class="socbtns"&gt;
+
+                {% if …&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/footer&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-endblock-title.html</guid></item><item><title>{% block title %}{{ SITENAME }}{% if SITETAG %} - {{ SITETAG|escape }}{% endif %}{% endblock %}</title><link>http://lzbpli.github.io/block-title-sitename-if-sitetag-sitetagescape-endif-endblock.html</link><description>
+{% if not SKIP_DEFAULT_NAVIGATION %}   
+    &lt;nav class="navbar navbar-default"&gt;
+      &lt;div class="container"&gt;
+	   &lt;div class="navbar-header"&gt;
+		&lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar-collapse"&gt;
+		  &lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		&lt;/button&gt;
+		&lt;a class="navbar-brand" href="{{ SITEURL }}/" rel="home"&gt;
+          &lt;i class="fa fa-home fa-fw fa-lg"&gt; &lt;/i&gt; {{ HOME_LABEL|default('') }}&lt;/a&gt;
+       &lt;/div&gt;
+
+      &lt;div class="collapse navbar-collapse" id="main-navbar-collapse"&gt;
+        &lt;ul class="nav navbar-nav"&gt;
+          {% for title, link in MENUITEMS %}
+            &lt;li&gt;&lt;a href="{{ link }}"&gt;{{ title }}&lt;/a&gt;&lt;/li&gt;
+          {% endfor %}
+          {% if DISPLAY_PAGES_ON_MENU %}
+            {% for item in pages %}
+              {% if page is defined and page.url == item.url %}
+              &lt;li class="active"&gt;
+              {% else %}
+              &lt;li&gt;
+              {% endif %}
+                &lt;a href="{{ SITEURL }}/{{ item.url }}"&gt;{{ item.title }}&lt;/a&gt;
+              &lt;/li&gt;
+            {% endfor %}
+            &lt;li class="divider"&gt;&lt;/li&gt;
+          {% endif %}
+            &lt;li class="{% block archive_active %}{% endblock %}"&gt;
+              &lt;a href="{{ SITEURL }}/{{ ARCHIVES_URL|default('archives.html') }}"&gt;归档&lt;/a&gt;
+            &lt;/li&gt;
+          &lt;li class="divider"&gt;&lt;/li&gt;
+          {% if FEED_ALL_ATOM %}
+            &lt;li&gt;&lt;a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate"&gt;
+                &lt;i class="fa fa-rss fa-fw fa-lg"&gt;&lt;/i&gt; &lt;/a&gt;&lt;/li&gt;
+          {% endif %}
+        &lt;/ul&gt; &lt;!-- /nav --&gt;
+      &lt;/div&gt; &lt;!-- /navbar-collapse --&gt;
+	  &lt;/div&gt; &lt;!-- /container --&gt;
+    &lt;/nav&gt; &lt;!-- /navbar --&gt;
+{% endif %}
+
+    {% for file in CUSTOM_SITE_HEADERS %}
+	  {% include "includes/" + file %}
+    {% else %}
+      {% include "includes …</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ AUTHOR }}</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-title-sitename-if-sitetag-sitetagescape-endif-endblock.html</guid></item><item><title>{% block windowtitle %}{{ SITENAME }}{% endblock %}</title><link>http://lzbpli.github.io/block-windowtitle-sitename-endblock.html</link><description>
+	{% include "facebook.html" %}
+	{% include "github.html" %}
+	&lt;div class="topbar"&gt;
+	  &lt;div class="topbar-inner"&gt;
+		&lt;div class="container-fluid"&gt;
+		  &lt;a class="brand" href="{{ SITEURL }}/"&gt;{{ SITENAME }}&lt;/a&gt;
+			&lt;ul class="nav"&gt;
+				{% for title, link in MENUITEMS %}
+					&lt;li&gt;&lt;a href="{{ link }}"&gt;{{ title }}&lt;/a&gt;&lt;/li&gt;
+				{% endfor %}
+				{% if DISPLAY_PAGES_ON_MENU %}
+					{% for page in PAGES %}
+						&lt;li&gt;&lt;a href="{{ SITEURL }}/{{ page.url }}"&gt;{{ page.title }}&lt;/a&gt;&lt;/li&gt;
+					{% endfor %}
+				{% endif %}
+				{% for cat, null in categories %}
+					&lt;li {% if cat="category" %}class="active" {% endif %}&gt;&lt;a href="{{ SITEURL }}/{{ cat.url }}"&gt;{{ cat }}&lt;/a&gt;&lt;/li&gt;
+				{% endfor %}
+			&lt;/ul&gt;
+			&lt;p class="pull-right"&gt;&lt;a href="{{ SITEURL }}/archives.html"&gt;[archives]&lt;/a&gt; &lt;a href="{{ SITEURL }}/tags.html"&gt;[tags]&lt;/a&gt;&lt;/p&gt;
+		&lt;/div&gt;
+	  &lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;div class="container-fluid"&gt;
+	  &lt;div class="sidebar"&gt;
+		&lt;div class="well"&gt;
+			&lt;h3&gt;Blogroll&lt;/h3&gt;
+			&lt;ul&gt;
+				{% for name, link in LINKS %}
+				&lt;li&gt;&lt;a href="{{ link }}"&gt;{{ name }}&lt;/a&gt;&lt;/li&gt;
+				{% endfor %}
+			&lt;/ul&gt;
+			&lt;div class="social"&gt;
+			&lt;h3&gt;Social&lt;/h3&gt;
+			&lt;ul&gt;
+				{% for name, link in SOCIAL %}
+				&lt;li&gt;&lt;a href="{{ link }}"&gt;{{ name }}&lt;/a&gt;&lt;/li&gt;
+				{% endfor %}
+			&lt;/ul&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	  &lt;/div&gt;
+	  &lt;div class="content"&gt;
+			{% block …&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ AUTHOR }}</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-windowtitle-sitename-endblock.html</guid></item><item><title>{% block windowtitle %}{{ SITENAME }}{% endblock %}</title><link>http://lzbpli.github.io/block-windowtitle-sitename-endblock.html</link><description>
+		&lt;div class="off-canvas-wrap"&gt;
+			&lt;div class="inner-wrap"&gt;
+				&lt;!-- mobile top bar to activate nav --&gt;
+				&lt;nav class="tab-bar show-for-small"&gt;
+					&lt;section class="left-small"&gt;
+						&lt;a class="left-off-canvas-toggle menu-icon"&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/section&gt;
+
+					&lt;section class="middle tab-bar-section"&gt;
+						&lt;h1 class="title"&gt;{{ SITENAME|replace(' ', '&amp;nbsp;') }}&lt;/h1&gt;
+					&lt;/section&gt;
+				&lt;/nav&gt;
+
+				&lt;!-- mobile side bar nav --&gt;
+				&lt;aside class="left-off-canvas-menu"&gt;
+					&lt;ul class="off-canvas-list"&gt;
+						&lt;li&gt;&lt;a href="{{ SITEURL }}"&gt;Home&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;label&gt;Categories&lt;/label&gt;&lt;/li&gt;
+						{% for cat, articles in categories %}
+							&lt;li {% if cat="category" %}class="active" {% endif %}&gt;&lt;a href="{{ SITEURL }}/{{ cat.url }}"&gt;{{ cat }}&lt;/a&gt;&lt;/li&gt;
+						{% endfor %}
+
+						&lt;li&gt;&lt;label&gt;Links&lt;/label&gt;&lt;/li&gt;
+							{% for name, link in LINKS %}
+							&lt;li&gt;&lt;a href="{{ link }}"&gt;{{ name }}&lt;/a&gt;&lt;/li&gt;
+							{% endfor %}
+
+						{% if FOUNDATION_TAGS_IN_MOBILE_SIDEBAR %}
+						&lt;li&gt;&lt;label&gt;Tags&lt;/label&gt;&lt;/li&gt;
+							{% for tag, articles in tags|sort %}
+							&lt;li&gt;&lt;a href="{{ SITEURL }}/{{ tag.url|replace(' ', '-') }}"&gt;{{ tag }}&lt;/a&gt;&lt;/li&gt;
+							{% endfor %}
+						{% endif %}
+
+						{% if MONTH_ARCHIVE_SAVE_AS %}
+						&lt;li&gt;&lt;label&gt;Monthly Archives&lt;/label&gt;&lt;/li&gt;
+							{% for year, date_year in dates|groupby( 'date.year' )|sort(reverse=True) %}
+								{% for month, articles in …&lt;/ul&gt;&lt;/aside&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">{{ AUTHOR }}</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/block-windowtitle-sitename-endblock.html</guid></item><item><title>Foundation</title><link>http://lzbpli.github.io/foundation.html</link><description>
+    &lt;div class="master-row"&gt;
+        &lt;div class="content-pane main-content"&gt;
+    &lt;nav class="top-bar" data-topbar role="navigation"&gt;
+        &lt;ul class="title-area"&gt;
+            &lt;li class="name"&gt;&lt;!-- Leave this empty --&gt;&lt;/li&gt;
+            &lt;li class="toggle-topbar menu-icon"&gt;&lt;a href="#"&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;section class="top-bar-section"&gt;
+            &lt;ul class="left"&gt;
+                &lt;li class="active"&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;About Me&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Research&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;CV&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Software&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#"&gt;Contact&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;ul class="right"&gt;
+                &lt;li&gt;&lt;a href="#"&gt;News&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+
+        &lt;/section&gt;
+    &lt;/nav&gt;
+    &lt;div class="row title-bar"&gt;
+        &lt;div class="small-12 columns"&gt;
+            &lt;h1&gt;&lt;a href="#"&gt;Chris MacMackin&lt;/a&gt;&lt;/h1&gt;&lt;h2&gt; &lt;small&gt;DPhil Student in Atmospheric, Ocean, and Planetary Physics&lt;/small&gt;&lt;/h2&gt;
+            &lt;hr&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class="row"&gt;
+        &lt;div class="small-12 columns"&gt;
+            &lt;p&gt;This that the other thing. This that the other thing. 
+               This that the other thing. This that the other thing.&lt;/p&gt;
+            &lt;p&gt;This that the other thing.&lt;/p&gt;
+            &lt;p&gt;This that the other thing. &lt;em&gt;This should …&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/foundation.html</guid></item></channel></rss>

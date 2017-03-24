@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>码 链 - basic</title><link href="http://lzbpli.github.io/" rel="alternate"></link><link href="http://lzbpli.github.io/feeds/basic.atom.xml" rel="self"></link><id>http://lzbpli.github.io/</id><updated>2017-03-02T14:01:01+08:00</updated><entry><title>Basic</title><link href="http://lzbpli.github.io/basic.html" rel="alternate"></link><published>2017-03-02T14:01:01+08:00</published><updated>2017-03-02T14:01:01+08:00</updated><author><name>ikerbo</name></author><id>tag:lzbpli.github.io,2017-03-02:/basic.html</id><summary type="html">&lt;p&gt;This theme has been made for the documentation of the template inheritance feature of Pelican.&lt;/p&gt;
+&lt;p&gt;He is usable, but only works with the last version of Pelican from the GIT repository...&lt;/p&gt;
+&lt;p&gt;It supports Google Analytics and has a Jappix widget.&lt;/p&gt;
+&lt;div class="section" id="screenshot"&gt;
+&lt;h2&gt;Screenshot&lt;/h2&gt;
+&lt;img alt="Screenshot of the basic theme" src="screenshot.png" /&gt;
+&lt;/div&gt;
+</summary><content type="html">&lt;p&gt;This theme has been made for the documentation of the template inheritance feature of Pelican.&lt;/p&gt;
+&lt;p&gt;He is usable, but only works with the last version of Pelican from the GIT repository...&lt;/p&gt;
+&lt;p&gt;It supports Google Analytics and has a Jappix widget.&lt;/p&gt;
+&lt;div class="section" id="screenshot"&gt;
+&lt;h2&gt;Screenshot&lt;/h2&gt;
+&lt;img alt="Screenshot of the basic theme" src="screenshot.png" /&gt;
+&lt;/div&gt;
+</content></entry></feed>

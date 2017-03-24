@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>码 链 - output</title><link>http://lzbpli.github.io/</link><description>每个人眼中，都是不同的世界 –柯宝！!</description><lastBuildDate>Thu, 02 Mar 2017 14:01:01 +0800</lastBuildDate><item><title>Archives - 码 链</title><link>http://lzbpli.github.io/archives-ma-lian.html</link><description>
+   
+    &lt;nav class="navbar navbar-default"&gt;
+      &lt;div class="container"&gt;
+	   &lt;div class="navbar-header"&gt;
+		&lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar-collapse"&gt;
+		  &lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		&lt;/button&gt;
+		&lt;a class="navbar-brand" href="./" rel="home"&gt;
+          &lt;i class="fa fa-home fa-fw fa-lg"&gt; &lt;/i&gt; &lt;/a&gt;
+       &lt;/div&gt;
+
+      &lt;div class="collapse navbar-collapse" id="main-navbar-collapse"&gt;
+        &lt;ul class="nav navbar-nav"&gt;
+            &lt;li class="divider"&gt;&lt;/li&gt;
+            &lt;li class="active"&gt;
+              &lt;a href="./archives.html"&gt;归档&lt;/a&gt;
+            &lt;/li&gt;
+          &lt;li class="divider"&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="http://lzbpli.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"&gt;
+                &lt;i class="fa fa-rss fa-fw fa-lg"&gt;&lt;/i&gt; &lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt; &lt;!-- /nav --&gt;
+      &lt;/div&gt; &lt;!-- /navbar-collapse --&gt;
+	  &lt;/div&gt; &lt;!-- /container --&gt;
+    &lt;/nav&gt; &lt;!-- /navbar --&gt;
+
+	&lt;div class="jumbotron" id="overview"&gt;
+	  &lt;div class="container"&gt;
+		&lt;h1&gt;&lt;a href="./"&gt;码  链&lt;/a&gt;&lt;/h1&gt;
+		&lt;p class="lead"&gt;Sub-title that goes underneath site name in jumbotron.&lt;/p&gt;
+	  &lt;/div&gt;
+	&lt;/div&gt;
+
+    &lt;div class="container" id="main-container"&gt;
+      &lt;div class="row"&gt;
+        &lt;div class="col-md-9" id="content"&gt;
+&lt;ol class="breadcrumb"&gt;
+  &lt;li&gt;&lt;a href="./" title="Home"&gt;
+	  &lt;i class="fa fa-home fa-fw fa-lg"&gt;&lt;/i&gt; &lt;/a&gt;&lt;/li&gt;
+  &lt;li class="active"&gt;Archives&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1&gt;Archives&lt;/h1&gt;
+&lt;div id="archives-body"&gt;
+  &lt;h2&gt;2017&lt;/h2&gt;
+  &lt;dl&gt;
+	&lt;dt&gt;Wed 22 March 2017&lt;/dt&gt;
+	&lt;dd&gt;&lt;a href="./my-first-python.html"&gt;My First python&lt;/a&gt;&lt;/dd&gt;
+	&lt;dt&gt;Wed 22 March 2017&lt;/dt&gt;
+	&lt;dd&gt;&lt;a href="./shi-yong-pelicanda-jian-githubbo-ke.html"&gt;使用pelican搭建github博客&lt;/a&gt;&lt;/dd&gt;
+  &lt;/dl&gt;
+  &lt;h2&gt;2010&lt;/h2&gt;
+  &lt;dl&gt;
+	&lt;dt&gt;Fri 03 December 2010&lt;/dt&gt;
+	&lt;dd&gt;&lt;a href="./my-first-review.html"&gt;My First Review&lt;/a&gt;&lt;/dd&gt;
+  &lt;/dl&gt;
+&lt;/div&gt; &lt;!-- /#archives-body --&gt;
+        &lt;/div&gt;&lt;!-- /content --&gt;
+
+        &lt;div class="col-md-3 sidebar-nav" id="sidebar"&gt;
+
+&lt;div class="row"&gt;
+
+&lt;div class="col-xs-6 col-md-12"&gt;
+&lt;h4&gt;&lt;i class="fa fa-comment fa-fw fa-lg"&gt;&lt;/i&gt; 社交圈&lt;/h4&gt;
+&lt;ul class="list-unstyled social-links"&gt;
+    &lt;li&gt;&lt;a href="http://twitter.com/ametaireau" target="_blank"&gt;
+	  &lt;i class="fa fa-comments fa-fw fa-lg" title="twitter"&gt;&lt;/i&gt;
+		twitter
+	&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://lastfm.com/user/akounet" target="_blank"&gt;
+	  &lt;i class="fa fa-comments fa-fw fa-lg" title="lastfm"&gt;&lt;/i&gt;
+		lastfm
+	&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://github.com/ametaireau" target="_blank"&gt;
+	  &lt;i class="fa fa-comments fa-fw fa-lg" title="github"&gt;&lt;/i&gt;
+		github
+	&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class="col-xs-6 col-md-12"&gt;
+&lt;h4&gt;&lt;i class="fa fa-folder fa-fw fa-lg"&gt;&lt;/i&gt; 分类&lt;/h4&gt;
+&lt;ul class="list-unstyled category-links"&gt;
+  &lt;li&gt;&lt;a href="./category/review.html"&gt;
+    &lt;i class="fa fa-folder-open fa-fw fa-lg"&gt;&lt;/i&gt; Review&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="./category/jian-wang.html"&gt;
+    &lt;i class="fa fa-folder-open fa-fw fa-lg"&gt;&lt;/i&gt; 建网&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;/div&gt; &lt;!-- /row --&gt;
+
+
+&lt;h4&gt;&lt;i class="fa fa-rss fa-fw fa-lg"&gt;&lt;/i&gt; 订阅&lt;/h4&gt;
+&lt;ul class="list-unstyled"&gt;
+    &lt;li&gt;&lt;a href="http://lzbpli.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"&gt;
+		&lt;i class="fa fa-rss-square fa-fw fa-lg"&gt;&lt;/i&gt; Atom Feed&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://lzbpli.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate"&gt;
+		&lt;i class="fa fa-rss-square fa-fw fa-lg"&gt;&lt;/i&gt; RSS feed&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+        &lt;/div&gt;&lt;!--/sidebar --&gt;
+      &lt;/div&gt;&lt;!--/row--&gt;
+    &lt;/div&gt;&lt;!--/.container /#main-container --&gt;
+
+    &lt;footer id="site-footer"&gt;
+ 
+      &lt;address id="site-colophon"&gt;
+        &lt;p class="text-center text-muted"&gt;
+        Site built …&lt;/p&gt;&lt;/address&gt;&lt;/footer&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/archives-ma-lian.html</guid></item><item><title>Authors - 码 链</title><link>http://lzbpli.github.io/authors-ma-lian.html</link><description>
+   
+    &lt;nav class="navbar navbar-default"&gt;
+      &lt;div class="container"&gt;
+	   &lt;div class="navbar-header"&gt;
+		&lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar-collapse"&gt;
+		  &lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		&lt;/button&gt;
+		&lt;a class="navbar-brand" href="./" rel="home"&gt;
+          &lt;i class="fa fa-home fa-fw fa-lg"&gt; &lt;/i&gt; &lt;/a&gt;
+       &lt;/div&gt;
+
+      &lt;div class="collapse navbar-collapse" id="main-navbar-collapse"&gt;
+        &lt;ul class="nav navbar-nav"&gt;
+            &lt;li class="divider"&gt;&lt;/li&gt;
+            &lt;li class=""&gt;
+              &lt;a href="./archives.html"&gt;归档&lt;/a&gt;
+            &lt;/li&gt;
+          &lt;li class="divider"&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="http://lzbpli.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"&gt;
+                &lt;i class="fa fa-rss fa-fw fa-lg"&gt;&lt;/i&gt; &lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt; &lt;!-- /nav --&gt;
+      &lt;/div&gt; &lt;!-- /navbar-collapse --&gt;
+	  &lt;/div&gt; &lt;!-- /container --&gt;
+    &lt;/nav&gt; &lt;!-- /navbar --&gt;
+
+	&lt;div class="jumbotron" id="overview"&gt;
+	  &lt;div class="container"&gt;
+		&lt;h1&gt;&lt;a href="./"&gt;码  链&lt;/a&gt;&lt;/h1&gt;
+		&lt;p class="lead"&gt;Sub-title that goes underneath site name in jumbotron.&lt;/p&gt;
+	  &lt;/div&gt;
+	&lt;/div&gt;
+
+    &lt;div class="container" id="main-container"&gt;
+      &lt;div class="row"&gt;
+        &lt;div class="col-md-9" id="content"&gt;
+&lt;h1 class="direct-heading"&gt;&lt;i class="fa fa-user fa-fw fa-lg"&gt;&lt;/i&gt;Authors&lt;/h1&gt;
+&lt;ul class="direct-list authors-author-list"&gt;
+&lt;li&gt;
+  &lt;a href="./author/ikerbo.html"&gt;
+	&lt;i class="fa fa-user fa-fw fa-lg"&gt;&lt;/i&gt;ikerbo 
+  &lt;/a&gt; (3)
+&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;/div&gt;&lt;!-- /content --&gt;
+
+        &lt;div class="col-md-3 sidebar-nav" id="sidebar"&gt;
+
+&lt;div class="row"&gt;
+
+&lt;div class="col-xs-6 col-md-12"&gt;
+&lt;h4&gt;&lt;i class="fa fa-comment fa-fw fa-lg"&gt;&lt;/i&gt; 社交圈&lt;/h4&gt;
+&lt;ul class="list-unstyled social-links"&gt;
+    &lt;li&gt;&lt;a href="http://twitter.com/ametaireau" target="_blank"&gt;
+	  &lt;i class="fa fa-comments fa-fw fa-lg" title="twitter"&gt;&lt;/i&gt;
+		twitter
+	&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://lastfm.com/user/akounet" target="_blank"&gt;
+	  &lt;i class="fa fa-comments fa-fw fa-lg" title="lastfm"&gt;&lt;/i&gt;
+		lastfm
+	&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://github.com/ametaireau" target="_blank"&gt;
+	  &lt;i class="fa fa-comments fa-fw fa-lg" title="github"&gt;&lt;/i&gt;
+		github
+	&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class="col-xs-6 col-md-12"&gt;
+&lt;h4&gt;&lt;i class="fa fa-folder fa-fw fa-lg"&gt;&lt;/i&gt; 分类&lt;/h4&gt;
+&lt;ul class="list-unstyled category-links"&gt;
+  &lt;li&gt;&lt;a href="./category/review.html"&gt;
+    &lt;i class="fa fa-folder-open fa-fw fa-lg"&gt;&lt;/i&gt; Review&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="./category/jian-wang.html"&gt;
+    &lt;i class="fa fa-folder-open fa-fw fa-lg"&gt;&lt;/i&gt; 建网&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;/div&gt; &lt;!-- /row --&gt;
+
+
+&lt;h4&gt;&lt;i class="fa fa-rss fa-fw fa-lg"&gt;&lt;/i&gt; 订阅&lt;/h4&gt;
+&lt;ul class="list-unstyled"&gt;
+    &lt;li&gt;&lt;a href="http://lzbpli.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"&gt;
+		&lt;i class="fa fa-rss-square fa-fw fa-lg"&gt;&lt;/i&gt; Atom Feed&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://lzbpli.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate"&gt;
+		&lt;i class="fa fa-rss-square fa-fw fa-lg"&gt;&lt;/i&gt; RSS feed&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+        &lt;/div&gt;&lt;!--/sidebar --&gt;
+      &lt;/div&gt;&lt;!--/row--&gt;
+    &lt;/div&gt;&lt;!--/.container /#main-container --&gt;
+
+    &lt;footer id="site-footer"&gt;
+ 
+      &lt;address id="site-colophon"&gt;
+        &lt;p class="text-center text-muted"&gt;
+        Site built using &lt;a href="http://getpelican.com/" target="_blank"&gt;Pelican&lt;/a&gt;
+        &amp;nbsp;&amp;bull;&amp;nbsp; Theme based on
+        &lt;a href="http://www.voidynullness.net/page/voidy-bootstrap-pelican-theme/" target="_blank"&gt;VoidyBootstrap&lt;/a&gt; by 
+        &lt;a href="http://www.robertiwancz.com/" target="_blank"&gt;RKI&lt;/a&gt;  
+        &lt;/p&gt;
+      &lt;/address&gt;&lt;!-- /colophon  --&gt;
+    &lt;/footer&gt;
+
+&lt;!-- DISQUS script for displaying comment count --&gt;
+&lt;script type="text/javascript"&gt;
+    var disqus_shortname = 'blog-notmyidea';
+    (function () {
+        var s = document.createElement('script'); s.async = true …&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/authors-ma-lian.html</guid></item><item><title>Categories - 码 链</title><link>http://lzbpli.github.io/categories-ma-lian.html</link><description>
+   
+    &lt;nav class="navbar navbar-default"&gt;
+      &lt;div class="container"&gt;
+	   &lt;div class="navbar-header"&gt;
+		&lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar-collapse"&gt;
+		  &lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		&lt;/button&gt;
+		&lt;a class="navbar-brand" href="./" rel="home"&gt;
+          &lt;i class="fa fa-home fa-fw fa-lg"&gt; &lt;/i&gt; &lt;/a&gt;
+       &lt;/div&gt;
+
+      &lt;div class="collapse navbar-collapse" id="main-navbar-collapse"&gt;
+        &lt;ul class="nav navbar-nav"&gt;
+            &lt;li class="divider"&gt;&lt;/li&gt;
+            &lt;li class=""&gt;
+              &lt;a href="./archives.html"&gt;归档&lt;/a&gt;
+            &lt;/li&gt;
+          &lt;li class="divider"&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="http://lzbpli.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"&gt;
+                &lt;i class="fa fa-rss fa-fw fa-lg"&gt;&lt;/i&gt; &lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt; &lt;!-- /nav --&gt;
+      &lt;/div&gt; &lt;!-- /navbar-collapse --&gt;
+	  &lt;/div&gt; &lt;!-- /container --&gt;
+    &lt;/nav&gt; &lt;!-- /navbar --&gt;
+
+	&lt;div class="jumbotron" id="overview"&gt;
+	  &lt;div class="container"&gt;
+		&lt;h1&gt;&lt;a href="./"&gt;码  链&lt;/a&gt;&lt;/h1&gt;
+		&lt;p class="lead"&gt;Sub-title that goes underneath site name in jumbotron.&lt;/p&gt;
+	  &lt;/div&gt;
+	&lt;/div&gt;
+
+    &lt;div class="container" id="main-container"&gt;
+      &lt;div class="row"&gt;
+        &lt;div class="col-md-9" id="content"&gt;
+&lt;h1 class="direct-heading"&gt;&lt;i class="fa fa-folder fa-fw fa-lg"&gt;&lt;/i&gt; Categories&lt;/h1&gt;
+&lt;ul class="direct-list"&gt;
+	&lt;li&gt;&lt;a href="./category/review.html"&gt;Review&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="./category/jian-wang.html"&gt;建网&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;/div&gt;&lt;!-- /content --&gt;
+
+        &lt;div class="col-md-3 sidebar-nav" id="sidebar"&gt;
+
+&lt;div class="row"&gt;
+
+&lt;div class="col-xs-6 col-md-12"&gt;
+&lt;h4&gt;&lt;i class="fa fa-comment fa-fw fa-lg"&gt;&lt;/i&gt; 社交圈&lt;/h4&gt;
+&lt;ul class="list-unstyled social-links"&gt;
+    &lt;li&gt;&lt;a href="http://twitter.com/ametaireau" target="_blank"&gt;
+	  &lt;i class="fa fa-comments fa-fw fa-lg" title="twitter"&gt;&lt;/i&gt;
+		twitter
+	&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://lastfm.com/user/akounet" target="_blank"&gt;
+	  &lt;i class="fa fa-comments fa-fw fa-lg" title="lastfm"&gt;&lt;/i&gt;
+		lastfm
+	&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://github.com/ametaireau" target="_blank"&gt;
+	  &lt;i class="fa fa-comments fa-fw fa-lg" title="github"&gt;&lt;/i&gt;
+		github
+	&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class="col-xs-6 col-md-12"&gt;
+&lt;h4&gt;&lt;i class="fa fa-folder fa-fw fa-lg"&gt;&lt;/i&gt; 分类&lt;/h4&gt;
+&lt;ul class="list-unstyled category-links"&gt;
+  &lt;li&gt;&lt;a href="./category/review.html"&gt;
+    &lt;i class="fa fa-folder-open fa-fw fa-lg"&gt;&lt;/i&gt; Review&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="./category/jian-wang.html"&gt;
+    &lt;i class="fa fa-folder-open fa-fw fa-lg"&gt;&lt;/i&gt; 建网&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;/div&gt; &lt;!-- /row --&gt;
+
+
+&lt;h4&gt;&lt;i class="fa fa-rss fa-fw fa-lg"&gt;&lt;/i&gt; 订阅&lt;/h4&gt;
+&lt;ul class="list-unstyled"&gt;
+    &lt;li&gt;&lt;a href="http://lzbpli.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"&gt;
+		&lt;i class="fa fa-rss-square fa-fw fa-lg"&gt;&lt;/i&gt; Atom Feed&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://lzbpli.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate"&gt;
+		&lt;i class="fa fa-rss-square fa-fw fa-lg"&gt;&lt;/i&gt; RSS feed&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+        &lt;/div&gt;&lt;!--/sidebar --&gt;
+      &lt;/div&gt;&lt;!--/row--&gt;
+    &lt;/div&gt;&lt;!--/.container /#main-container --&gt;
+
+    &lt;footer id="site-footer"&gt;
+ 
+      &lt;address id="site-colophon"&gt;
+        &lt;p class="text-center text-muted"&gt;
+        Site built using &lt;a href="http://getpelican.com/" target="_blank"&gt;Pelican&lt;/a&gt;
+        &amp;nbsp;&amp;bull;&amp;nbsp; Theme based on
+        &lt;a href="http://www.voidynullness.net/page/voidy-bootstrap-pelican-theme/" target="_blank"&gt;VoidyBootstrap&lt;/a&gt; by 
+        &lt;a href="http://www.robertiwancz.com/" target="_blank"&gt;RKI&lt;/a&gt;  
+        &lt;/p&gt;
+      &lt;/address&gt;&lt;!-- /colophon  --&gt;
+    &lt;/footer&gt;
+
+&lt;!-- DISQUS script for displaying comment count --&gt;
+&lt;script type="text/javascript"&gt;
+    var disqus_shortname = 'blog-notmyidea';
+    (function () {
+        var s = document.createElement('script'); s.async = true …&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/categories-ma-lian.html</guid></item><item><title>码 链 - Text that's displayed in the title on the home page.</title><link>http://lzbpli.github.io/ma-lian-text-thats-displayed-in-the-title-on-the-home-page.html</link><description>
+   
+    &lt;nav class="navbar navbar-default"&gt;
+      &lt;div class="container"&gt;
+	   &lt;div class="navbar-header"&gt;
+		&lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar-collapse"&gt;
+		  &lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		&lt;/button&gt;
+		&lt;a class="navbar-brand" href="./" rel="home"&gt;
+          &lt;i class="fa fa-home fa-fw fa-lg"&gt; &lt;/i&gt; &lt;/a&gt;
+       &lt;/div&gt;
+
+      &lt;div class="collapse navbar-collapse" id="main-navbar-collapse"&gt;
+        &lt;ul class="nav navbar-nav"&gt;
+            &lt;li class="divider"&gt;&lt;/li&gt;
+            &lt;li class=""&gt;
+              &lt;a href="./archives.html"&gt;归档&lt;/a&gt;
+            &lt;/li&gt;
+          &lt;li class="divider"&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="http://lzbpli.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"&gt;
+                &lt;i class="fa fa-rss fa-fw fa-lg"&gt;&lt;/i&gt; &lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt; &lt;!-- /nav --&gt;
+      &lt;/div&gt; &lt;!-- /navbar-collapse --&gt;
+	  &lt;/div&gt; &lt;!-- /container --&gt;
+    &lt;/nav&gt; &lt;!-- /navbar --&gt;
+
+	&lt;div class="jumbotron" id="overview"&gt;
+	  &lt;div class="container"&gt;
+		&lt;h1&gt;&lt;a href="./"&gt;码  链&lt;/a&gt;&lt;/h1&gt;
+		&lt;p class="lead"&gt;Sub-title that goes underneath site name in jumbotron.&lt;/p&gt;
+	  &lt;/div&gt;
+	&lt;/div&gt;
+
+    &lt;div class="container" id="main-container"&gt;
+      &lt;div class="row"&gt;
+        &lt;div class="col-md-9" id="content"&gt;
+    &lt;article&gt;
+&lt;abbr class="article-header-date"&gt;
+  Wed 22 March 2017
+&lt;/abbr&gt; &lt;h1&gt;
+  &lt;a href="./my-first-python.html" rel="bookmark" title="Permalink to My First python"&gt;
+    My First python
+  &lt;/a&gt;
+&lt;/h1&gt;&lt;div class="article-header-info"&gt;
+  &lt;p&gt;
+      Posted by &lt;a href="./author/ikerbo.html"&gt;ikerbo&lt;/a&gt;
+    in 
+    &lt;a href="./category/review.html"&gt;
+      Review&lt;/a&gt;
+    &amp;nbsp;&amp;nbsp;
+  &lt;/p&gt;
+&lt;/div&gt; &lt;!-- /.article-header-info --&gt;  
+      &lt;div class="summary"&gt;
+		&lt;h1&gt;dwdadw&lt;/h1&gt;
+&lt;p&gt;@(北京)[首都,天安门，长安街，鸟巢]&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;beijing&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+		&lt;p class="content-emphasis"&gt;&lt;a href="./my-first-python.html"&gt;
+			Read more... &lt;i class="fa fa-arrow-circle-right fa-fw fa-lg"&gt;&lt;/i&gt; 
+		&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;    &lt;/article&gt;
+
+    &lt;hr /&gt;
+    &lt;article&gt;
+&lt;abbr class="article-header-date"&gt;
+  Wed 22 March 2017
+&lt;/abbr&gt; &lt;h1&gt;
+  &lt;a href="./shi-yong-pelicanda-jian-githubbo-ke.html" rel="bookmark" title="Permalink to 使用pelican搭建github博客"&gt;
+    使用pelican搭建github博客
+  &lt;/a&gt;
+&lt;/h1&gt;&lt;div class="article-header-info"&gt;
+  &lt;p&gt;
+      Posted by &lt;a href="./author/ikerbo.html"&gt;ikerbo&lt;/a&gt;
+    in 
+    &lt;a href="./category/jian-wang.html"&gt;
+      建网&lt;/a&gt;
+    &amp;nbsp;&amp;nbsp;
+  &lt;/p&gt;
+&lt;/div&gt; &lt;!-- /.article-header-info --&gt;  
+      &lt;div class="summary"&gt;
+		&lt;h2&gt;安装pelican、markdown&lt;/h2&gt;
+&lt;p&gt;在安装前要确保安装了python，然后直接使用：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+		&lt;p class="content-emphasis"&gt;&lt;a href="./shi-yong-pelicanda-jian-githubbo-ke.html"&gt;
+			Read …&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/article&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/ma-lian-text-thats-displayed-in-the-title-on-the-home-page.html</guid></item><item><title>My First python - 码 链</title><link>http://lzbpli.github.io/my-first-python-ma-lian.html</link><description>
+   
+    &lt;nav class="navbar navbar-default"&gt;
+      &lt;div class="container"&gt;
+	   &lt;div class="navbar-header"&gt;
+		&lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar-collapse"&gt;
+		  &lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		&lt;/button&gt;
+		&lt;a class="navbar-brand" href="./" rel="home"&gt;
+          &lt;i class="fa fa-home fa-fw fa-lg"&gt; &lt;/i&gt; &lt;/a&gt;
+       &lt;/div&gt;
+
+      &lt;div class="collapse navbar-collapse" id="main-navbar-collapse"&gt;
+        &lt;ul class="nav navbar-nav"&gt;
+            &lt;li class="divider"&gt;&lt;/li&gt;
+            &lt;li class=""&gt;
+              &lt;a href="./archives.html"&gt;归档&lt;/a&gt;
+            &lt;/li&gt;
+          &lt;li class="divider"&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="http://lzbpli.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"&gt;
+                &lt;i class="fa fa-rss fa-fw fa-lg"&gt;&lt;/i&gt; &lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt; &lt;!-- /nav --&gt;
+      &lt;/div&gt; &lt;!-- /navbar-collapse --&gt;
+	  &lt;/div&gt; &lt;!-- /container --&gt;
+    &lt;/nav&gt; &lt;!-- /navbar --&gt;
+
+	&lt;div class="jumbotron" id="overview"&gt;
+	  &lt;div class="container"&gt;
+		&lt;h1&gt;&lt;a href="./"&gt;码  链&lt;/a&gt;&lt;/h1&gt;
+		&lt;p class="lead"&gt;Sub-title that goes underneath site name in jumbotron.&lt;/p&gt;
+	  &lt;/div&gt;
+	&lt;/div&gt;
+
+    &lt;div class="container" id="main-container"&gt;
+      &lt;div class="row"&gt;
+        &lt;div class="col-md-9" id="content"&gt;
+&lt;article itemscope="itemscope" itemtype="http://schema.org/BlogPosting"&gt;
+  &lt;header class="article-header"&gt;
+&lt;abbr class="article-header-date"&gt;
+  Wed 22 March 2017
+&lt;/abbr&gt; &lt;h1&gt;
+  &lt;a href="./my-first-python.html" rel="bookmark" title="Permalink to My First python"&gt;
+    My First python
+  &lt;/a&gt;
+&lt;/h1&gt;&lt;div class="article-header-info"&gt;
+  &lt;p&gt;
+      Posted by &lt;a href="./author/ikerbo.html"&gt;ikerbo&lt;/a&gt;
+    in 
+    &lt;a href="./category/review.html"&gt;
+      Review&lt;/a&gt;
+    &amp;nbsp;&amp;nbsp;
+  &lt;/p&gt;
+&lt;/div&gt; &lt;!-- /.article-header-info --&gt;  &lt;/header&gt;
+  &lt;div class="content-body" itemprop="text articleBody"&gt;
+	&lt;h1&gt;dwdadw&lt;/h1&gt;
+&lt;p&gt;@(北京)[首都,天安门，长安街，鸟巢]&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;beijing&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  
+&lt;div class="article-tag-list"&gt;
+&lt;/div&gt;  &lt;hr /&gt;
+  &lt;div class="well well-sm"&gt;  &lt;!-- Social media sharing buttons --&gt;
+
+    &lt;!-- Google+ --&gt;
+    &lt;div class="g-plus" data-action="share" data-annotation="bubble"&gt;&lt;/div&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+    &lt;div class="g-plusone" data-size="medium"&gt;&lt;/div&gt;&amp;nbsp;
+
+    &lt;!-- Facebook --&gt;
+    &lt;div class="fb-like" data-href="./my-first-python.html" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"&gt;
+    &lt;/div&gt;
+    &amp;nbsp;
+  &lt;/div&gt; &lt;!-- /Social media sharing buttons --&gt;
+  &lt;div class="comments"&gt;
+	&lt;h2&gt;Comments&lt;/h2&gt;
+	&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+	&lt;script type="text/javascript"&gt;
+				   (function() {
+						var dsq = document.createElement('script');
+						dsq.type = 'text/javascript'; dsq.async = true;
+						dsq.src = '//blog-notmyidea …&lt;/script&gt;&lt;/div&gt;&lt;/article&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/my-first-python-ma-lian.html</guid></item><item><title>My First Review - 码 链</title><link>http://lzbpli.github.io/my-first-review-ma-lian.html</link><description>
+   
+    &lt;nav class="navbar navbar-default"&gt;
+      &lt;div class="container"&gt;
+	   &lt;div class="navbar-header"&gt;
+		&lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar-collapse"&gt;
+		  &lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		&lt;/button&gt;
+		&lt;a class="navbar-brand" href="./" rel="home"&gt;
+          &lt;i class="fa fa-home fa-fw fa-lg"&gt; &lt;/i&gt; &lt;/a&gt;
+       &lt;/div&gt;
+
+      &lt;div class="collapse navbar-collapse" id="main-navbar-collapse"&gt;
+        &lt;ul class="nav navbar-nav"&gt;
+            &lt;li class="divider"&gt;&lt;/li&gt;
+            &lt;li class=""&gt;
+              &lt;a href="./archives.html"&gt;归档&lt;/a&gt;
+            &lt;/li&gt;
+          &lt;li class="divider"&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="http://lzbpli.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"&gt;
+                &lt;i class="fa fa-rss fa-fw fa-lg"&gt;&lt;/i&gt; &lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt; &lt;!-- /nav --&gt;
+      &lt;/div&gt; &lt;!-- /navbar-collapse --&gt;
+	  &lt;/div&gt; &lt;!-- /container --&gt;
+    &lt;/nav&gt; &lt;!-- /navbar --&gt;
+
+	&lt;div class="jumbotron" id="overview"&gt;
+	  &lt;div class="container"&gt;
+		&lt;h1&gt;&lt;a href="./"&gt;码  链&lt;/a&gt;&lt;/h1&gt;
+		&lt;p class="lead"&gt;Sub-title that goes underneath site name in jumbotron.&lt;/p&gt;
+	  &lt;/div&gt;
+	&lt;/div&gt;
+
+    &lt;div class="container" id="main-container"&gt;
+      &lt;div class="row"&gt;
+        &lt;div class="col-md-9" id="content"&gt;
+&lt;article itemscope="itemscope" itemtype="http://schema.org/BlogPosting"&gt;
+  &lt;header class="article-header"&gt;
+&lt;abbr class="article-header-date"&gt;
+  Fri 03 December 2010
+&lt;/abbr&gt; &lt;h1&gt;
+  &lt;a href="./my-first-review.html" rel="bookmark" title="Permalink to My First Review"&gt;
+    My First Review
+  &lt;/a&gt;
+&lt;/h1&gt;&lt;div class="article-header-info"&gt;
+  &lt;p&gt;
+      Posted by &lt;a href="./author/ikerbo.html"&gt;ikerbo&lt;/a&gt;
+    in 
+    &lt;a href="./category/review.html"&gt;
+      Review&lt;/a&gt;
+    &amp;nbsp;&amp;nbsp;
+  &lt;/p&gt;
+&lt;/div&gt; &lt;!-- /.article-header-info --&gt;  &lt;/header&gt;
+  &lt;div class="content-body" itemprop="text articleBody"&gt;
+	&lt;h1&gt;欢迎使用马克飞象&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;马克飞象&lt;/strong&gt;是一款专为印象笔记（Evernote）打造的Markdown编辑器，通过精心的设计与技术实现，配合印象笔记强大的存储和同步功能，带来前所未有的书写体验。特点概述：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;功能丰富&lt;/strong&gt; ：支持高亮代码块、&lt;em&gt;LaTeX&lt;/em&gt; 公式、流程图，本地图片以及附件上传，甚至截图粘贴，工作学习好帮手；&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;得心应手&lt;/strong&gt; ：简洁高效的编辑器，提供&lt;a href="http://maxiang.info/client_zh"&gt;桌面客户端&lt;/a&gt;以及&lt;a href="https://chrome.google.com/webstore/detail/kidnkfckhbdkfgbicccmdggmpgogehop"&gt;离线Chrome App&lt;/a&gt;，支持移动端 …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/article&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/my-first-review-ma-lian.html</guid></item><item><title>使用pelican搭建github博客 - 码 链</title><link>http://lzbpli.github.io/shi-yong-pelicanda-jian-githubbo-ke-ma-lian.html</link><description>
+   
+    &lt;nav class="navbar navbar-default"&gt;
+      &lt;div class="container"&gt;
+	   &lt;div class="navbar-header"&gt;
+		&lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar-collapse"&gt;
+		  &lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		&lt;/button&gt;
+		&lt;a class="navbar-brand" href="./" rel="home"&gt;
+          &lt;i class="fa fa-home fa-fw fa-lg"&gt; &lt;/i&gt; &lt;/a&gt;
+       &lt;/div&gt;
+
+      &lt;div class="collapse navbar-collapse" id="main-navbar-collapse"&gt;
+        &lt;ul class="nav navbar-nav"&gt;
+            &lt;li class="divider"&gt;&lt;/li&gt;
+            &lt;li class=""&gt;
+              &lt;a href="./archives.html"&gt;归档&lt;/a&gt;
+            &lt;/li&gt;
+          &lt;li class="divider"&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="http://lzbpli.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"&gt;
+                &lt;i class="fa fa-rss fa-fw fa-lg"&gt;&lt;/i&gt; &lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt; &lt;!-- /nav --&gt;
+      &lt;/div&gt; &lt;!-- /navbar-collapse --&gt;
+	  &lt;/div&gt; &lt;!-- /container --&gt;
+    &lt;/nav&gt; &lt;!-- /navbar --&gt;
+
+	&lt;div class="jumbotron" id="overview"&gt;
+	  &lt;div class="container"&gt;
+		&lt;h1&gt;&lt;a href="./"&gt;码  链&lt;/a&gt;&lt;/h1&gt;
+		&lt;p class="lead"&gt;Sub-title that goes underneath site name in jumbotron.&lt;/p&gt;
+	  &lt;/div&gt;
+	&lt;/div&gt;
+
+    &lt;div class="container" id="main-container"&gt;
+      &lt;div class="row"&gt;
+        &lt;div class="col-md-9" id="content"&gt;
+&lt;article itemscope="itemscope" itemtype="http://schema.org/BlogPosting"&gt;
+  &lt;header class="article-header"&gt;
+&lt;abbr class="article-header-date"&gt;
+  Wed 22 March 2017
+&lt;/abbr&gt; &lt;h1&gt;
+  &lt;a href="./shi-yong-pelicanda-jian-githubbo-ke.html" rel="bookmark" title="Permalink to 使用pelican搭建github博客"&gt;
+    使用pelican搭建github博客
+  &lt;/a&gt;
+&lt;/h1&gt;&lt;div class="article-header-info"&gt;
+  &lt;p&gt;
+      Posted by &lt;a href="./author/ikerbo.html"&gt;ikerbo&lt;/a&gt;
+    in 
+    &lt;a href="./category/jian-wang.html"&gt;
+      建网&lt;/a&gt;
+    &amp;nbsp;&amp;nbsp;
+  &lt;/p&gt;
+&lt;/div&gt; &lt;!-- /.article-header-info --&gt;  &lt;/header&gt;
+  &lt;div class="content-body" itemprop="text articleBody"&gt;
+	&lt;h2&gt;安装pelican、markdown&lt;/h2&gt;
+&lt;p&gt;在安装前要确保安装了python，然后直接使用：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  
+&lt;div class="article-tag-list"&gt;
+&lt;/div&gt;  &lt;hr /&gt;
+  &lt;div class="well well-sm"&gt;  &lt;!-- Social media sharing buttons --&gt;
+
+    &lt;!-- Google+ --&gt;
+    &lt;div class="g-plus" data-action="share" data-annotation="bubble"&gt;&lt;/div&gt;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+    &lt;div class="g-plusone" data-size="medium"&gt;&lt;/div&gt;&amp;nbsp;
+
+    &lt;!-- Facebook --&gt;
+    &lt;div class="fb-like" data-href="./shi-yong-pelicanda-jian-githubbo-ke.html" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"&gt;
+    &lt;/div&gt;
+    &amp;nbsp;
+  &lt;/div&gt; &lt;!-- /Social media sharing buttons --&gt;
+  &lt;div class="comments"&gt;
+	&lt;h2&gt;Comments&lt;/h2&gt;
+	&lt;div id="disqus_thread"&gt;&lt;/div&gt;
+	&lt;script type="text/javascript"&gt;
+				   (function() {
+						var dsq = document.createElement('script');
+						dsq.type = 'text/javascript'; dsq.async = true;
+						dsq.src = '//blog-notmyidea.disqus.com/embed.js';
+						(document.getElementsByTagName …&lt;/script&gt;&lt;/div&gt;&lt;/article&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/shi-yong-pelicanda-jian-githubbo-ke-ma-lian.html</guid></item><item><title>Tags - 码 链</title><link>http://lzbpli.github.io/tags-ma-lian.html</link><description>
+   
+    &lt;nav class="navbar navbar-default"&gt;
+      &lt;div class="container"&gt;
+	   &lt;div class="navbar-header"&gt;
+		&lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar-collapse"&gt;
+		  &lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		&lt;/button&gt;
+		&lt;a class="navbar-brand" href="./" rel="home"&gt;
+          &lt;i class="fa fa-home fa-fw fa-lg"&gt; &lt;/i&gt; &lt;/a&gt;
+       &lt;/div&gt;
+
+      &lt;div class="collapse navbar-collapse" id="main-navbar-collapse"&gt;
+        &lt;ul class="nav navbar-nav"&gt;
+            &lt;li class="divider"&gt;&lt;/li&gt;
+            &lt;li class=""&gt;
+              &lt;a href="./archives.html"&gt;归档&lt;/a&gt;
+            &lt;/li&gt;
+          &lt;li class="divider"&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="http://lzbpli.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"&gt;
+                &lt;i class="fa fa-rss fa-fw fa-lg"&gt;&lt;/i&gt; &lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt; &lt;!-- /nav --&gt;
+      &lt;/div&gt; &lt;!-- /navbar-collapse --&gt;
+	  &lt;/div&gt; &lt;!-- /container --&gt;
+    &lt;/nav&gt; &lt;!-- /navbar --&gt;
+
+	&lt;div class="jumbotron" id="overview"&gt;
+	  &lt;div class="container"&gt;
+		&lt;h1&gt;&lt;a href="./"&gt;码  链&lt;/a&gt;&lt;/h1&gt;
+		&lt;p class="lead"&gt;Sub-title that goes underneath site name in jumbotron.&lt;/p&gt;
+	  &lt;/div&gt;
+	&lt;/div&gt;
+
+    &lt;div class="container" id="main-container"&gt;
+      &lt;div class="row"&gt;
+        &lt;div class="col-md-9" id="content"&gt;
+&lt;h1 class="direct-heading"&gt;&lt;i class="fa fa-tags fa-fw fa-lg"&gt;&lt;/i&gt;Tags&lt;/h1&gt;
+&lt;ul class="direct-list tags-tag-cloud"&gt;
+&lt;/ul&gt;
+        &lt;/div&gt;&lt;!-- /content --&gt;
+
+        &lt;div class="col-md-3 sidebar-nav" id="sidebar"&gt;
+
+&lt;div class="row"&gt;
+
+&lt;div class="col-xs-6 col-md-12"&gt;
+&lt;h4&gt;&lt;i class="fa fa-comment fa-fw fa-lg"&gt;&lt;/i&gt; 社交圈&lt;/h4&gt;
+&lt;ul class="list-unstyled social-links"&gt;
+    &lt;li&gt;&lt;a href="http://twitter.com/ametaireau" target="_blank"&gt;
+	  &lt;i class="fa fa-comments fa-fw fa-lg" title="twitter"&gt;&lt;/i&gt;
+		twitter
+	&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://lastfm.com/user/akounet" target="_blank"&gt;
+	  &lt;i class="fa fa-comments fa-fw fa-lg" title="lastfm"&gt;&lt;/i&gt;
+		lastfm
+	&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://github.com/ametaireau" target="_blank"&gt;
+	  &lt;i class="fa fa-comments fa-fw fa-lg" title="github"&gt;&lt;/i&gt;
+		github
+	&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div class="col-xs-6 col-md-12"&gt;
+&lt;h4&gt;&lt;i class="fa fa-folder fa-fw fa-lg"&gt;&lt;/i&gt; 分类&lt;/h4&gt;
+&lt;ul class="list-unstyled category-links"&gt;
+  &lt;li&gt;&lt;a href="./category/review.html"&gt;
+    &lt;i class="fa fa-folder-open fa-fw fa-lg"&gt;&lt;/i&gt; Review&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="./category/jian-wang.html"&gt;
+    &lt;i class="fa fa-folder-open fa-fw fa-lg"&gt;&lt;/i&gt; 建网&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;/div&gt; &lt;!-- /row --&gt;
+
+
+&lt;h4&gt;&lt;i class="fa fa-rss fa-fw fa-lg"&gt;&lt;/i&gt; 订阅&lt;/h4&gt;
+&lt;ul class="list-unstyled"&gt;
+    &lt;li&gt;&lt;a href="http://lzbpli.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"&gt;
+		&lt;i class="fa fa-rss-square fa-fw fa-lg"&gt;&lt;/i&gt; Atom Feed&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://lzbpli.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate"&gt;
+		&lt;i class="fa fa-rss-square fa-fw fa-lg"&gt;&lt;/i&gt; RSS feed&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+        &lt;/div&gt;&lt;!--/sidebar --&gt;
+      &lt;/div&gt;&lt;!--/row--&gt;
+    &lt;/div&gt;&lt;!--/.container /#main-container --&gt;
+
+    &lt;footer id="site-footer"&gt;
+ 
+      &lt;address id="site-colophon"&gt;
+        &lt;p class="text-center text-muted"&gt;
+        Site built using &lt;a href="http://getpelican.com/" target="_blank"&gt;Pelican&lt;/a&gt;
+        &amp;nbsp;&amp;bull;&amp;nbsp; Theme based on
+        &lt;a href="http://www.voidynullness.net/page/voidy-bootstrap-pelican-theme/" target="_blank"&gt;VoidyBootstrap&lt;/a&gt; by 
+        &lt;a href="http://www.robertiwancz.com/" target="_blank"&gt;RKI&lt;/a&gt;  
+        &lt;/p&gt;
+      &lt;/address&gt;&lt;!-- /colophon  --&gt;
+    &lt;/footer&gt;
+
+&lt;!-- DISQUS script for displaying comment count --&gt;
+&lt;script type="text/javascript"&gt;
+    var disqus_shortname = 'blog-notmyidea';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type …&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/tags-ma-lian.html</guid></item></channel></rss>

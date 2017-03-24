@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>码 链 - author</title><link>http://lzbpli.github.io/</link><description>每个人眼中，都是不同的世界 –柯宝！!</description><lastBuildDate>Thu, 02 Mar 2017 14:01:01 +0800</lastBuildDate><item><title>Alexis' log - Alexis Métaireau</title><link>http://lzbpli.github.io/alexis-log-alexis-metaireau.html</link><description>
+
+    &lt;div class="navbar navbar-fixed-top"&gt;
+      &lt;div class="navbar-inner"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"&gt;
+            &lt;span class="icon-bar"&gt;&lt;/span&gt;
+            &lt;span class="icon-bar"&gt;&lt;/span&gt;
+            &lt;span class="icon-bar"&gt;&lt;/span&gt;
+          &lt;/a&gt;
+          &lt;a class="brand" href="../index.html"&gt;Alexis' log  &lt;strong&gt;一个人的世界&lt;/strong&gt;&lt;/a&gt;
+          &lt;div class="nav-collapse"&gt;
+            &lt;ul class="nav"&gt;
+                          &lt;li class="divider-vertical"&gt;&lt;/li&gt;
+                  &lt;li&gt;
+                    &lt;a href="../category/review.html"&gt;
+						&lt;i class="icon-folder-open icon-large"&gt;&lt;/i&gt;Review
+					&lt;/a&gt;
+                  &lt;/li&gt;
+                  &lt;li&gt;
+                    &lt;a href="../category/jian-wang.html"&gt;
+						&lt;i class="icon-folder-open icon-large"&gt;&lt;/i&gt;建网
+					&lt;/a&gt;
+                  &lt;/li&gt;
+
+                          &lt;ul class="nav pull-right"&gt;
+                                &lt;li&gt;&lt;a href="../archives.html"&gt;&lt;i class="icon-th-list"&gt;&lt;/i&gt;Archives&lt;/a&gt;&lt;/li&gt;
+                          &lt;/ul&gt;
+
+            &lt;/ul&gt;
+            &lt;!--&lt;p class="navbar-text pull-right"&gt;Logged in as &lt;a href="#"&gt;username&lt;/a&gt;&lt;/p&gt;--&gt;
+          &lt;/div&gt;&lt;!--/.nav-collapse --&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="container-fluid"&gt;
+      &lt;div class="row"&gt;
+        &lt;div class="span9" id="content"&gt;
+        &lt;div class="article"&gt;
+                &lt;h1&gt;&lt;a href="../my-first-python.html"&gt;My First python&lt;/a&gt;&lt;/h1&gt;
+                &lt;div class="well small"&gt;&lt;footer class="post-info"&gt;
+&lt;span class="label"&gt;Date&lt;/span&gt;
+&lt;abbr class="published" title="2017-03-22T00:00:00+01:00"&gt;
+        &lt;i class="icon-calendar"&gt;&lt;/i&gt;Wed 22 March 2017
+&lt;/abbr&gt;
+&lt;span class="label"&gt;By&lt;/span&gt;
+&lt;a href="../author/alexis-metaireau.html"&gt;&lt;i class="icon-user"&gt;&lt;/i&gt;Alexis Métaireau&lt;/a&gt;
+&lt;span class="label"&gt;Category&lt;/span&gt;
+&lt;a href="../category/review.html"&gt;&lt;i class="icon-folder-open"&gt;&lt;/i&gt;Review&lt;/a&gt;.
+
+
+&lt;/footer&gt;&lt;!-- /.post-info --&gt;&lt;/div&gt;
+                &lt;div class="summary"&gt;&lt;h1&gt;dwdadw&lt;/h1&gt;
+&lt;p&gt;@(北京)[首都,天安门，长安街，鸟巢]&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;beijing&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+                        &lt;a class="btn primary xsmall" href="../my-first-python.html"&gt;more ...&lt;/a&gt;
+                &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;hr /&gt;
+        &lt;div class="article"&gt;
+                &lt;h1&gt;&lt;a href="../my-first-review.html"&gt;My First Review&lt;/a&gt;&lt;/h1&gt;
+                &lt;div class="well small"&gt;&lt;footer class="post-info"&gt;
+&lt;span class="label"&gt;Date&lt;/span&gt;
+&lt;abbr class="published" title="2010-12-03T10:20:00+01:00"&gt;
+        &lt;i class="icon-calendar"&gt;&lt;/i&gt;Fri 03 December 2010
+&lt;/abbr&gt;
+&lt;span class="label"&gt;By&lt;/span&gt;
+&lt;a href="../author/alexis-metaireau.html"&gt;&lt;i class="icon-user"&gt;&lt;/i&gt;Alexis Métaireau&lt;/a&gt;
+&lt;span class="label"&gt;Category&lt;/span&gt;
+&lt;a href="../category/review.html"&gt;&lt;i class="icon-folder-open"&gt;&lt;/i&gt;Review&lt;/a&gt;.
+
+
+&lt;/footer&gt;&lt;!-- /.post-info --&gt;&lt;/div&gt;
+                &lt;div class="summary"&gt;&lt;h1&gt;欢迎使用马克飞象&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;马克飞象&lt;/strong&gt;是一款专为印象笔记（Evernote）打造的Markdown编辑器，通过精心的设计与技术实现，配合印象笔记强大的存储和同步功能，带来前所未有的书写体验。特点概述 …&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Alexis Métaireau</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/alexis-log-alexis-metaireau.html</guid></item><item><title>Author:ikerbo - 码 链</title><link>http://lzbpli.github.io/authorikerbo-ma-lian.html</link><description>
+   
+    &lt;nav class="navbar navbar-default"&gt;
+      &lt;div class="container"&gt;
+	   &lt;div class="navbar-header"&gt;
+		&lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar-collapse"&gt;
+		  &lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+		&lt;/button&gt;
+		&lt;a class="navbar-brand" href="../" rel="home"&gt;
+          &lt;i class="fa fa-home fa-fw fa-lg"&gt; &lt;/i&gt; &lt;/a&gt;
+       &lt;/div&gt;
+
+      &lt;div class="collapse navbar-collapse" id="main-navbar-collapse"&gt;
+        &lt;ul class="nav navbar-nav"&gt;
+            &lt;li class="divider"&gt;&lt;/li&gt;
+            &lt;li class=""&gt;
+              &lt;a href="../archives.html"&gt;归档&lt;/a&gt;
+            &lt;/li&gt;
+          &lt;li class="divider"&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="http://lzbpli.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"&gt;
+                &lt;i class="fa fa-rss fa-fw fa-lg"&gt;&lt;/i&gt; &lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt; &lt;!-- /nav --&gt;
+      &lt;/div&gt; &lt;!-- /navbar-collapse --&gt;
+	  &lt;/div&gt; &lt;!-- /container --&gt;
+    &lt;/nav&gt; &lt;!-- /navbar --&gt;
+
+	&lt;div class="jumbotron" id="overview"&gt;
+	  &lt;div class="container"&gt;
+		&lt;h1&gt;&lt;a href="../"&gt;码  链&lt;/a&gt;&lt;/h1&gt;
+		&lt;p class="lead"&gt;Sub-title that goes underneath site name in jumbotron.&lt;/p&gt;
+	  &lt;/div&gt;
+	&lt;/div&gt;
+
+    &lt;div class="container" id="main-container"&gt;
+      &lt;div class="row"&gt;
+        &lt;div class="col-md-9" id="content"&gt;
+&lt;ol class="breadcrumb"&gt;
+    &lt;li&gt;&lt;a href="../" title="Home" rel="home"&gt;
+		&lt;i class="fa fa-home fa-fw fa-lg"&gt;&lt;/i&gt; &lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Authors &lt;/li&gt;
+    &lt;li class="active"&gt;ikerbo&lt;/li&gt;
+&lt;/ol&gt;
+    &lt;article&gt;
+&lt;abbr class="article-header-date"&gt;
+  Wed 22 March 2017
+&lt;/abbr&gt; &lt;h1&gt;
+  &lt;a href="../my-first-python.html" rel="bookmark" title="Permalink to My First python"&gt;
+    My First python
+  &lt;/a&gt;
+&lt;/h1&gt;&lt;div class="article-header-info"&gt;
+  &lt;p&gt;
+      Posted by &lt;a href="../author/ikerbo.html"&gt;ikerbo&lt;/a&gt;
+    in 
+    &lt;a href="../category/review.html"&gt;
+      Review&lt;/a&gt;
+    &amp;nbsp;&amp;nbsp;
+  &lt;/p&gt;
+&lt;/div&gt; &lt;!-- /.article-header-info --&gt;
+      &lt;div class="summary"&gt;
+		&lt;h1&gt;dwdadw&lt;/h1&gt;
+&lt;p&gt;@(北京)[首都,天安门，长安街，鸟巢]&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;beijing&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+		&lt;p class="content-emphasis"&gt;&lt;a href="../my-first-python.html"&gt;
+			Read more... &lt;i class="fa fa-arrow-circle-right fa-fw fa-lg"&gt;&lt;/i&gt; 
+		&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;    &lt;/article&gt;
+    &lt;hr /&gt;
+    &lt;article&gt;
+&lt;abbr class="article-header-date"&gt;
+  Wed 22 March 2017
+&lt;/abbr&gt; &lt;h1&gt;
+  &lt;a href="../shi-yong-pelicanda-jian-githubbo-ke.html" rel="bookmark" title="Permalink to 使用pelican搭建github博客"&gt;
+    使用pelican搭建github博客
+  &lt;/a&gt;
+&lt;/h1&gt;&lt;div class="article-header-info"&gt;
+  &lt;p&gt;
+      Posted by &lt;a href="../author/ikerbo.html"&gt;ikerbo&lt;/a&gt;
+    in 
+    &lt;a href="../category/jian-wang.html"&gt;
+      建网&lt;/a&gt;
+    &amp;nbsp;&amp;nbsp;
+  &lt;/p&gt;
+&lt;/div&gt; &lt;!-- /.article-header-info --&gt;
+      &lt;div class="summary"&gt;
+		&lt;h2&gt;安装pelican、markdown&lt;/h2&gt;
+&lt;p&gt;在安装前要确保安装了python …&lt;/p&gt;&lt;/div&gt;&lt;/article&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/authorikerbo-ma-lian.html</guid></item></channel></rss>

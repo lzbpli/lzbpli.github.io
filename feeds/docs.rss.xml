@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>码 链 - docs</title><link>http://lzbpli.github.io/</link><description>每个人眼中，都是不同的世界 –柯宝！!</description><lastBuildDate>Thu, 02 Mar 2017 14:01:01 +0800</lastBuildDate><item><title>Key design points</title><link>http://lzbpli.github.io/key-design-points.html</link><description>&lt;div class="contents local topic" id="contents"&gt;
+&lt;p class="topic-title first"&gt;&lt;strong&gt;Contents&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#simplicity" id="id1"&gt;Simplicity&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#layout" id="id2"&gt;Layout&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#px-width-fixed-and-centered" id="id3"&gt;1044px width, fixed and centered&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#responsive-design" id="id4"&gt;Responsive design&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#decluttered" id="id5"&gt;Decluttered&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#style" id="id6"&gt;Style&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#monochrome-color" id="id7"&gt;Monochrome color&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#limited-fonts-and-styles" id="id8"&gt;Limited fonts and styles&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#no-social-media-and-links" id="id9"&gt;No social media and links&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#no-images-and-just-plain-ascii" id="id10"&gt;No images and just plain ASCII&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#templating" id="id11"&gt;Templating&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#schema-org" id="id12"&gt;Schema.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="simplicity"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id1"&gt;Simplicity&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="section" id="layout"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id2"&gt;Layout&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="section" id="px-width-fixed-and-centered"&gt;
+&lt;h4&gt;&lt;a class="toc-backref" href="#id3"&gt;1044px width, fixed and centered&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Apricot has a fixed with at 1044 pixels for default view …&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/key-design-points.html</guid></item><item><title>Notes</title><link>http://lzbpli.github.io/notes.html</link><description>&lt;div class="section" id="articlesection-of-article"&gt;
+&lt;h2&gt;&lt;tt class="docutils literal"&gt;articleSection&lt;/tt&gt; of &lt;tt class="docutils literal"&gt;Article&lt;/tt&gt;&lt;/h2&gt;
+&lt;p&gt;Blog posting's category is assigned to &lt;tt class="docutils literal"&gt;articleSection&lt;/tt&gt; property.&lt;/p&gt;
+&lt;/div&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/notes.html</guid></item><item><title>Settings</title><link>http://lzbpli.github.io/settings.html</link><description>&lt;div class="contents local topic" id="contents"&gt;
+&lt;p class="topic-title first"&gt;&lt;strong&gt;Contents&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#pelicanconf-py-settings" id="id1"&gt;&lt;tt class="docutils literal"&gt;pelicanconf.py&lt;/tt&gt; settings&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#official-settings" id="id2"&gt;Official settings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#apricot-specifics" id="id3"&gt;Apricot specifics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#content-metadata" id="id4"&gt;Content metadata&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="pelicanconf-py-settings"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id1"&gt;&lt;tt class="docutils literal"&gt;pelicanconf.py&lt;/tt&gt; settings&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="section" id="official-settings"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id2"&gt;Official settings&lt;/a&gt;&lt;/h3&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;DISPLAY_PAGES_ON_MENU&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;You can disable pages listed on hovering header.&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;DIRECT_TEMPLATES&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p class="first"&gt;If you don't need Authors, Tags, Categories, or Archives to be on hovering header,
+you need to remove them from &lt;tt class="docutils literal"&gt;DIRECT_TEMPLATES&lt;/tt&gt;, changing setting like
+&lt;tt class="docutils literal"&gt;AUTHORS_SAVE_AS …&lt;/tt&gt;&lt;/p&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/settings.html</guid></item></channel></rss>

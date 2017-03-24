@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>码 链 - voidy-bootstrap</title><link>http://lzbpli.github.io/</link><description>每个人眼中，都是不同的世界 –柯宝！!</description><lastBuildDate>Thu, 02 Mar 2017 14:01:01 +0800</lastBuildDate><item><title>ChangeLog - VoidyBootstrap</title><link>http://lzbpli.github.io/changelog-voidybootstrap.html</link><description>&lt;div class="section" id="january-2017"&gt;
+&lt;h2&gt;2.1 (January 2017)&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Added DEFAULT_SOCIAL_IMAGE, FAVICON and CUSTOM_HTML_HEAD settings.&lt;/li&gt;
+&lt;li&gt;Sidebar changes:&lt;ul&gt;
+&lt;li&gt;Tag cloud not present by default (for Pelican 3.6+ compatibility).&lt;/li&gt;
+&lt;li&gt;Removed SIDEBAR_HIDE_TAGS and added CUSTOM_SIDEBAR_MIDDLES.&lt;/li&gt;
+&lt;li&gt;Added new (optional) tag cloud implementation based on the tag_cloud plugin (sb_tagcloud.html).&lt;/li&gt;
+&lt;li&gt;To use LINKS, now need to add &amp;quot;sb_links.html …&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/changelog-voidybootstrap.html</guid></item><item><title>VoidyBootstrap</title><link>http://lzbpli.github.io/voidybootstrap.html</link><description>&lt;p&gt;&lt;em&gt;Version 2.1&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A &lt;a class="reference external" href="http://getbootstrap.com"&gt;Bootstrap 3&lt;/a&gt; blog theme for the
+&lt;a class="reference external" href="http://getpelican.com"&gt;Pelican&lt;/a&gt; static site generator.&lt;/p&gt;
+&lt;p&gt;VoidyBootstrap is a Pelican theme that aims to be mobile friendly,
+responsive, flexible and easily customisable.  It can be used in single
+column mode, or responsive 2 column mode with sidebar.&lt;/p&gt;
+&lt;p&gt;While the theme provides lots …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/voidybootstrap.html</guid></item></channel></rss>

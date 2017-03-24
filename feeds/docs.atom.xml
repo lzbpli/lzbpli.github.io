@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>码 链 - docs</title><link href="http://lzbpli.github.io/" rel="alternate"></link><link href="http://lzbpli.github.io/feeds/docs.atom.xml" rel="self"></link><id>http://lzbpli.github.io/</id><updated>2017-03-02T14:01:01+08:00</updated><entry><title>Key design points</title><link href="http://lzbpli.github.io/key-design-points.html" rel="alternate"></link><published>2017-03-02T14:01:01+08:00</published><updated>2017-03-02T14:01:01+08:00</updated><author><name>ikerbo</name></author><id>tag:lzbpli.github.io,2017-03-02:/key-design-points.html</id><summary type="html">&lt;div class="contents local topic" id="contents"&gt;
+&lt;p class="topic-title first"&gt;&lt;strong&gt;Contents&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#simplicity" id="id1"&gt;Simplicity&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#layout" id="id2"&gt;Layout&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#px-width-fixed-and-centered" id="id3"&gt;1044px width, fixed and centered&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#responsive-design" id="id4"&gt;Responsive design&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#decluttered" id="id5"&gt;Decluttered&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#style" id="id6"&gt;Style&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#monochrome-color" id="id7"&gt;Monochrome color&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#limited-fonts-and-styles" id="id8"&gt;Limited fonts and styles&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#no-social-media-and-links" id="id9"&gt;No social media and links&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#no-images-and-just-plain-ascii" id="id10"&gt;No images and just plain ASCII&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#templating" id="id11"&gt;Templating&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#schema-org" id="id12"&gt;Schema.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="simplicity"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id1"&gt;Simplicity&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="section" id="layout"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id2"&gt;Layout&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="section" id="px-width-fixed-and-centered"&gt;
+&lt;h4&gt;&lt;a class="toc-backref" href="#id3"&gt;1044px width, fixed and centered&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Apricot has a fixed with at 1044 pixels for default view …&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="contents local topic" id="contents"&gt;
+&lt;p class="topic-title first"&gt;&lt;strong&gt;Contents&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#simplicity" id="id1"&gt;Simplicity&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#layout" id="id2"&gt;Layout&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#px-width-fixed-and-centered" id="id3"&gt;1044px width, fixed and centered&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#responsive-design" id="id4"&gt;Responsive design&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#decluttered" id="id5"&gt;Decluttered&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#style" id="id6"&gt;Style&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#monochrome-color" id="id7"&gt;Monochrome color&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#limited-fonts-and-styles" id="id8"&gt;Limited fonts and styles&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#no-social-media-and-links" id="id9"&gt;No social media and links&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#no-images-and-just-plain-ascii" id="id10"&gt;No images and just plain ASCII&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#templating" id="id11"&gt;Templating&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#schema-org" id="id12"&gt;Schema.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="simplicity"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id1"&gt;Simplicity&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="section" id="layout"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id2"&gt;Layout&lt;/a&gt;&lt;/h3&gt;
+&lt;div class="section" id="px-width-fixed-and-centered"&gt;
+&lt;h4&gt;&lt;a class="toc-backref" href="#id3"&gt;1044px width, fixed and centered&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Apricot has a fixed with at 1044 pixels for default view, 1024px of which are
+for the main content, the rest 40 pixels are the margins for the both sides.&lt;/p&gt;
+&lt;p&gt;The choice of 1024 is for images, and that's based on the embedding image
+options from image hosting services. Personally, I like 800px, but really only
+a few provide that size; However, 1024 is virtually all available, and that's
+why I went for 1024px.&lt;/p&gt;
+&lt;p&gt;20px on either side is a compromise I have to accept. If I set the width to
+1024px and the actual screen is at the same size, then text likely would stick
+to the edge and that'd not be easy to read.&lt;/p&gt;
+&lt;p&gt;As far as I know, there is many mobile devices is at 1024px width, which would
+be in turn served with &lt;a class="reference internal" href="#responsive-design"&gt;responsive design&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;And since it's a fixed width, that would only be natural to go with centered
+layout.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="responsive-design"&gt;
+&lt;h4&gt;&lt;a class="toc-backref" href="#id4"&gt;Responsive design&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;For screen sizes which are smaller than 1044 pixels in width, they will be
+served with a fixed width that is with 10px margins and the rest of width goes
+to the main content.&lt;/p&gt;
+&lt;p&gt;The base font size goes down to 20px from 24px.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="decluttered"&gt;
+&lt;h4&gt;&lt;a class="toc-backref" href="#id5"&gt;Decluttered&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;In these days, many websites are cluttered with tons of links, the amount of
+the links are more than the links in the main article by ten fold easily.
+Social media, stuff in sidebar, confusing links in header, no-so-related
+related and recommended content on sidebar #2, and many more in the footer.
+Right, almost forgot the share buttons.&lt;/p&gt;
+&lt;p&gt;Are they really necessary?&lt;/p&gt;
+&lt;p&gt;There is no any sidebar, but a footer and hovering header. Yes, this theme does
+have a header, see those dots on top edge, hover over and you will see.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="style"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id6"&gt;Style&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;I tried to use as less CSS as possible, only using for readability, such as the
+background color for the hovering blog header and for table cells.&lt;/p&gt;
+&lt;div class="section" id="monochrome-color"&gt;
+&lt;h4&gt;&lt;a class="toc-backref" href="#id7"&gt;Monochrome color&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;I don't like reading a blog that is as if being painted by three years old, or
+having various styles.&lt;/p&gt;
+&lt;p&gt;Basically, colors are all based on a base apricot color, all used colors are:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;tt class="docutils literal"&gt;#A85206&lt;/tt&gt;&lt;/li&gt;
+&lt;li&gt;&lt;tt class="docutils literal"&gt;#D67113&lt;/tt&gt;&lt;/li&gt;
+&lt;li&gt;&lt;tt class="docutils literal"&gt;#F0923B&lt;/tt&gt;&lt;/li&gt;
+&lt;li&gt;&lt;tt class="docutils literal"&gt;#FFAD61&lt;/tt&gt;&lt;/li&gt;
+&lt;li&gt;&lt;tt class="docutils literal"&gt;#FFC38B&lt;/tt&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Of course, there is the default black text color, it's also part of monochrome
+colors.&lt;/p&gt;
+&lt;p&gt;There is also the syntax highlighting, Apricot uses colors from
+&lt;a class="reference external" href="https://github.com/john2x/solarized-pygment"&gt;Solarized Pygments Style&lt;/a&gt;, I don't count those colors as part of the theme.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="limited-fonts-and-styles"&gt;
+&lt;h4&gt;&lt;a class="toc-backref" href="#id8"&gt;Limited fonts and styles&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Fonts are limited to three:&lt;/p&gt;
+&lt;ol class="arabic"&gt;
+&lt;li&gt;&lt;p class="first"&gt;One sans for headings or titles;&lt;/p&gt;
+&lt;p&gt;Palatino, Georgia, Times, Times New Roman, and serif&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;One serif for content; and&lt;/p&gt;
+&lt;p&gt;Verdana, Tahoma, Arial, and sans&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;One monospaced for code-like things.&lt;/p&gt;
+&lt;p&gt;Courier, Courier New, monospace&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;There is no web fonts used, the list of candidate fonts should be available on
+most of systems.&lt;/p&gt;
+&lt;p&gt;There is only one base font size set, a couple of &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;font-weight&lt;/span&gt;&lt;/tt&gt; uses, nearly
+everything defaults to browser's shipped styles.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="no-social-media-and-links"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id9"&gt;No social media and links&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;There is no spaces for them, you should put them in About page.&lt;/p&gt;
+&lt;p&gt;I don't use them, so I didn't add them, if you really need them, open a feature
+request.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="no-images-and-just-plain-ascii"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id10"&gt;No images and just plain ASCII&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Do we actually need images to tell what the thing is?&lt;/p&gt;
+&lt;p&gt;I decided to go with plain old ASCII, not even any Unicode symbols. With
+Apricot, you only need one HTML and an extra CSS if not inlined.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="templating"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id11"&gt;Templating&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Jinja2 is a powerful templating library, however, if you want to do something
+even more, you may need to enable some extensions, or even write additional
+extensions, which I decided not to go for.&lt;/p&gt;
+&lt;p&gt;A few examples are:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;Looping to filter out duplicate item for pagination,&lt;/li&gt;
+&lt;li&gt;Extra &lt;tt class="docutils literal"&gt;if&lt;/tt&gt; block for not enabling &lt;tt class="docutils literal"&gt;continue&lt;/tt&gt; of &lt;em&gt;Loop Controls&lt;/em&gt;
+extension, or&lt;/li&gt;
+&lt;li&gt;Appending item without using &lt;tt class="docutils literal"&gt;do&lt;/tt&gt; of &lt;em&gt;Expression Statement&lt;/em&gt; extension.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I prefer theme users don't have to change any of their &lt;tt class="docutils literal"&gt;pelicanconf.py&lt;/tt&gt;
+settings.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="schema-org"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id12"&gt;Schema.org&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Apricot has incorporated some schema.org.&lt;/p&gt;
+&lt;/div&gt;
+</content></entry><entry><title>Notes</title><link href="http://lzbpli.github.io/notes.html" rel="alternate"></link><published>2017-03-02T14:01:01+08:00</published><updated>2017-03-02T14:01:01+08:00</updated><author><name>ikerbo</name></author><id>tag:lzbpli.github.io,2017-03-02:/notes.html</id><summary type="html">&lt;div class="section" id="articlesection-of-article"&gt;
+&lt;h2&gt;&lt;tt class="docutils literal"&gt;articleSection&lt;/tt&gt; of &lt;tt class="docutils literal"&gt;Article&lt;/tt&gt;&lt;/h2&gt;
+&lt;p&gt;Blog posting's category is assigned to &lt;tt class="docutils literal"&gt;articleSection&lt;/tt&gt; property.&lt;/p&gt;
+&lt;/div&gt;
+</summary><content type="html">&lt;div class="section" id="articlesection-of-article"&gt;
+&lt;h2&gt;&lt;tt class="docutils literal"&gt;articleSection&lt;/tt&gt; of &lt;tt class="docutils literal"&gt;Article&lt;/tt&gt;&lt;/h2&gt;
+&lt;p&gt;Blog posting's category is assigned to &lt;tt class="docutils literal"&gt;articleSection&lt;/tt&gt; property.&lt;/p&gt;
+&lt;/div&gt;
+</content></entry><entry><title>Settings</title><link href="http://lzbpli.github.io/settings.html" rel="alternate"></link><published>2017-03-02T14:01:01+08:00</published><updated>2017-03-02T14:01:01+08:00</updated><author><name>ikerbo</name></author><id>tag:lzbpli.github.io,2017-03-02:/settings.html</id><summary type="html">&lt;div class="contents local topic" id="contents"&gt;
+&lt;p class="topic-title first"&gt;&lt;strong&gt;Contents&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#pelicanconf-py-settings" id="id1"&gt;&lt;tt class="docutils literal"&gt;pelicanconf.py&lt;/tt&gt; settings&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#official-settings" id="id2"&gt;Official settings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#apricot-specifics" id="id3"&gt;Apricot specifics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#content-metadata" id="id4"&gt;Content metadata&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="pelicanconf-py-settings"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id1"&gt;&lt;tt class="docutils literal"&gt;pelicanconf.py&lt;/tt&gt; settings&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="section" id="official-settings"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id2"&gt;Official settings&lt;/a&gt;&lt;/h3&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;DISPLAY_PAGES_ON_MENU&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;You can disable pages listed on hovering header.&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;DIRECT_TEMPLATES&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p class="first"&gt;If you don't need Authors, Tags, Categories, or Archives to be on hovering header,
+you need to remove them from &lt;tt class="docutils literal"&gt;DIRECT_TEMPLATES&lt;/tt&gt;, changing setting like
+&lt;tt class="docutils literal"&gt;AUTHORS_SAVE_AS …&lt;/tt&gt;&lt;/p&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="contents local topic" id="contents"&gt;
+&lt;p class="topic-title first"&gt;&lt;strong&gt;Contents&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#pelicanconf-py-settings" id="id1"&gt;&lt;tt class="docutils literal"&gt;pelicanconf.py&lt;/tt&gt; settings&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#official-settings" id="id2"&gt;Official settings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#apricot-specifics" id="id3"&gt;Apricot specifics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference internal" href="#content-metadata" id="id4"&gt;Content metadata&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="pelicanconf-py-settings"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id1"&gt;&lt;tt class="docutils literal"&gt;pelicanconf.py&lt;/tt&gt; settings&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="section" id="official-settings"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id2"&gt;Official settings&lt;/a&gt;&lt;/h3&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;DISPLAY_PAGES_ON_MENU&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;You can disable pages listed on hovering header.&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;DIRECT_TEMPLATES&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;p class="first"&gt;If you don't need Authors, Tags, Categories, or Archives to be on hovering header,
+you need to remove them from &lt;tt class="docutils literal"&gt;DIRECT_TEMPLATES&lt;/tt&gt;, changing setting like
+&lt;tt class="docutils literal"&gt;AUTHORS_SAVE_AS&lt;/tt&gt; won't affect.&lt;/p&gt;
+&lt;p class="last"&gt;For Categories, you could set &lt;tt class="docutils literal"&gt;DISPLAY_CATEGORIES_ON_MENU&lt;/tt&gt; to &lt;tt class="docutils literal"&gt;False&lt;/tt&gt;, if
+you still want the Categories page to be generated.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class="section" id="apricot-specifics"&gt;
+&lt;h3&gt;&lt;a class="toc-backref" href="#id3"&gt;Apricot specifics&lt;/a&gt;&lt;/h3&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;CSS_INLINE&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;You can tell Apricot to inline the &lt;tt class="docutils literal"&gt;CSS_FILE&lt;/tt&gt;, however, if it's not default
+&lt;tt class="docutils literal"&gt;main.css&lt;/tt&gt;, you will have to either symbolic link from or copy the file to
+the &lt;tt class="docutils literal"&gt;templates&lt;/tt&gt; directory.&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;SITE_DESCRIPTION&lt;/tt&gt;&lt;/dt&gt;
+&lt;dd&gt;This is displayed below your blog name in the hovering header.&lt;/dd&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;ATTRIBUTION&lt;/tt&gt; (integer or text)&lt;/dt&gt;
+&lt;dd&gt;&lt;p class="first"&gt;This controls how much attribution to Pelican, Python, and this theme you
+would like to show.&lt;/p&gt;
+&lt;dl class="last docutils"&gt;
+&lt;dt&gt;-1&lt;/dt&gt;
+&lt;dd&gt;Absolutely nothing.&lt;/dd&gt;
+&lt;dt&gt;0 (default)&lt;/dt&gt;
+&lt;dd&gt;All mentions in HTML comment.&lt;/dd&gt;
+&lt;dt&gt;1&lt;/dt&gt;
+&lt;dd&gt;Just Pelican.&lt;/dd&gt;
+&lt;dt&gt;2&lt;/dt&gt;
+&lt;dd&gt;Pelican and Python.&lt;/dd&gt;
+&lt;dt&gt;3&lt;/dt&gt;
+&lt;dd&gt;Pelican, Python, and the theme.&lt;/dd&gt;
+&lt;dt&gt;4&lt;/dt&gt;
+&lt;dd&gt;Pelican, Python, and the theme plus its author.&lt;/dd&gt;
+&lt;dt&gt;text&lt;/dt&gt;
+&lt;dd&gt;Custom attribution, it can be HTML.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="content-metadata"&gt;
+&lt;h2&gt;&lt;a class="toc-backref" href="#id4"&gt;Content metadata&lt;/a&gt;&lt;/h2&gt;
+&lt;dl class="docutils"&gt;
+&lt;dt&gt;&lt;tt class="docutils literal"&gt;:thumbnail:&lt;/tt&gt; (URL)&lt;/dt&gt;
+&lt;dd&gt;&lt;p class="first"&gt;It is the thumbnail image URL for the content, it will be displayed in pages
+like archive or any index style pages.&lt;/p&gt;
+&lt;p class="last"&gt;It is also used for schema.org &lt;tt class="docutils literal"&gt;thumbnail&lt;/tt&gt; property of &lt;tt class="docutils literal"&gt;Article&lt;/tt&gt;.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+</content></entry></feed>

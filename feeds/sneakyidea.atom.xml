@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>码 链 - sneakyidea</title><link href="http://lzbpli.github.io/" rel="alternate"></link><link href="http://lzbpli.github.io/feeds/sneakyidea.atom.xml" rel="self"></link><id>http://lzbpli.github.io/</id><updated>2017-03-02T14:01:01+08:00</updated><entry><title>Style specific setting</title><link href="http://lzbpli.github.io/style-specific-setting.html" rel="alternate"></link><published>2017-03-02T14:01:01+08:00</published><updated>2017-03-02T14:01:01+08:00</updated><author><name>ikerbo</name></author><id>tag:lzbpli.github.io,2017-03-02:/style-specific-setting.html</id><summary type="html">&lt;p&gt;The tags.html file which contains the tag cloud is unreachable from the blog because there is no hyoerlink to it.&lt;/p&gt;
+&lt;p&gt;To make the tag cloud accessible from the navigation bar add&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$ MENUITEMS = (('Tags', 'tags.html'),)
+&lt;/pre&gt;
+&lt;p&gt;in your settings.&lt;/p&gt;
+&lt;div class="section" id="screenshot"&gt;
+&lt;h2&gt;Screenshot&lt;/h2&gt;
+&lt;img alt="Screenshot of the theme" src="screenshot.png" /&gt;
+&lt;/div&gt;
+</summary><content type="html">&lt;p&gt;The tags.html file which contains the tag cloud is unreachable from the blog because there is no hyoerlink to it.&lt;/p&gt;
+&lt;p&gt;To make the tag cloud accessible from the navigation bar add&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+$ MENUITEMS = (('Tags', 'tags.html'),)
+&lt;/pre&gt;
+&lt;p&gt;in your settings.&lt;/p&gt;
+&lt;div class="section" id="screenshot"&gt;
+&lt;h2&gt;Screenshot&lt;/h2&gt;
+&lt;img alt="Screenshot of the theme" src="screenshot.png" /&gt;
+&lt;/div&gt;
+</content></entry></feed>

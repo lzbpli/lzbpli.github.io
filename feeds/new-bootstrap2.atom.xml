@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>码 链 - new-bootstrap2</title><link href="http://lzbpli.github.io/" rel="alternate"></link><link href="http://lzbpli.github.io/feeds/new-bootstrap2.atom.xml" rel="self"></link><id>http://lzbpli.github.io/</id><updated>2017-03-02T14:01:01+08:00</updated><entry><title></title><link href="http://lzbpli.github.io/.html" rel="alternate"></link><published>2017-03-02T14:01:01+08:00</published><updated>2017-03-02T14:01:01+08:00</updated><author><name>ikerbo</name></author><id>tag:lzbpli.github.io,2017-03-02:/.html</id><summary type="html">&lt;div class="section" id="new-bootstrap-2-theme"&gt;
+&lt;h2&gt;New Bootstrap 2 theme&lt;/h2&gt;
+&lt;p&gt;This is a slightly updated &amp;quot;Bootstrap 2&amp;quot; theme.&lt;/p&gt;
+&lt;p&gt;You can find live example of it on &lt;a class="reference external" href="http://infinitylx.org"&gt;my site&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is (yet another) theme for Pelican inspired by &lt;a class="reference external" href="http://twitter.github.com/bootstrap/"&gt;Twitter Bootstrap 2.0&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It makes use of &lt;a class="reference external" href="http://fortawesome.github.com/Font-Awesome/"&gt;Font-Awesome&lt;/a&gt; icons, supports tag_cloud, translation,
+and try to keep other features …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="new-bootstrap-2-theme"&gt;
+&lt;h2&gt;New Bootstrap 2 theme&lt;/h2&gt;
+&lt;p&gt;This is a slightly updated &amp;quot;Bootstrap 2&amp;quot; theme.&lt;/p&gt;
+&lt;p&gt;You can find live example of it on &lt;a class="reference external" href="http://infinitylx.org"&gt;my site&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is (yet another) theme for Pelican inspired by &lt;a class="reference external" href="http://twitter.github.com/bootstrap/"&gt;Twitter Bootstrap 2.0&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It makes use of &lt;a class="reference external" href="http://fortawesome.github.com/Font-Awesome/"&gt;Font-Awesome&lt;/a&gt; icons, supports tag_cloud, translation,
+and try to keep other features from Pelican's default theme &lt;tt class="docutils literal"&gt;notmyidea&lt;/tt&gt;.&lt;/p&gt;
+&lt;p&gt;Also you can see its result from &lt;a class="reference external" href="http://farseerfc.github.com/"&gt;my Github Page&lt;/a&gt;. It will be updated using latest theme.&lt;/p&gt;
+&lt;p&gt;Feel free to use it.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="new-features"&gt;
+&lt;h2&gt;New features&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Yandex.metrica - analytica from yandex. Use &lt;strong&gt;&amp;quot;YANDEX_METRYKA&amp;quot;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Shortmail - shortmail widget. Use &lt;strong&gt;&amp;quot;SHORT_MAIL&amp;quot;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Footer note template - you can set your footer note from config with &lt;strong&gt;&amp;quot;FOOTER_NOTE&amp;quot;&lt;/strong&gt; variable or just simple edit &lt;strong&gt;&amp;quot;footer.html&amp;quot;&lt;/strong&gt; file.&lt;/li&gt;
+&lt;li&gt;Add Twitter share button to post title.&lt;/li&gt;
+&lt;li&gt;etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content></entry></feed>

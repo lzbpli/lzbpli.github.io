@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>码 链 - nmnlist</title><link href="http://lzbpli.github.io/" rel="alternate"></link><link href="http://lzbpli.github.io/feeds/nmnlist.atom.xml" rel="self"></link><id>http://lzbpli.github.io/</id><updated>2017-03-02T14:01:01+08:00</updated><entry><title>nmnlist</title><link href="http://lzbpli.github.io/nmnlist.html" rel="alternate"></link><published>2017-03-02T14:01:01+08:00</published><updated>2017-03-02T14:01:01+08:00</updated><author><name>ikerbo</name></author><id>tag:lzbpli.github.io,2017-03-02:/nmnlist.html</id><summary type="html">&lt;p&gt;This is an inverted colors (white on black) variant of the &lt;a class="reference external" href="http://mnmlist.com/theme"&gt;mnmlist theme&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="section" id="settings"&gt;
+&lt;h2&gt;Settings&lt;/h2&gt;
+&lt;p&gt;There's one additional setting used by this theme, if present:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+HIDE_DATE = False
+&lt;/pre&gt;
+&lt;p&gt;If &lt;tt class="docutils literal"&gt;HIDE_DATE&lt;/tt&gt; is set to &lt;tt class="docutils literal"&gt;True&lt;/tt&gt;, dates won't be displayed under the blog post titles.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="compass"&gt;
+&lt;h2&gt;Compass&lt;/h2&gt;
+&lt;p&gt;The &lt;tt class="docutils literal"&gt;main.css&lt;/tt&gt; file is generated from the …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;This is an inverted colors (white on black) variant of the &lt;a class="reference external" href="http://mnmlist.com/theme"&gt;mnmlist theme&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="section" id="settings"&gt;
+&lt;h2&gt;Settings&lt;/h2&gt;
+&lt;p&gt;There's one additional setting used by this theme, if present:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+HIDE_DATE = False
+&lt;/pre&gt;
+&lt;p&gt;If &lt;tt class="docutils literal"&gt;HIDE_DATE&lt;/tt&gt; is set to &lt;tt class="docutils literal"&gt;True&lt;/tt&gt;, dates won't be displayed under the blog post titles.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="compass"&gt;
+&lt;h2&gt;Compass&lt;/h2&gt;
+&lt;p&gt;The &lt;tt class="docutils literal"&gt;main.css&lt;/tt&gt; file is generated from the &lt;tt class="docutils literal"&gt;compass/src/main.scss&lt;/tt&gt; sass file, using &lt;a class="reference external" href="http://compass-style.org/"&gt;http://compass-style.org/&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="section" id="screenshot"&gt;
+&lt;h3&gt;Screenshot&lt;/h3&gt;
+&lt;img alt="Screenshot of the theme" src="screenshot.png" /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content></entry></feed>

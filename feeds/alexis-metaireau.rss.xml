@@ -1,18 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Alexis' log - Alexis Métaireau</title><link>http://blog.notmyidea.org/</link><description>一个人的世界</description><lastBuildDate>Wed, 22 Mar 2017 00:00:00 +0100</lastBuildDate><item><title>My First python</title><link>http://blog.notmyidea.org/my-first-python.html</link><description>&lt;h1&gt;dwdadw&lt;/h1&gt;
+<rss version="2.0"><channel><title>码 链 - Alexis Métaireau</title><link>http://lzbpli.github.io/</link><description>每个人眼中，都是不同的世界 –柯宝！!</description><lastBuildDate>Thu, 02 Mar 2017 14:01:01 +0800</lastBuildDate><item><title>Alexis' log - Alexis Métaireau</title><link>http://lzbpli.github.io/alexis-log-alexis-metaireau.html</link><description>
+
+    &lt;div class="navbar navbar-fixed-top"&gt;
+      &lt;div class="navbar-inner"&gt;
+        &lt;div class="container-fluid"&gt;
+          &lt;a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"&gt;
+            &lt;span class="icon-bar"&gt;&lt;/span&gt;
+            &lt;span class="icon-bar"&gt;&lt;/span&gt;
+            &lt;span class="icon-bar"&gt;&lt;/span&gt;
+          &lt;/a&gt;
+          &lt;a class="brand" href="../index.html"&gt;Alexis' log  &lt;strong&gt;一个人的世界&lt;/strong&gt;&lt;/a&gt;
+          &lt;div class="nav-collapse"&gt;
+            &lt;ul class="nav"&gt;
+                          &lt;li class="divider-vertical"&gt;&lt;/li&gt;
+                  &lt;li&gt;
+                    &lt;a href="../category/review.html"&gt;
+						&lt;i class="icon-folder-open icon-large"&gt;&lt;/i&gt;Review
+					&lt;/a&gt;
+                  &lt;/li&gt;
+                  &lt;li&gt;
+                    &lt;a href="../category/jian-wang.html"&gt;
+						&lt;i class="icon-folder-open icon-large"&gt;&lt;/i&gt;建网
+					&lt;/a&gt;
+                  &lt;/li&gt;
+
+                          &lt;ul class="nav pull-right"&gt;
+                                &lt;li&gt;&lt;a href="../archives.html"&gt;&lt;i class="icon-th-list"&gt;&lt;/i&gt;Archives&lt;/a&gt;&lt;/li&gt;
+                          &lt;/ul&gt;
+
+            &lt;/ul&gt;
+            &lt;!--&lt;p class="navbar-text pull-right"&gt;Logged in as &lt;a href="#"&gt;username&lt;/a&gt;&lt;/p&gt;--&gt;
+          &lt;/div&gt;&lt;!--/.nav-collapse --&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="container-fluid"&gt;
+      &lt;div class="row"&gt;
+        &lt;div class="span9" id="content"&gt;
+        &lt;div class="article"&gt;
+                &lt;h1&gt;&lt;a href="../my-first-python.html"&gt;My First python&lt;/a&gt;&lt;/h1&gt;
+                &lt;div class="well small"&gt;&lt;footer class="post-info"&gt;
+&lt;span class="label"&gt;Date&lt;/span&gt;
+&lt;abbr class="published" title="2017-03-22T00:00:00+01:00"&gt;
+        &lt;i class="icon-calendar"&gt;&lt;/i&gt;Wed 22 March 2017
+&lt;/abbr&gt;
+&lt;span class="label"&gt;By&lt;/span&gt;
+&lt;a href="../author/alexis-metaireau.html"&gt;&lt;i class="icon-user"&gt;&lt;/i&gt;Alexis Métaireau&lt;/a&gt;
+&lt;span class="label"&gt;Category&lt;/span&gt;
+&lt;a href="../category/review.html"&gt;&lt;i class="icon-folder-open"&gt;&lt;/i&gt;Review&lt;/a&gt;.
+
+
+&lt;/footer&gt;&lt;!-- /.post-info --&gt;&lt;/div&gt;
+                &lt;div class="summary"&gt;&lt;h1&gt;dwdadw&lt;/h1&gt;
 &lt;p&gt;@(北京)[首都,天安门，长安街，鸟巢]&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;beijing&amp;quot;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Alexis Métaireau</dc:creator><pubDate>Wed, 22 Mar 2017 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:blog.notmyidea.org,2017-03-22:/my-first-python.html</guid></item><item><title>My First Review</title><link>http://blog.notmyidea.org/my-first-review.html</link><description>&lt;h1&gt;欢迎使用马克飞象&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;马克飞象&lt;/strong&gt;是一款专为印象笔记（Evernote）打造的Markdown编辑器，通过精心的设计与技术实现，配合印象笔记强大的存储和同步功能，带来前所未有的书写体验。特点概述：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;功能丰富&lt;/strong&gt; ：支持高亮代码块、&lt;em&gt;LaTeX&lt;/em&gt; 公式、流程图，本地图片以及附件上传，甚至截图粘贴，工作学习好帮手；&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;得心应手&lt;/strong&gt; ：简洁高效的编辑器，提供&lt;a href="http://maxiang.info/client_zh"&gt;桌面客户端&lt;/a&gt;以及&lt;a href="https://chrome.google.com/webstore/detail/kidnkfckhbdkfgbicccmdggmpgogehop"&gt;离线Chrome App&lt;/a&gt;，支持移动端 Web；&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;深度整合&lt;/strong&gt; ：支持选择笔记本和添加标签，支持从印象笔记跳转编辑，轻松管理。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;[TOC]&lt;/p&gt;
-&lt;h2&gt;Markdown简介&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面。    —— &lt;a href="https://zh.wikipedia.org/wiki/Markdown"&gt;维基百科&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;正如您在阅读的这份文档，它使用简单的符号标识不同的标题，将某些文字标记为&lt;strong&gt;粗体&lt;/strong&gt;或者&lt;em&gt;斜体&lt;/em&gt;，创建一个&lt;a href="http://www.example.com"&gt;链接&lt;/a&gt;或一个脚注&lt;sup id="fnref-demo"&gt;&lt;a class="footnote-ref" href="#fn-demo"&gt;1&lt;/a&gt;&lt;/sup&gt;。下面列举了几个高级功能，更多语法请按&lt;code&gt;Ctrl …&lt;/code&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Alexis Métaireau</dc:creator><pubDate>Fri, 03 Dec 2010 10:20:00 +0100</pubDate><guid isPermaLink="false">tag:blog.notmyidea.org,2010-12-03:/my-first-review.html</guid></item></channel></rss>
+&lt;/pre&gt;&lt;/div&gt;
+                        &lt;a class="btn primary xsmall" href="../my-first-python.html"&gt;more ...&lt;/a&gt;
+                &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;hr /&gt;
+        &lt;div class="article"&gt;
+                &lt;h1&gt;&lt;a href="../my-first-review.html"&gt;My First Review&lt;/a&gt;&lt;/h1&gt;
+                &lt;div class="well small"&gt;&lt;footer class="post-info"&gt;
+&lt;span class="label"&gt;Date&lt;/span&gt;
+&lt;abbr class="published" title="2010-12-03T10:20:00+01:00"&gt;
+        &lt;i class="icon-calendar"&gt;&lt;/i&gt;Fri 03 December 2010
+&lt;/abbr&gt;
+&lt;span class="label"&gt;By&lt;/span&gt;
+&lt;a href="../author/alexis-metaireau.html"&gt;&lt;i class="icon-user"&gt;&lt;/i&gt;Alexis Métaireau&lt;/a&gt;
+&lt;span class="label"&gt;Category&lt;/span&gt;
+&lt;a href="../category/review.html"&gt;&lt;i class="icon-folder-open"&gt;&lt;/i&gt;Review&lt;/a&gt;.
+
+
+&lt;/footer&gt;&lt;!-- /.post-info --&gt;&lt;/div&gt;
+                &lt;div class="summary"&gt;&lt;h1&gt;欢迎使用马克飞象&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;马克飞象&lt;/strong&gt;是一款专为印象笔记（Evernote）打造的Markdown编辑器，通过精心的设计与技术实现，配合印象笔记强大的存储和同步功能，带来前所未有的书写体验。特点概述 …&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Alexis Métaireau</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/alexis-log-alexis-metaireau.html</guid></item></channel></rss>
