@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>码 链 - pelican</title><link>http://lzbpli.github.io/</link><description>每个人眼中，都是不同的世界 –柯宝！!</description><lastBuildDate>Mon, 24 Jul 2017 00:00:00 +0800</lastBuildDate><item><title>使用pelican写博客</title><link>http://lzbpli.github.io/shi-yong-pelicanxie-bo-ke.html</link><description>&lt;h1&gt;使用pelican写博客&lt;/h1&gt;
+&lt;h2&gt;写博客&lt;/h2&gt;
+&lt;p&gt;在content下面创建一个文件pelican-wirte.md&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;Title&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;My&lt;/span&gt; &lt;span class="n"&gt;First&lt;/span&gt; &lt;span class="n"&gt;Review&lt;/span&gt;
+&lt;span class="n"&gt;Date&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;2010&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;12&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;03&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;20&lt;/span&gt;
+&lt;span class="n"&gt;Category&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Review&lt;/span&gt;
+
+&lt;span class="n"&gt;Following&lt;/span&gt; &lt;span class="k"&gt;is&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;review&lt;/span&gt; &lt;span class="n"&gt;of&lt;/span&gt; &lt;span class="n"&gt;my&lt;/span&gt; &lt;span class="n"&gt;favorite&lt;/span&gt; &lt;span class="n"&gt;mechanical&lt;/span&gt; &lt;span class="n"&gt;keyboard&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;生成博客&lt;/h2&gt;
+&lt;p&gt;博客写好之后还不能进行访问，需要把写好的博客转化为html代码，执行下面的命令进行生成&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pelican content
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;生成的文件都在&lt;strong&gt;output&lt;/strong&gt;目录里面，这些文件就是博客运行需要的静态文件。&lt;/p&gt;
+&lt;p&gt;上传博客&lt;/p&gt;
+&lt;p&gt;在命令行里面切换到output目录下面，git命令&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;cd ~/project/yoursite/output
+
+git push
+&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Mon, 24 Jul 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-07-24:/shi-yong-pelicanxie-bo-ke.html</guid></item></channel></rss>

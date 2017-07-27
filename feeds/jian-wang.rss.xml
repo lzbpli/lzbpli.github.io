@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>码 链 - 建网</title><link>http://lzbpli.github.io/</link><description>每个人眼中，都是不同的世界 –柯宝！!</description><lastBuildDate>Sat, 22 Apr 2017 00:00:00 +0800</lastBuildDate><item><title>VoidyBootstrap README</title><link>http://lzbpli.github.io/voidybootstrap-readme.html</link><description>&lt;h1&gt;VoidyBootstrap&lt;/h1&gt;
+<rss version="2.0"><channel><title>码 链 - 建网</title><link>http://lzbpli.github.io/</link><description>每个人眼中，都是不同的世界 –柯宝！!</description><lastBuildDate>Fri, 07 Apr 2017 00:00:00 +0800</lastBuildDate><item><title>VoidyBootstrap README</title><link>http://lzbpli.github.io/voidybootstrap-readme.html</link><description>&lt;h1&gt;VoidyBootstrap&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;Version 2.1&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;A &lt;a href="http://getbootstrap.com"&gt;Bootstrap 3&lt;/a&gt; blog theme for the
 &lt;a href="http://getpelican.com"&gt;Pelican&lt;/a&gt; static site generator.&lt;/p&gt;
 &lt;p&gt;VoidyBootstrap is a Pelican theme that aims to be mobile friendly,
 responsive, flexible and easily customisable. It can be used in single
 column mode, or responsive 2 column mode with sidebar.&lt;/p&gt;
-&lt;p&gt;While the theme provides …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Sat, 22 Apr 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-04-22:/voidybootstrap-readme.html</guid></item><item><title>使用pelican搭建github博客</title><link>http://lzbpli.github.io/shi-yong-pelicanda-jian-githubbo-ke.html</link><description>&lt;h2&gt;安装pelican、markdown&lt;/h2&gt;
+&lt;p&gt;While the theme provides …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Fri, 07 Apr 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-04-07:/voidybootstrap-readme.html</guid></item><item><title>使用pelican搭建github博客</title><link>http://lzbpli.github.io/shi-yong-pelicanda-jian-githubbo-ke.html</link><description>&lt;h2&gt;安装pelican、markdown&lt;/h2&gt;
 &lt;p&gt;在安装前要确保安装了python，然后直接使用：&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Wed, 22 Mar 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-22:/shi-yong-pelicanda-jian-githubbo-ke.html</guid></item></channel></rss>

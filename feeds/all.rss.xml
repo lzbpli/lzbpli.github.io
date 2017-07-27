@@ -1,24 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>码 链</title><link>http://lzbpli.github.io/</link><description>每个人眼中，都是不同的世界 –柯宝！!</description><lastBuildDate>Sat, 22 Apr 2017 00:00:00 +0800</lastBuildDate><item><title>VoidyBootstrap README</title><link>http://lzbpli.github.io/voidybootstrap-readme.html</link><description>&lt;h1&gt;VoidyBootstrap&lt;/h1&gt;
+<rss version="2.0"><channel><title>码 链</title><link>http://lzbpli.github.io/</link><description>每个人眼中，都是不同的世界 –柯宝！!</description><lastBuildDate>Thu, 27 Jul 2017 00:00:00 +0800</lastBuildDate><item><title>Markdown Example</title><link>http://lzbpli.github.io/markdown-example.html</link><description>&lt;p&gt;首先声名，这并不是一份完整的&lt;a href="http://daringfireball.net/projects/markdown/"&gt;Markdown&lt;/a&gt;的语法介绍，需要看完整的介绍请点击&lt;a href="http://daringfireball.net/projects/markdown/syntax"&gt;Markdown Syntax Documentation&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;本文的Markdown源代码可以至后台编辑文章进行查看，文章结尾也将以源代码的形式贴出&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;段落&lt;/h3&gt;
+&lt;p&gt;一个段落是由一个或多个连续的行构成，段落间靠一个或以上视觉上的空行划分。一般的段落不应该用空格或制表符缩进&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;这是一个段落。它有两个句子。
+
+这是另一个段落。它也有 
+两个句子。
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;换行&lt;/h3&gt;
+&lt;p&gt;在文本中输入的换行会从最终生成的结果中删除，浏览器会根据可用空间自动换行。如果想强迫换行，可以在行尾插入至少两个空格。&lt;/p&gt;
+&lt;h3&gt;强调&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;*强调* 或者 _强调_  (示例：斜体)
+**加重强调** 或者 __加重强调__ (示例：粗体)
+***特别强调*** 或者 ___特别强调___ (示例：粗斜体)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;代码&lt;/h3&gt;
+&lt;p&gt;要在Markdown中插入代码，你有两种选择。 一种是把代码用反引号(`)(键盘上Esc键下面的键)包起，例如：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;夹杂着`一些代码`的文字内容 …&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 27 Jul 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-07-27:/markdown-example.html</guid></item><item><title>使用pelican写博客</title><link>http://lzbpli.github.io/shi-yong-pelicanxie-bo-ke.html</link><description>&lt;h1&gt;使用pelican写博客&lt;/h1&gt;
+&lt;h2&gt;写博客&lt;/h2&gt;
+&lt;p&gt;在content下面创建一个文件pelican-wirte.md&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;Title&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;My&lt;/span&gt; &lt;span class="n"&gt;First&lt;/span&gt; &lt;span class="n"&gt;Review&lt;/span&gt;
+&lt;span class="n"&gt;Date&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;2010&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;12&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;03&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;20&lt;/span&gt;
+&lt;span class="n"&gt;Category&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Review&lt;/span&gt;
+
+&lt;span class="n"&gt;Following&lt;/span&gt; &lt;span class="k"&gt;is&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;review&lt;/span&gt; &lt;span class="n"&gt;of&lt;/span&gt; &lt;span class="n"&gt;my&lt;/span&gt; &lt;span class="n"&gt;favorite&lt;/span&gt; &lt;span class="n"&gt;mechanical&lt;/span&gt; &lt;span class="n"&gt;keyboard&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;生成博客&lt;/h2&gt;
+&lt;p&gt;博客写好之后还不能进行访问，需要把写好的博客转化为html代码，执行下面的命令进行生成&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pelican content
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;生成的文件都在&lt;strong&gt;output&lt;/strong&gt;目录里面，这些文件就是博客运行需要的静态文件。&lt;/p&gt;
+&lt;p&gt;上传博客&lt;/p&gt;
+&lt;p&gt;在命令行里面切换到output目录下面，git命令&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;cd ~/project/yoursite/output
+
+git push
+&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Mon, 24 Jul 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-07-24:/shi-yong-pelicanxie-bo-ke.html</guid></item><item><title>VoidyBootstrap README</title><link>http://lzbpli.github.io/voidybootstrap-readme.html</link><description>&lt;h1&gt;VoidyBootstrap&lt;/h1&gt;
 &lt;p&gt;&lt;em&gt;Version 2.1&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;A &lt;a href="http://getbootstrap.com"&gt;Bootstrap 3&lt;/a&gt; blog theme for the
 &lt;a href="http://getpelican.com"&gt;Pelican&lt;/a&gt; static site generator.&lt;/p&gt;
 &lt;p&gt;VoidyBootstrap is a Pelican theme that aims to be mobile friendly,
 responsive, flexible and easily customisable. It can be used in single
 column mode, or responsive 2 column mode with sidebar.&lt;/p&gt;
-&lt;p&gt;While the theme provides …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Sat, 22 Apr 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-04-22:/voidybootstrap-readme.html</guid></item><item><title>My First python</title><link>http://lzbpli.github.io/my-first-python.html</link><description>&lt;h1&gt;dwdadw&lt;/h1&gt;
+&lt;p&gt;While the theme provides …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Fri, 07 Apr 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-04-07:/voidybootstrap-readme.html</guid></item><item><title>My First python</title><link>http://lzbpli.github.io/my-first-python.html</link><description>&lt;h1&gt;dwdadw&lt;/h1&gt;
 &lt;p&gt;@(北京)[首都,天安门，长安街，鸟巢]&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;beijing&amp;quot;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Wed, 22 Mar 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-22:/my-first-python.html</guid></item><item><title>使用pelican搭建github博客</title><link>http://lzbpli.github.io/shi-yong-pelicanda-jian-githubbo-ke.html</link><description>&lt;h2&gt;安装pelican、markdown&lt;/h2&gt;
 &lt;p&gt;在安装前要确保安装了python，然后直接使用：&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Wed, 22 Mar 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-22:/shi-yong-pelicanda-jian-githubbo-ke.html</guid></item><item><title>VoidyBootstrap</title><link>http://lzbpli.github.io/voidybootstrap.html</link><description>&lt;p&gt;&lt;em&gt;Version 2.1&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;A &lt;a class="reference external" href="http://getbootstrap.com"&gt;Bootstrap 3&lt;/a&gt; blog theme for the
-&lt;a class="reference external" href="http://getpelican.com"&gt;Pelican&lt;/a&gt; static site generator.&lt;/p&gt;
-&lt;p&gt;VoidyBootstrap is a Pelican theme that aims to be mobile friendly,
-responsive, flexible and easily customisable.  It can be used in single
-column mode, or responsive 2 column mode with sidebar.&lt;/p&gt;
-&lt;p&gt;While the theme provides lots …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/voidybootstrap.html</guid></item><item><title>My First Review</title><link>http://lzbpli.github.io/my-first-review.html</link><description>&lt;h1&gt;欢迎使用马克飞象&lt;/h1&gt;
+&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Wed, 22 Mar 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-22:/shi-yong-pelicanda-jian-githubbo-ke.html</guid></item><item><title>My First Review</title><link>http://lzbpli.github.io/my-first-review.html</link><description>&lt;h1&gt;欢迎使用马克飞象&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;马克飞象&lt;/strong&gt;是一款专为印象笔记（Evernote）打造的Markdown编辑器，通过精心的设计与技术实现，配合印象笔记强大的存储和同步功能，带来前所未有的书写体验。特点概述：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;功能丰富&lt;/strong&gt; ：支持高亮代码块、&lt;em&gt;LaTeX&lt;/em&gt; 公式、流程图，本地图片以及附件上传，甚至截图粘贴，工作学习好帮手；&lt;/li&gt;
