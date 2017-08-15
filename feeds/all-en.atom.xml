@@ -3,7 +3,13 @@
 &lt;p&gt;阿德adasd阿德addd&lt;/p&gt;
 &lt;h2&gt;class_b模式&lt;/h2&gt;</summary><content type="html">&lt;h1&gt;lorawan笔记&lt;/h1&gt;
 &lt;p&gt;阿德adasd阿德addd&lt;/p&gt;
-&lt;h2&gt;class_b模式&lt;/h2&gt;</content></entry><entry><title>Markdown Example</title><link href="http://lzbpli.github.io/markdown-example.html" rel="alternate"></link><published>2017-07-27T00:00:00+08:00</published><updated>2017-07-27T00:00:00+08:00</updated><author><name>ikerbo</name></author><id>tag:lzbpli.github.io,2017-07-27:/markdown-example.html</id><summary type="html">&lt;p&gt;首先声名，这并不是一份完整的&lt;a href="http://daringfireball.net/projects/markdown/"&gt;Markdown&lt;/a&gt;的语法介绍，需要看完整的介绍请点击&lt;a href="http://daringfireball.net/projects/markdown/syntax"&gt;Markdown Syntax Documentation&lt;/a&gt;。&lt;/p&gt;
+&lt;h2&gt;class_b模式&lt;/h2&gt;</content></entry><entry><title>notepad++编辑markdown</title><link href="http://lzbpli.github.io/notepadbian-ji-markdown.html" rel="alternate"></link><published>2017-08-15T00:00:00+08:00</published><updated>2017-08-15T00:00:00+08:00</updated><author><name>ikero</name></author><id>tag:lzbpli.github.io,2017-08-15:/notepadbian-ji-markdown.html</id><summary type="html">&lt;h1&gt;notepad++编辑markdown&lt;/h1&gt;
+&lt;h2&gt;配置notepad++语法&lt;/h2&gt;
+&lt;p&gt;先从&lt;a href="https://github.com/Edditoria/markdown-plus-plus"&gt;markdown-plus-plus&lt;/a&gt;下载插件，
+ 然后在菜单栏中-&amp;gt;语言-&amp;gt;自定义语言设置中导入*.xml文件，出现“import success”，就说明导入成功了，重启一下软件就可以了&lt;/p&gt;</summary><content type="html">&lt;h1&gt;notepad++编辑markdown&lt;/h1&gt;
+&lt;h2&gt;配置notepad++语法&lt;/h2&gt;
+&lt;p&gt;先从&lt;a href="https://github.com/Edditoria/markdown-plus-plus"&gt;markdown-plus-plus&lt;/a&gt;下载插件，
+ 然后在菜单栏中-&amp;gt;语言-&amp;gt;自定义语言设置中导入*.xml文件，出现“import success”，就说明导入成功了，重启一下软件就可以了&lt;/p&gt;</content></entry><entry><title>Markdown Example</title><link href="http://lzbpli.github.io/markdown-example.html" rel="alternate"></link><published>2017-07-27T00:00:00+08:00</published><updated>2017-07-27T00:00:00+08:00</updated><author><name>ikerbo</name></author><id>tag:lzbpli.github.io,2017-07-27:/markdown-example.html</id><summary type="html">&lt;p&gt;首先声名，这并不是一份完整的&lt;a href="http://daringfireball.net/projects/markdown/"&gt;Markdown&lt;/a&gt;的语法介绍，需要看完整的介绍请点击&lt;a href="http://daringfireball.net/projects/markdown/syntax"&gt;Markdown Syntax Documentation&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;本文的Markdown源代码可以至后台编辑文章进行查看，文章结尾也将以源代码的形式贴出&lt;/strong&gt;&lt;/p&gt;
 &lt;h3&gt;段落&lt;/h3&gt;
 &lt;p&gt;一个段落是由一个或多个连续的行构成，段落间靠一个或以上视觉上的空行划分。一般的段落不应该用空格或制表符缩进&lt;/p&gt;

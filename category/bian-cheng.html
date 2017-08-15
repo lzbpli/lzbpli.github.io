@@ -4,11 +4,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content=" Posts by author ikerbo" />
+    <meta name="description" content="Posts in category 编程" />
     <meta name="author" content="ikerbo" />
     <meta name="generator" content="Pelican (VoidyBootstrap theme)" />
 
-    <title>Author:ikerbo - 码  链</title>
+    <title>Category:编程 - 码  链</title>
 
    
         <link rel="stylesheet"
@@ -78,98 +78,32 @@
 <ol class="breadcrumb">
     <li><a href="../" title="Home" rel="home">
 		<i class="fa fa-home fa-fw fa-lg"></i> </a></li>
-    <li>Authors </li>
-    <li class="active">ikerbo</li>
+    <li>Categories </li>
+    <li class="active">编程</li>
 </ol>
     <article>
 <abbr class="article-header-date">
-  Thu 27 July 2017
+  Tue 15 August 2017
 </abbr> <h1>
-  <a href="../markdown-example.html" rel="bookmark"
-     title="Permalink to Markdown Example">
-    Markdown Example
+  <a href="../notepadbian-ji-markdown.html" rel="bookmark"
+     title="Permalink to notepad++编辑markdown">
+    notepad++编辑markdown
   </a>
 </h1><div class="article-header-info">
   <p>
-      Posted by <a href="../author/ikerbo.html">ikerbo</a>
+      Posted by <a href="../author/ikero.html">ikero</a>
     in 
-    <a href="../category/ru-men.html">
-      入门</a>
+    <a href="../category/bian-cheng.html">
+      编程</a>
     &nbsp;&nbsp;
   </p>
 </div> <!-- /.article-header-info -->
       <div class="summary">
-		<p>首先声名，这并不是一份完整的<a href="http://daringfireball.net/projects/markdown/">Markdown</a>的语法介绍，需要看完整的介绍请点击<a href="http://daringfireball.net/projects/markdown/syntax">Markdown Syntax Documentation</a>。</p>
-<p><strong>本文的Markdown源代码可以至后台编辑文章进行查看，文章结尾也将以源代码的形式贴出</strong></p>
-<h3>段落</h3>
-<p>一个段落是由一个或多个连续的行构成，段落间靠一个或以上视觉上的空行划分。一般的段落不应该用空格或制表符缩进</p>
-<div class="highlight"><pre><span></span>这是一个段落。它有两个句子。
-
-这是另一个段落。它也有 
-两个句子。
-</pre></div>
-
-
-<h3>换行</h3>
-<p>在文本中输入的换行会从最终生成的结果中删除，浏览器会根据可用空间自动换行。如果想强迫换行，可以在行尾插入至少两个空格。</p>
-<h3>强调</h3>
-<div class="highlight"><pre><span></span>*强调* 或者 _强调_  (示例：斜体)
-**加重强调** 或者 __加重强调__ (示例：粗体)
-***特别强调*** 或者 ___特别强调___ (示例：粗斜体)
-</pre></div>
-
-
-<h3>代码</h3>
-<p>要在Markdown中插入代码，你有两种选择。 一种是把代码用反引号(`)(键盘上Esc键下面的键)包起，例如：</p>
-<div class="highlight"><pre><span></span>夹杂着`一些代码`的文字内容 …</pre></div>
-		<p class="content-emphasis"><a href="../markdown-example.html">
-			Read more... <i class="fa fa-arrow-circle-right fa-fw fa-lg"></i> 
-		</a></p>
-      </div>    </article>
-    <hr />
-    <article>
-<abbr class="article-header-date">
-  Mon 24 July 2017
-</abbr> <h1>
-  <a href="../shi-yong-pelicanxie-bo-ke.html" rel="bookmark"
-     title="Permalink to 使用pelican写博客">
-    使用pelican写博客
-  </a>
-</h1><div class="article-header-info">
-  <p>
-      Posted by <a href="../author/ikerbo.html">ikerbo</a>
-    in 
-    <a href="../category/pelican.html">
-      pelican</a>
-    &nbsp;&nbsp;
-  </p>
-</div> <!-- /.article-header-info -->
-      <div class="summary">
-		<h1>使用pelican写博客</h1>
-<h2>写博客</h2>
-<p>在content下面创建一个文件pelican-wirte.md</p>
-<div class="highlight"><pre><span></span><span class="n">Title</span><span class="o">:</span> <span class="n">My</span> <span class="n">First</span> <span class="n">Review</span>
-<span class="n">Date</span><span class="o">:</span> <span class="mi">2010</span><span class="o">-</span><span class="mi">12</span><span class="o">-</span><span class="mi">03</span> <span class="mi">10</span><span class="o">:</span><span class="mi">20</span>
-<span class="n">Category</span><span class="o">:</span> <span class="n">Review</span>
-
-<span class="n">Following</span> <span class="k">is</span> <span class="n">a</span> <span class="n">review</span> <span class="n">of</span> <span class="n">my</span> <span class="n">favorite</span> <span class="n">mechanical</span> <span class="n">keyboard</span><span class="o">.</span>
-</pre></div>
-
-
-<h2>生成博客</h2>
-<p>博客写好之后还不能进行访问，需要把写好的博客转化为html代码，执行下面的命令进行生成</p>
-<div class="highlight"><pre><span></span>pelican content
-</pre></div>
-
-
-<p>生成的文件都在<strong>output</strong>目录里面，这些文件就是博客运行需要的静态文件。</p>
-<p>上传博客</p>
-<p>在命令行里面切换到output目录下面，git命令</p>
-<div class="highlight"><pre><span></span>cd ~/project/yoursite/output
-
-git push
-</pre></div>
-		<p class="content-emphasis"><a href="../shi-yong-pelicanxie-bo-ke.html">
+		<h1>notepad++编辑markdown</h1>
+<h2>配置notepad++语法</h2>
+<p>先从<a href="https://github.com/Edditoria/markdown-plus-plus">markdown-plus-plus</a>下载插件，
+ 然后在菜单栏中-&gt;语言-&gt;自定义语言设置中导入*.xml文件，出现“import success”，就说明导入成功了，重启一下软件就可以了</p>
+		<p class="content-emphasis"><a href="../notepadbian-ji-markdown.html">
 			Read more... <i class="fa fa-arrow-circle-right fa-fw fa-lg"></i> 
 		</a></p>
       </div>    </article>
