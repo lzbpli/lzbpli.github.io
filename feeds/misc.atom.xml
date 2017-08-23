@@ -1,442 +1,178 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>码 链 - misc</title><link href="http://lzbpli.github.io/" rel="alternate"></link><link href="http://lzbpli.github.io/feeds/misc.atom.xml" rel="self"></link><id>http://lzbpli.github.io/</id><updated>2017-03-02T14:01:01+08:00</updated><entry><title>VoidyBootstrap</title><link href="http://lzbpli.github.io/voidybootstrap.html" rel="alternate"></link><published>2017-03-02T14:01:01+08:00</published><updated>2017-03-02T14:01:01+08:00</updated><author><name>ikerbo</name></author><id>tag:lzbpli.github.io,2017-03-02:/voidybootstrap.html</id><summary type="html">&lt;p&gt;&lt;em&gt;Version 2.1&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;A &lt;a class="reference external" href="http://getbootstrap.com"&gt;Bootstrap 3&lt;/a&gt; blog theme for the
-&lt;a class="reference external" href="http://getpelican.com"&gt;Pelican&lt;/a&gt; static site generator.&lt;/p&gt;
-&lt;p&gt;VoidyBootstrap is a Pelican theme that aims to be mobile friendly,
-responsive, flexible and easily customisable.  It can be used in single
-column mode, or responsive 2 column mode with sidebar.&lt;/p&gt;
-&lt;p&gt;While the theme provides lots …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;Version 2.1&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;A &lt;a class="reference external" href="http://getbootstrap.com"&gt;Bootstrap 3&lt;/a&gt; blog theme for the
-&lt;a class="reference external" href="http://getpelican.com"&gt;Pelican&lt;/a&gt; static site generator.&lt;/p&gt;
-&lt;p&gt;VoidyBootstrap is a Pelican theme that aims to be mobile friendly,
-responsive, flexible and easily customisable.  It can be used in single
-column mode, or responsive 2 column mode with sidebar.&lt;/p&gt;
-&lt;p&gt;While the theme provides lots of customisation options, care has been taken
-to make it usable right out of the box with minimal configuration and
-sensible defaults -- albeit with the ubiquitous Bootstrap look and feel.
-But that's kind of the idea with this theme -- start with bog standard
-Bootstrap, then customise as much or as little as you like.&lt;/p&gt;
-&lt;p&gt;On larger screens, with the sidebar enabled, you get a clean and
-responsive 2 column layout.  At the top there's a navbar containing page
-links, and jumbotron area.  The default sidebar has category links and optional
-tag-cloud.  &lt;a class="reference external" href="http://fontawesome.io/"&gt;Font Awesome 4&lt;/a&gt; is used for icons.&lt;/p&gt;
-&lt;p&gt;VoidyBootstrap is functional but deliberately minimal in terms of design.
-It can be used as is, if your design need are modest and all you want is
-basic theme that &amp;quot;just works&amp;quot;, with all the common features you'd expect
-from a blog theme.  But for those who do want to tinker and customise, it
-can be used as a starting point for creating custom Bootstrap-based
-websites.  This theme has many features designed to facilitate creating a
-custom design on top of the default Bootstrap base it provides.  Regardless
-of whether you use few or many of the customisation features provided, what
-you get is a carefully crafted Pelican theme that tries to accommodate
-common blogging needs and provide ways to easily accomplish common
-customisations.  It strives to be as minimal, flexible and unopinionated as
-possible, while still being as usable and simple as possible.&lt;/p&gt;
-&lt;p&gt;Customised CSS, JavaScript and other modifications can be easily
-incorporated using configuration settings, and content can be added to the
-base layout (without modifying existing templates) by strategically adding
-template fragments.&lt;/p&gt;
-&lt;div class="section" id="installation"&gt;
-&lt;h2&gt;Installation&lt;/h2&gt;
-&lt;p&gt;Clone this repo, then in your &lt;tt class="docutils literal"&gt;pelicanconf.py&lt;/tt&gt; set the &lt;tt class="docutils literal"&gt;THEME&lt;/tt&gt; variable
-to point to it:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-THEME = 'path/to/voidy-bootstrap/'
-&lt;/pre&gt;
-&lt;p&gt;Out of the box what you get is the stock standard Bootstrap 3 look and
-feel.  To customise things see below.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="example-settings"&gt;
-&lt;h2&gt;Example Settings&lt;/h2&gt;
-&lt;p&gt;All of these are optional, but here is a basic example of common settings
-you might want to configure.&lt;/p&gt;
-&lt;p&gt;The following should be set in &lt;tt class="docutils literal"&gt;pelicanconf.py&lt;/tt&gt;:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-SITESUBTITLE ='Sub-title that goes underneath site name in jumbotron.'
-SITETAG = &amp;quot;Text that's displayed in the title on the home page.&amp;quot;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>码 链 - misc</title><link href="http://lzbpli.github.io/" rel="alternate"></link><link href="http://lzbpli.github.io/feeds/misc.atom.xml" rel="self"></link><id>http://lzbpli.github.io/</id><updated>2017-03-02T14:01:01+08:00</updated><entry><title>LoRaPA功率模块信号测试</title><link href="http://lzbpli.github.io/lorapagong-lu-mo-kuai-xin-hao-ce-shi.html" rel="alternate"></link><published>2017-03-02T14:01:01+08:00</published><updated>2017-03-02T14:01:01+08:00</updated><author><name>ikerbo</name></author><id>tag:lzbpli.github.io,2017-03-02:/lorapagong-lu-mo-kuai-xin-hao-ce-shi.html</id><summary type="html">
+&lt;div id="wmd-preview" class="wmd-preview"&gt;&lt;div class="md-section-divider"&gt;&lt;/div&gt;&lt;div class="md-section-divider"&gt;&lt;/div&gt;&lt;h1 data-anchor-id="6s5y" id="lorapa功率模块信号测试"&gt;LoRaPA功率模块信号测试&lt;/h1&gt;&lt;div class="md-section-divider"&gt;&lt;/div&gt;&lt;h2 data-anchor-id="2e3z" id="信号测试"&gt;信号测试&lt;/h2&gt;&lt;p data-anchor-id="eunz"&gt;网关位置：722室窗户旁边&lt;/p&gt;&lt;div class="md-section-divider"&gt;&lt;/div&gt;&lt;h3 data-anchor-id="umoa" id="节点地址fe00002a"&gt;&lt;strong&gt;节点地址：fe00002a&lt;/strong&gt;&lt;/h3&gt;&lt;div class="md-section-divider"&gt;&lt;/div&gt;&lt;h4 data-anchor-id="dm8h" id="pa模块"&gt;PA模块&lt;/h4&gt;&lt;ul data-anchor-id="bsgr"&gt;
+&lt;li&gt;&lt;p&gt;办公室 &lt;br&gt;
+rssi：9.8 rssi1:-49&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;7楼电梯 &lt;br&gt;
+lsnr:7.2 rssi：-93 &lt;br&gt;
+lsnr：6.0 rssi：-96 &lt;br&gt;
+lsnr：0.0 rssi：-91&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;5楼 &lt;br&gt;
+lsnr：-7.8 rssi：-102 &lt;br&gt;
+lsnr：-4.8 rssi：-104 &lt;br&gt;
+lsnr：-4.2 rssi：-103 &lt;br&gt;
+lsnr：-7.2 rssi：-104 …&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">
+&lt;div id="wmd-preview" class="wmd-preview"&gt;&lt;div class="md-section-divider"&gt;&lt;/div&gt;&lt;div class="md-section-divider"&gt;&lt;/div&gt;&lt;h1 data-anchor-id="6s5y" id="lorapa功率模块信号测试"&gt;LoRaPA功率模块信号测试&lt;/h1&gt;&lt;div class="md-section-divider"&gt;&lt;/div&gt;&lt;h2 data-anchor-id="2e3z" id="信号测试"&gt;信号测试&lt;/h2&gt;&lt;p data-anchor-id="eunz"&gt;网关位置：722室窗户旁边&lt;/p&gt;&lt;div class="md-section-divider"&gt;&lt;/div&gt;&lt;h3 data-anchor-id="umoa" id="节点地址fe00002a"&gt;&lt;strong&gt;节点地址：fe00002a&lt;/strong&gt;&lt;/h3&gt;&lt;div class="md-section-divider"&gt;&lt;/div&gt;&lt;h4 data-anchor-id="dm8h" id="pa模块"&gt;PA模块&lt;/h4&gt;&lt;ul data-anchor-id="bsgr"&gt;
+&lt;li&gt;&lt;p&gt;办公室 &lt;br&gt;
+rssi：9.8 rssi1:-49&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;7楼电梯 &lt;br&gt;
+lsnr:7.2 rssi：-93 &lt;br&gt;
+lsnr：6.0 rssi：-96 &lt;br&gt;
+lsnr：0.0 rssi：-91&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;5楼 &lt;br&gt;
+lsnr：-7.8 rssi：-102 &lt;br&gt;
+lsnr：-4.8 rssi：-104 &lt;br&gt;
+lsnr：-4.2 rssi：-103 &lt;br&gt;
+lsnr：-7.2 rssi：-104 &lt;br&gt;
+lsnr：-3.5 rssi：-102&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;3楼 &lt;br&gt;
+lsnr：-6.0 rssi：-99 &lt;br&gt;
+lsnr：0.5 rssi：-102 &lt;br&gt;
+lsnr：-0.2 rssi：-99 &lt;br&gt;
+lsnr：-0.8 rssi：-101 &lt;br&gt;
+lsnr：0.2 rssi：-101&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1楼 &lt;br&gt;
+lsnr：-9.2 rssi：-106 &lt;br&gt;
+lsnr：-7.8 rssi：-103 &lt;br&gt;
+lsnr：-10.0 rssi：-105 &lt;br&gt;
+lsnr：-7.8 rssi：-105 &lt;br&gt;
+lsnr：-5.0 rssi：-106&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;div class="md-section-divider"&gt;&lt;/div&gt;&lt;h4 data-anchor-id="eahl" id="长天线"&gt;长天线&lt;/h4&gt;&lt;ul data-anchor-id="pzbe"&gt;
+&lt;li&gt;&lt;p&gt;办公室 &lt;br&gt;
+lsnr：9.8 rssi：-77&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;7楼电梯 &lt;br&gt;
+lsnr：-8.2 rssi：-103 &lt;br&gt;
+lsnr：-3.8 rssi：-105 &lt;br&gt;
+lsnr：-3.8  rssi：-105&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;div class="md-section-divider"&gt;&lt;/div&gt;&lt;h3 data-anchor-id="7lmg" id="节点地址fe00002c"&gt;&lt;strong&gt;节点地址：fe00002c&lt;/strong&gt;&lt;/h3&gt;&lt;div class="md-section-divider"&gt;&lt;/div&gt;&lt;h4 data-anchor-id="m14b" id="pa模块-1"&gt;PA模块&lt;/h4&gt;&lt;ul data-anchor-id="0utf"&gt;
+&lt;li&gt;办公室 &lt;br&gt;
+lsnr：9.8 rssi：-47&lt;/li&gt;
+&lt;/ul&gt;&lt;div class="md-section-divider"&gt;&lt;/div&gt;&lt;h4 data-anchor-id="gv5q" id="长天线-1"&gt;长天线&lt;/h4&gt;&lt;ul data-anchor-id="gry0"&gt;
+&lt;li&gt;办公室 &lt;br&gt;
+lsnr：9.8   rssi：-17&lt;/li&gt;
+&lt;/ul&gt;&lt;p data-anchor-id="8nmm"&gt;以上数据均在PA模块5v供电的基础上，PA模块使用3.3v供电时，和长天线信号效果相同。 &lt;/p&gt;&lt;p data-anchor-id="u5ht"&gt;测试过程中发现的问题： &lt;br&gt;
+- 相同节点、天线，天线竖放比平放的信号要好5~10db,其中竖放时，节点天线和网关之间遮挡物少一些。 &lt;br&gt;
+- 不同节点的信号强度有明显差异，fe00002a、fe00002d的信号强度比fe00002c的信号强度要低30db&lt;/p&gt;&lt;p data-anchor-id="netd"&gt;查看原始数据，登陆&lt;a href="https://cloud.sanfaniot.com" target="_blank"&gt;https://cloud.sanfaniot.com&lt;/a&gt;，在设备管理-&amp;gt;历史数据中，对应的时间是2017-8-16-14:57:55  &lt;br&gt;
+ 到16:31:53区间，对应节点fe00002a，fe00002c&lt;/p&gt;&lt;/div&gt;
+</content></entry><entry><title>LoRaPA功率模块信号测试</title><link href="http://lzbpli.github.io/lorapagong-lu-mo-kuai-xin-hao-ce-shi.html" rel="alternate"></link><published>2017-03-02T14:01:01+08:00</published><updated>2017-03-02T14:01:01+08:00</updated><author><name>ikerbo</name></author><id>tag:lzbpli.github.io,2017-03-02:/lorapagong-lu-mo-kuai-xin-hao-ce-shi.html</id><summary type="html">&lt;div id="preview-contents" class="note-content"&gt;
+                        
+                    
 
-# Extra stylesheets, for bootstrap overrides or additional styling.
-STYLESHEET_FILES = (&amp;quot;pygment.css&amp;quot;, &amp;quot;voidybootstrap.css&amp;quot;,)
 
-# Put taglist at end of articles, and use the default sharing button implementation.
-CUSTOM_ARTICLE_FOOTERS = (&amp;quot;taglist.html&amp;quot;, &amp;quot;sharing.html&amp;quot;, )
-CUSTOM_SCRIPTS_ARTICLE = &amp;quot;sharing_scripts.html&amp;quot;
 
-# Default sidebar template. Omit this setting for single column mode without sidebar.
-SIDEBAR = &amp;quot;sidebar.html&amp;quot;
+&lt;h1 id="lorapa功率模块信号测试"&gt;LoRaPA功率模块信号测试&lt;/h1&gt;
 
-SOCIAL = (('Google+', 'http://plus.google.com/userid',
-         'fa fa-google-plus-square fa-fw fa-lg'),
-        ('Twitter', 'https://twitter.com/username',
-         'fa fa-twitter-square fa-fw fa-lg'),
-        ('LinkedIn', 'http://linkedin-url',
-         'fa fa-linkedin-square fa-fw fa-lg'),
-        ('BitBucket', 'http://bitbucket.org/username',
-         'fa fa-bitbucket-square fa-fw fa-lg'),
-        ('GitHub', 'http://github.com/username',
-         'fa fa-github-square fa-fw fa-lg'),
-        )
-&lt;/pre&gt;
-&lt;p&gt;The following are probably better suited for &lt;tt class="docutils literal"&gt;publishconf.py&lt;/tt&gt;:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-FEED_DOMAIN = SITEURL
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
 
-DISQUS_SITENAME = &amp;quot;disqussitename&amp;quot;
-GOOGLE_ANALYTICS = &amp;quot;UA-xxxxxxxxxx&amp;quot;
-GOOGLE_ANALYTICS_SITEID = &amp;quot;gasiteid&amp;quot;
-TWITTER_USERNAME = &amp;quot;twitterusername&amp;quot;
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class="section" id="basic-configuration-and-customisation"&gt;
-&lt;h2&gt;Basic Configuration and Customisation&lt;/h2&gt;
-&lt;p&gt;By default all required CSS and JavaScript files are downloaded from CDNs.
-Intentionally little is supplied in the theme's &lt;tt class="docutils literal"&gt;static/css&lt;/tt&gt;.  Just a
-&lt;tt class="docutils literal"&gt;pygment.css&lt;/tt&gt; file, and a sample css file (&lt;tt class="docutils literal"&gt;voidybootstrap.css&lt;/tt&gt;) with
-very minimal styling is provided as a starting point.&lt;/p&gt;
-&lt;p&gt;The simplest way to customise things is to override the standard Bootstrap
-styles as necessary.  The theme intentionally avoids loading any additional
-stylesheets by default, but this can easily be done by using the
-&lt;tt class="docutils literal"&gt;STYLESHEET_FILES&lt;/tt&gt; setting.  &lt;tt class="docutils literal"&gt;STYLESHEET_FILES&lt;/tt&gt; is a list for specifying
-additional stylesheets that will be loaded by the &lt;tt class="docutils literal"&gt;base.html&lt;/tt&gt; template
-after the main Bootstrap CSS file.  Place any CSS stylesheet files you may
-require in the &lt;tt class="docutils literal"&gt;static/css&lt;/tt&gt; directory and add the filenames to the
-&lt;tt class="docutils literal"&gt;STYLESHEET_FILES&lt;/tt&gt; setting in &lt;tt class="docutils literal"&gt;pelicanconf.py&lt;/tt&gt;&lt;/p&gt;
-&lt;p&gt;For example, if you've placed your own CSS styling in a stylesheet called
-&lt;tt class="docutils literal"&gt;custom.css&lt;/tt&gt; (possibly using &lt;tt class="docutils literal"&gt;voidybootstrap.css&lt;/tt&gt; as a starting point),
-then you would need something like this in your &lt;tt class="docutils literal"&gt;pelicanconf.py&lt;/tt&gt;:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-STYLESHEET_FILES = (&amp;quot;pygment.css&amp;quot;, &amp;quot;custom.css&amp;quot;,)
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class="section" id="custom-bootstrap"&gt;
-&lt;h2&gt;Custom Bootstrap&lt;/h2&gt;
-&lt;p&gt;As an alternative, or in addition, you can easily replace the standard
-Bootstrap file with a customised one.  The &lt;tt class="docutils literal"&gt;BOOTSTRAP_STYLESHEET&lt;/tt&gt; setting
-is provided for this.  The default behaviour -- if this variable is &lt;em&gt;not&lt;/em&gt;
-set -- is that a standard &lt;tt class="docutils literal"&gt;bootstrap.min.css&lt;/tt&gt; will be used from a CDN.&lt;/p&gt;
-&lt;p&gt;To use a different (i.e. customised) Bootstrap stylesheet, set
-&lt;tt class="docutils literal"&gt;BOOTSTRAP_STYLESHEET&lt;/tt&gt; to the filename of a stylesheet to use instead.&lt;/p&gt;
-&lt;p&gt;This could be a customised Bootstrap stylesheet compiled manually from the
-Bootstrap source files, or perhaps one obtained from an online source.&lt;/p&gt;
-&lt;p&gt;For example, you could use the &lt;a class="reference external" href="http://getbootstrap.com/customize/"&gt;Bootstrap customizer&lt;/a&gt; to create your own customised
-Bootstrap CSS file.  Place that file in &lt;tt class="docutils literal"&gt;static/css&lt;/tt&gt; and set
-&lt;tt class="docutils literal"&gt;BOOTSTRAP_STYLESHEET&lt;/tt&gt; to its filename.&lt;/p&gt;
-&lt;p&gt;Similarly, a &lt;a class="reference external" href="http://bootswatch.com/"&gt;Bootswatch&lt;/a&gt; theme can be easily
-integrated.  Select a theme and download the files.  Place all the
-necessary CSS files in &lt;tt class="docutils literal"&gt;static/css&lt;/tt&gt;.  Set &lt;tt class="docutils literal"&gt;BOOTSTRAP_STYLESHEET&lt;/tt&gt; to
-the filename of the main Bootstrap CSS file, and specify any additional CSS
-files in the &lt;tt class="docutils literal"&gt;STYLESHEET_FILES&lt;/tt&gt; list.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="further-customisation"&gt;
-&lt;h2&gt;Further Customisation&lt;/h2&gt;
-&lt;p&gt;Like any other Pelican theme, you can just take the templates provided
-and modify them to your liking.  However, if you're happy with the overall
-layout and just want to add/subtract things here are there, this theme
-provides &amp;quot;hooks&amp;quot; to do just that by setting specific
-variables in your &lt;tt class="docutils literal"&gt;pelicanconf.py&lt;/tt&gt; and/or providing your own template
-fragments.  For simple customisations, this can make is relatively
-straightforward to isolate modifications and easily keep up to date with
-any upstream changes.&lt;/p&gt;
-&lt;p&gt;These customisation &amp;quot;hooks&amp;quot; are settings that can be configured in
-&lt;tt class="docutils literal"&gt;pelicanconf.py&lt;/tt&gt; to point to filenames of custom template fragments.
-These template fragments will either add or replace content in the default
-layout provided by the theme.  For example, if &lt;tt class="docutils literal"&gt;pelicanconf.py&lt;/tt&gt; contains
-the line:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-CUSTOM_FOOTER = &amp;quot;custom/footer.html&amp;quot;
-&lt;/pre&gt;
-&lt;p&gt;Then the bottom of every page will contain whatever is in the template
-file located at:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-templates/includes/custom/footer.html
-&lt;/pre&gt;
-&lt;p&gt;See the &amp;quot;Custom Includes&amp;quot; section below for further details.&lt;/p&gt;
-&lt;p&gt;Note that these template fragments must be relative to the theme's
-&lt;tt class="docutils literal"&gt;templates/includes/&lt;/tt&gt; directory.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="standard-settings"&gt;
-&lt;h2&gt;Standard Settings&lt;/h2&gt;
-&lt;p&gt;VoidyBootstrap honors the following &lt;a class="reference external" href="http://docs.getpelican.com/en/latest/settings.html"&gt;standard Pelican settings&lt;/a&gt;:&lt;/p&gt;
-&lt;ul class="simple"&gt;
-&lt;li&gt;&lt;tt class="docutils literal"&gt;SITEURL&lt;/tt&gt;&lt;/li&gt;
-&lt;li&gt;&lt;tt class="docutils literal"&gt;SITENAME&lt;/tt&gt;&lt;/li&gt;
-&lt;li&gt;&lt;tt class="docutils literal"&gt;SITESUBTITLE&lt;/tt&gt;&lt;/li&gt;
-&lt;li&gt;&lt;tt class="docutils literal"&gt;LINKS&lt;/tt&gt;&lt;/li&gt;
-&lt;li&gt;&lt;tt class="docutils literal"&gt;SOCIAL&lt;/tt&gt;&lt;/li&gt;
-&lt;li&gt;&lt;tt class="docutils literal"&gt;TWITTER_USERNAME&lt;/tt&gt;&lt;/li&gt;
-&lt;li&gt;&lt;tt class="docutils literal"&gt;FEED_DOMAIN&lt;/tt&gt;&lt;/li&gt;
-&lt;li&gt;&lt;tt class="docutils literal"&gt;FEED_ALL_ATOM&lt;/tt&gt;&lt;/li&gt;
-&lt;li&gt;&lt;tt class="docutils literal"&gt;FEED_ALL_RSS&lt;/tt&gt;&lt;/li&gt;
-&lt;li&gt;&lt;tt class="docutils literal"&gt;DISQUS_SITENAME&lt;/tt&gt;&lt;/li&gt;
-&lt;li&gt;&lt;tt class="docutils literal"&gt;GOOGLE_ANALYTICS&lt;/tt&gt;&lt;/li&gt;
+
+&lt;h2 id="信号测试"&gt;信号测试&lt;/h2&gt;
+
+&lt;p&gt;网关位置：722室窗户旁边&lt;/p&gt;
+
+
+
+&lt;h3 id="节点地址fe00002a"&gt;&lt;strong&gt;节点地址：fe00002a&lt;/strong&gt;&lt;/h3&gt;
+
+
+
+&lt;h4 id="pa模块"&gt;PA模块&lt;/h4&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;p&gt;办公室 &lt;br&gt;
+rssi：9.8 rssi1:-49&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;7楼电梯 &lt;br&gt;
+lsnr:7.2 rssi：-93 &lt;br&gt;
+lsnr：6.0 rssi：-96 &lt;br&gt;
+lsnr：0.0 rssi：-91&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;5楼 &lt;br&gt;
+lsnr：-7.8 rssi：-102 &lt;br&gt;
+lsnr：-4.8 rssi：-104 &lt;br&gt;
+lsnr：-4.2 rssi：-103 &lt;br&gt;
+lsnr：-7.2 rssi：-104 …&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;div id="preview-contents" class="note-content"&gt;
+                        
+                    
+
+
+
+&lt;h1 id="lorapa功率模块信号测试"&gt;LoRaPA功率模块信号测试&lt;/h1&gt;
+
+
+
+&lt;h2 id="信号测试"&gt;信号测试&lt;/h2&gt;
+
+&lt;p&gt;网关位置：722室窗户旁边&lt;/p&gt;
+
+
+
+&lt;h3 id="节点地址fe00002a"&gt;&lt;strong&gt;节点地址：fe00002a&lt;/strong&gt;&lt;/h3&gt;
+
+
+
+&lt;h4 id="pa模块"&gt;PA模块&lt;/h4&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;p&gt;办公室 &lt;br&gt;
+rssi：9.8 rssi1:-49&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;7楼电梯 &lt;br&gt;
+lsnr:7.2 rssi：-93 &lt;br&gt;
+lsnr：6.0 rssi：-96 &lt;br&gt;
+lsnr：0.0 rssi：-91&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;5楼 &lt;br&gt;
+lsnr：-7.8 rssi：-102 &lt;br&gt;
+lsnr：-4.8 rssi：-104 &lt;br&gt;
+lsnr：-4.2 rssi：-103 &lt;br&gt;
+lsnr：-7.2 rssi：-104 &lt;br&gt;
+lsnr：-3.5 rssi：-102&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;3楼 &lt;br&gt;
+lsnr：-6.0 rssi：-99 &lt;br&gt;
+lsnr：0.5 rssi：-102 &lt;br&gt;
+lsnr：-0.2 rssi：-99 &lt;br&gt;
+lsnr：-0.8 rssi：-101 &lt;br&gt;
+lsnr：0.2 rssi：-101&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;1楼 &lt;br&gt;
+lsnr：-9.2 rssi：-106 &lt;br&gt;
+lsnr：-7.8 rssi：-103 &lt;br&gt;
+lsnr：-10.0 rssi：-105 &lt;br&gt;
+lsnr：-7.8 rssi：-105 &lt;br&gt;
+lsnr：-5.0 rssi：-106&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;For the most part they should work as expected, although some may behave
-slightly differently than in the default Pelican theme (see next section).&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="settings"&gt;
-&lt;h2&gt;Settings&lt;/h2&gt;
-&lt;p&gt;This theme supports the following configuration settings.  All are
-optional.&lt;/p&gt;
-&lt;dl class="docutils"&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;SITESUBTITLE&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Sub-title -- displayed in jumbotron.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;SITETAG&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Text that will be placed in the title on the home page.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;DEFAULT_METADESC&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Default value for HTML meta description tag.  Individual articles and
-pages can specify their own meta description by using the theme's custom
-&lt;tt class="docutils literal"&gt;description&lt;/tt&gt; metadata tag.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;BOOTSTRAP_STYLESHEET&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Bootstrap CSS file to use instead of default, as described above.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;STYLESHEET_URLS&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;A list of URLS for additional stylesheets that should be pulled in by
-the &lt;tt class="docutils literal"&gt;base.html&lt;/tt&gt; template, like CSS files from a CDN.  Useful for adding
-the bootstrap theme CSS, for example.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;STYLESHEET_FILES&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;An list of filenames (relative to the &lt;tt class="docutils literal"&gt;/theme/css/&lt;/tt&gt; directory) for
-additional stylesheets that should be pulled in by the &lt;tt class="docutils literal"&gt;base.html&lt;/tt&gt;
-template (after any STYLESHEET_URLS entries).&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;SKIP_DEFAULT_CSS&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;No default CSS files at all will be used if this is set to True.  In this
-case the only stylesheets used will be those specified in
-&lt;tt class="docutils literal"&gt;STYLESHEET_FILES&lt;/tt&gt; and &lt;tt class="docutils literal"&gt;STYLESHEET_URLS&lt;/tt&gt;.  This setting is provided
-to give more control over which specific Bootstrap (and Font Awesome) CSS
-files are used (i.e. it allows a specific version to be configured
-through settings).  But it means for things to work properly at a minimum
-the Bootstrap and Font Awesome need to be configured using the
-STYLESHEET_* settings.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;SKIP_DEFAULT_JS&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Don't load any default JavaScript in the base template.  If this is set
-to True, at a minimum jQuery and the Bootstrap JavaScript must be
-provided via &lt;tt class="docutils literal"&gt;JAVASCRIPT_FILES&lt;/tt&gt; and/or &lt;tt class="docutils literal"&gt;JAVASCRIPT_URLS&lt;/tt&gt;.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;SKIP_DEFAULT_NAVIGATION&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Don't display navbar at the top of the page.  (If required a custom navigation
-template can be configured via &lt;tt class="docutils literal"&gt;CUSTOM_SITE_HEADERS&lt;/tt&gt;.)&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;JAVASCRIPT_FILES&lt;/tt&gt; and &lt;tt class="docutils literal"&gt;JAVASCRIPT_URLS&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Similar to the STYLESHEET_* settings, these allow arbitrary JavaScript
-files to be loaded.  They will be referenced at the bottom of
-&lt;tt class="docutils literal"&gt;base.html&lt;/tt&gt;, after any default script files.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;ARCHIVES_URL&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;URL of archives page.  Default is &lt;tt class="docutils literal"&gt;archives.html&lt;/tt&gt;.  If you're modifying
-&lt;tt class="docutils literal"&gt;ARCHIVES_SAVE_AS&lt;/tt&gt; in your pelicanconf.py then you'll probably need to
-change this setting as well.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;TWITTER_USERNAME&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Set to a valid Twitter username to enable the twitter sharing button.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;TWITTER_CARD&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;If set to True, Twitter Card meta-data will be added to article pages.
-If this is enabled, &lt;tt class="docutils literal"&gt;TWITTER_USERNAME&lt;/tt&gt; must also be set.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;OPEN_GRAPH&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Set to True to enable Facebook Open Graph meta-properties.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;OPEN_GRAPH_FB_APP_ID&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Facebook App ID.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;OPEN_GRAPH_ARTICLE_AUTHOR&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Value for Open Graph &lt;tt class="docutils literal"&gt;article:author&lt;/tt&gt; property, which will be set on
-article pages.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;OPEN_GRAPH_IMAGE&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Default value for Open Graph &lt;tt class="docutils literal"&gt;og:image&lt;/tt&gt; property on index pages.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;DEFAULT_SOCIAL_IMAGE&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Default value for Open Graph &lt;tt class="docutils literal"&gt;og:image&lt;/tt&gt; property (and Twitter card
-image, if enabled) on articles and pages.  The custom &lt;tt class="docutils literal"&gt;social_image&lt;/tt&gt;
-metadata tag can be used to specify a per-article (or per-page) value,
-which will always take precedence&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;FAVICON&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Allows an alternative favicon filename to be specified.&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;div class="section" id="sidebar-settings"&gt;
-&lt;h2&gt;Sidebar Settings&lt;/h2&gt;
-&lt;p&gt;As of version 2.0 of VoidyBootstrap, the sidebar is optional.  To enable
-the default sidebar, add the following line to your &lt;tt class="docutils literal"&gt;pelicanconf.py&lt;/tt&gt;:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-SIDEBAR = &amp;quot;sidebar.html&amp;quot;
-&lt;/pre&gt;
-&lt;p&gt;This will give you a simple sidebar with social media links and a list of
-Categories, which can be customised using the options described in this
-section.&lt;/p&gt;
-&lt;p&gt;Optionally, if you'd like to use the LINKS setting or include a list of tags
-in the default sidebar, add the following to &lt;tt class="docutils literal"&gt;pelicanconf.py&lt;/tt&gt; after
-&lt;tt class="docutils literal"&gt;SIDEBAR&lt;/tt&gt;:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-CUSTOM_SIDEBAR_MIDDLES = (&amp;quot;sb_links.html&amp;quot;, &amp;quot;sb_taglist.html&amp;quot;, )
-&lt;/pre&gt;
-&lt;p&gt;As of Pelican 3.6 &lt;a class="reference external" href="https://github.com/getpelican/pelican/commit/9dd4080fe6162849aec0946cc8406b04da764157"&gt;tag cloud support has been removed from Pelican&lt;/a&gt;,
-so if you'd like a proper tag cloud in the sidebar you'll need to configure
-the &lt;a class="reference external" href="https://github.com/getpelican/pelican-plugins/tree/master/tag_cloud"&gt;tag_cloud plugin&lt;/a&gt;
-and add the following to &lt;tt class="docutils literal"&gt;pelicanconf.py&lt;/tt&gt;:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-CUSTOM_SIDEBAR_MIDDLES = (&amp;quot;sb_tagcloud.html&amp;quot;, )
-&lt;/pre&gt;
-&lt;p&gt;The &amp;quot;sidebar&amp;quot; is an area where many sites will require something specific
-and it's unlikely any particular implementation will satisfy everyone all
-the time.  However, there are things that commonly appear in sidebars
-(e.g. author bio, categories, tag cloud, etc), so the theme includes a
-default sidebar template that provides a fairly typical sidebar
-implementation.  The default sidebar has a few customisation settings so
-that common things can be added and configured via settings in
-&lt;tt class="docutils literal"&gt;pelicanconf.py&lt;/tt&gt; (as described in this section), but it's intended more
-as a starting point for custom implementations rather than an attempt to
-satisfy all possible use cases.&lt;/p&gt;
-&lt;p&gt;For those who might want something completely different in a sidebar, just
-create your own sidebar template (possibly using &lt;tt class="docutils literal"&gt;includes/sidebar.html&lt;/tt&gt;
-as a starting point), and then set &lt;tt class="docutils literal"&gt;SIDEBAR&lt;/tt&gt; to point to it. This will
-completely replace the theme's default sidebar with whatever is in your
-custom sidebar template.&lt;/p&gt;
-&lt;p&gt;But for those happy enough to stick with the default sidebar, the following
-settings are available to customise it:&lt;/p&gt;
-&lt;dl class="docutils"&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;SOCIAL&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Social media links to display in sidebar.  This option is handled a bit
-differently than in the default Pelican theme.  This should be a list/tuple where
-each element is a tuple with 3 elements: (name, URL, Font Awesome icon
-class).  (See the &amp;quot;Example Settings&amp;quot; section above for an example.)  The
-last element (icon class) can be omitted, in which case a generic icon
-will be used instead.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;LINKS&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Optional list of arbitrary links to display in the sidebar.  Each element
-must be a tuple with 2 elements: (link title, URL).  For this option to
-work with the default sidebar, &amp;quot;sb_links.html&amp;quot; needs to be added to
-&lt;tt class="docutils literal"&gt;CUSTOM_SIDEBAR_MIDDLES&lt;/tt&gt; (as shown above).&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;SIDEBAR_HIDE_CATEGORIES&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;A list of categories is displayed in the sidebar by default.  Set this
-option to True to disable this category list.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;SIDEBAR_SIZE&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;The number of columns in the Bootstrap grid the sidebar should take up.
-The default is 3.&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;p&gt;See also &lt;tt class="docutils literal"&gt;CUSTOM_SIDEBAR_TOP&lt;/tt&gt;, &lt;tt class="docutils literal"&gt;CUSTOM_SIDEBAR_BOTTOM&lt;/tt&gt; and
-&lt;tt class="docutils literal"&gt;CUSTOM_SIDEBAR_MIDDLES&lt;/tt&gt; below.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="section" id="custom-includes"&gt;
-&lt;h2&gt;Custom Includes&lt;/h2&gt;
-&lt;p&gt;The following settings (all optional), if specified, should be set to
-filenames of appropriate template fragments that will be included at
-strategic points from the primary templates.  They will override or add to
-existing sections of content.  All filename paths must be relative to the
-theme's &lt;tt class="docutils literal"&gt;templates/includes&lt;/tt&gt; directory.&lt;/p&gt;
-&lt;p&gt;Note that in the following setting names, an &amp;quot;*&amp;quot; (asterisk) represents a
-page type, possible values of which are: INDEX, ARTICLE, PAGE, CATEGORY,
-TAG, AUTHOR, ARCHIVES.&lt;/p&gt;
-&lt;p&gt;(Also note that in Version 2.0 of this theme, many settings were renamed,
-and many new ones added.  See CHANGES.rst.)&lt;/p&gt;
-&lt;dl class="docutils"&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;CUSTOM_SITE_HEADERS&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;List of templates that will replace the default site header area (i.e. the
-jumbotron area).&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;CUSTOM_HEADER_*&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Add custom content after the site headers, before the main container, and
-outside any container dev (and therefore before any content columns).&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;CUSTOM_CONTAINER_TOP_*&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Similar to CUSTOM_HEADER_*, but inside the main container div.  Not
-inside any row or column, so any content here will span across the top of
-both columns (in 2 column mode).&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;CUSTOM_CONTENT_TOP_*&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Template fragment that will be inserted at the top of the content column,
-before anything else.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;CUSTOM_CONTENT_BOTTOM_*&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;These will be included right at the bottom of the content column.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;CUSTOM_CONTAINER_BOTTOM_*&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;These will be included at the bottom of the main container, after the
-columns.  Content will end up inside a container but outside of columns,
-spanning across the bottom, below both columns (in 2 column mode).&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;CUSTOM_ARTICLE_HEADERS&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;List of templates that will replace the default article header
-provided in &lt;tt class="docutils literal"&gt;includes/article_header.html&lt;/tt&gt; on &lt;em&gt;article pages only&lt;/em&gt;.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;CUSTOM_INDEX_ARTICLE_HEADERS&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;List of templates that will replace the default article
-header provided in &lt;tt class="docutils literal"&gt;includes/article_header.html&lt;/tt&gt; on &lt;em&gt;index pages only&lt;/em&gt;.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;CUSTOM_ARTICLE_PRECONTENT&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Template fragment that will be inserted just before the start of the
-article body text (after any headers, image and standfirst).&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;CUSTOM_ARTICLE_FOOTERS&lt;/tt&gt; and &lt;tt class="docutils literal"&gt;CUSTOM_PAGE_FOOTERS&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;List of templates that will included at the bottom of articles/pages,
-after the body text but before the comments.  Can be used to configure
-any appropriate content, like sharing buttons, taglist, etc.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;CUSTOM_FOOTER&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Footer template to be included by &lt;tt class="docutils literal"&gt;base.html&lt;/tt&gt;.  Anything here
-(e.g. copyright text) will appear between footer tags at the bottom of
-every page.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;CUSTOM_SCRIPTS_ARTICLE&lt;/tt&gt; and &lt;tt class="docutils literal"&gt;CUSTOM_SCRIPTS_PAGE&lt;/tt&gt; and &lt;tt class="docutils literal"&gt;CUSTOM_SCRIPTS_ARCHIVE&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Template fragment for any additional javascript code specific to articles,
-pages and archives respectively (useful for things like social media sharing
-code).  Will be included at the bottom of pages, just before the
-closing body tag.  Set to &lt;tt class="docutils literal"&gt;includes/sharing_scripts.html&lt;/tt&gt; to use the
-default provided implementation.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;CUSTOM_SCRIPTS_BASE&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;As above, but will be included on every page.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;CUSTOM_SIDEBAR_TOP&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Included by &lt;tt class="docutils literal"&gt;sidebar.html&lt;/tt&gt; at the top of the sidebar.  Provides a
-convenient place for an &amp;quot;about&amp;quot; blurb, for example.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;CUSTOM_SIDEBAR_BOTTOM&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Included by &lt;tt class="docutils literal"&gt;sidebar.html&lt;/tt&gt; at the bottom of the sidebar.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;CUSTOM_SIDEBAR_MIDDLES&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;List of templates that will be included by &lt;tt class="docutils literal"&gt;sidebar.html&lt;/tt&gt; after
-Categories but before &lt;tt class="docutils literal"&gt;CUSTOM_SIDEBAR_BOTTOM&lt;/tt&gt;.  Provided mainly as an
-easy way to use the default tag cloud implementation.  Realistically, if
-you're doing more customisations than this in your sidebar, a better
-option is just to create your own implementation of &lt;tt class="docutils literal"&gt;sidebar.html&lt;/tt&gt; and
-use this instead (as described in &amp;quot;Sidebar Settings&amp;quot;).&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;CUSTOM_INDEX_META&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Included by &lt;tt class="docutils literal"&gt;index.html&lt;/tt&gt; in the &lt;tt class="docutils literal"&gt;head&lt;/tt&gt; section.  Can be used
-to add extra HTML meta tags to index pages, for example.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;CUSTOM_HTML_HEAD&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Included by &lt;tt class="docutils literal"&gt;base.html&lt;/tt&gt; in the &lt;tt class="docutils literal"&gt;head&lt;/tt&gt; section.&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;div class="section" id="custom-metadata-tags"&gt;
-&lt;h2&gt;Custom Metadata Tags&lt;/h2&gt;
-&lt;p&gt;This theme supports the following (optional) custom metadata tags for use
-in articles and pages.&lt;/p&gt;
-&lt;dl class="docutils"&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;description&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Can be used in pages and articles to provide a value for the HTML meta
-description tag, and social meta data (i.e. Open Graph).&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;standfirst&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Text for a summary/intro paragraph that will be placed at the start of an
-article.  This paragraph will be given a CSS class of &amp;quot;standfirst&amp;quot; so
-that additional styles can be applied.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;social_image&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Set to an image filename (relative to &lt;tt class="docutils literal"&gt;{{ SITEURL &lt;span class="pre"&gt;}}/images/&lt;/span&gt;&lt;/tt&gt;) to
-provide a value for an article's &lt;tt class="docutils literal"&gt;og:image&lt;/tt&gt; meta property.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;image&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Set to an image filename (relative to &lt;tt class="docutils literal"&gt;{{ SITEURL &lt;span class="pre"&gt;}}/images/&lt;/span&gt;&lt;/tt&gt;) to
-display a (responsive) &amp;quot;featured image&amp;quot; at the top of an article,
-underneath any standfirst.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;schema_type&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Pages only.  A schema.org itemtype for the page.  Default is &amp;quot;WebPage&amp;quot;.&lt;/dd&gt;
-&lt;dt&gt;&lt;tt class="docutils literal"&gt;javascript&lt;/tt&gt;&lt;/dt&gt;
-&lt;dd&gt;Pages only.  Filename of a JavaScript file (relative to &lt;tt class="docutils literal"&gt;theme/js/&lt;/tt&gt;
-directory) to load for this page.&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;/div&gt;
-&lt;div class="section" id="security-considerations"&gt;
-&lt;h2&gt;Security Considerations&lt;/h2&gt;
-&lt;p&gt;By default, this theme obtains various dependency files (styles, scripts,
-etc) from CDNs.  In an attempt to follow current security best practices,
-files linked from CDNs are retrieved via HTTPS, and use
-&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Subresource_Integrity"&gt;integrity attributes.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;In addition, if your server has a &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Content_Security_Policy"&gt;Content-Security-Policy (CSP)&lt;/a&gt; header
-configured, it should take into account the CDNs used by the theme.&lt;/p&gt;
-&lt;p&gt;For example, a policy in Nginx configuration syntax that covers the external
-resources used by this theme might look something like:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-add_header Content-Security-Policy &amp;quot;default-src 'none' ; img-src 'self' ; font-src 'self' https://maxcdn.bootstrapcdn.com ; form-action 'self' ; frame-ancestors 'none' ; media-src 'self' ; script-src 'self' https://ajax.googleapis.com https://maxcdn.bootstrapcdn.com https://oss.maxcdn.com ; style-src 'self' https://maxcdn.bootstrapcdn.com &amp;quot; ;
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div class="section" id="author"&gt;
-&lt;h2&gt;Author&lt;/h2&gt;
-&lt;div class="line-block"&gt;
-&lt;div class="line"&gt;Robert Iwancz&lt;/div&gt;
-&lt;div class="line"&gt;www.voidynullness.net&lt;/div&gt;
-&lt;div class="line"&gt;&lt;a class="reference external" href="https://twitter.com/robulouski"&gt;&amp;#64;robulouski&lt;/a&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="section" id="screenshot"&gt;
-&lt;h2&gt;Screenshot&lt;/h2&gt;
-&lt;img alt="Screenshot of VoidyBootstrap theme with default Bootstrap 3 styling." src="screenshot.png" /&gt;
-&lt;/div&gt;
-&lt;div class="section" id="license"&gt;
-&lt;h2&gt;License&lt;/h2&gt;
-&lt;p&gt;Licensed under the &lt;a class="reference external" href="http://opensource.org/licenses/MIT"&gt;MIT License&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-</content></entry></feed>
+
+
+
+&lt;h4 id="长天线"&gt;长天线&lt;/h4&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;p&gt;办公室 &lt;br&gt;
+lsnr：9.8 rssi：-77&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;7楼电梯 &lt;br&gt;
+lsnr：-8.2 rssi：-103 &lt;br&gt;
+lsnr：-3.8 rssi：-105 &lt;br&gt;
+lsnr：-3.8  rssi：-105&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+&lt;h3 id="节点地址fe00002c"&gt;&lt;strong&gt;节点地址：fe00002c&lt;/strong&gt;&lt;/h3&gt;
+
+
+
+&lt;h4 id="pa模块-1"&gt;PA模块&lt;/h4&gt;
+
+&lt;ul&gt;&lt;li&gt;办公室 &lt;br&gt;
+lsnr：9.8 rssi：-47&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+&lt;h4 id="长天线-1"&gt;长天线&lt;/h4&gt;
+
+&lt;ul&gt;&lt;li&gt;办公室 &lt;br&gt;
+lsnr：9.8   rssi：-17&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;以上数据均在PA模块5v供电的基础上，PA模块使用3.3v供电时，和长天线信号效果相同。 &lt;/p&gt;
+
+&lt;p&gt;测试过程中发现的问题：&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;相同节点、天线，天线竖放比平放的信号要好5~10db,其中竖放时，节点天线和网关之间遮挡物少一些。&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;不同节点的信号强度有明显差异，fe00002a、fe00002d的信号强度比fe00002c的信号强度要低30db&lt;/p&gt;
+
+&lt;p&gt;查看原始数据，登陆&lt;a href="https://cloud.sanfaniot.com" target="_blank"&gt;https://cloud.sanfaniot.com&lt;/a&gt;，在设备管理-&amp;gt;历史数据中，对应的时间是2017-8-16-14:57:55  &lt;br&gt;
+到16:31:53区间，对应节点fe00002a，fe00002c&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</content></entry></feed>

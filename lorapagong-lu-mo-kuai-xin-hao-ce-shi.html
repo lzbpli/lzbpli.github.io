@@ -8,7 +8,7 @@
     <meta name="author" content="ikerbo" />
     <meta name="generator" content="Pelican (VoidyBootstrap theme)" />
 
-    <title>notepad++编辑markdown - 码  链</title>
+    <title>LoRaPA功率模块信号测试 - 码  链</title>
 
    
         <link rel="stylesheet"
@@ -78,26 +78,68 @@
 <article itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
   <header class="article-header">
 <abbr class="article-header-date">
-  Tue 15 August 2017
+  Thu 02 March 2017
 </abbr> <h1>
-  <a href="./notepadbian-ji-markdown.html" rel="bookmark"
-     title="Permalink to notepad++编辑markdown">
-    notepad++编辑markdown
+  <a href="./lorapagong-lu-mo-kuai-xin-hao-ce-shi.html" rel="bookmark"
+     title="Permalink to LoRaPA功率模块信号测试">
+    LoRaPA功率模块信号测试
   </a>
 </h1><div class="article-header-info">
   <p>
-      Posted by <a href="./author/ikero.html">ikero</a>
+      Posted by <a href="./author/ikerbo.html">ikerbo</a>
     in 
-    <a href="./category/bian-cheng.html">
-      编程</a>
+    <a href="./category/misc.html">
+      misc</a>
     &nbsp;&nbsp;
+<span class="label label-default">Lang</span>
+	<a href="./lorapagong-lu-mo-kuai-xin-hao-ce-shi.html"><i class="fa fa-edit"></i>en</a>
   </p>
 </div> <!-- /.article-header-info -->  </header>
   <div class="content-body" itemprop="text articleBody">
-	<h1>notepad++编辑markdown</h1>
-<h2>配置notepad++语法</h2>
-<p>先从<a href="https://github.com/Edditoria/markdown-plus-plus">markdown-plus-plus</a>下载插件，
- 然后在菜单栏中-&gt;语言-&gt;自定义语言设置中导入*.xml文件，出现“import success”，就说明导入成功了，重启一下软件就可以了</p>
+	
+<div id="wmd-preview" class="wmd-preview"><div class="md-section-divider"></div><div class="md-section-divider"></div><h1 data-anchor-id="6s5y" id="lorapa功率模块信号测试">LoRaPA功率模块信号测试</h1><div class="md-section-divider"></div><h2 data-anchor-id="2e3z" id="信号测试">信号测试</h2><p data-anchor-id="eunz">网关位置：722室窗户旁边</p><div class="md-section-divider"></div><h3 data-anchor-id="umoa" id="节点地址fe00002a"><strong>节点地址：fe00002a</strong></h3><div class="md-section-divider"></div><h4 data-anchor-id="dm8h" id="pa模块">PA模块</h4><ul data-anchor-id="bsgr">
+<li><p>办公室 <br>
+rssi：9.8 rssi1:-49</p></li>
+<li><p>7楼电梯 <br>
+lsnr:7.2 rssi：-93 <br>
+lsnr：6.0 rssi：-96 <br>
+lsnr：0.0 rssi：-91</p></li>
+<li><p>5楼 <br>
+lsnr：-7.8 rssi：-102 <br>
+lsnr：-4.8 rssi：-104 <br>
+lsnr：-4.2 rssi：-103 <br>
+lsnr：-7.2 rssi：-104 <br>
+lsnr：-3.5 rssi：-102</p></li>
+<li><p>3楼 <br>
+lsnr：-6.0 rssi：-99 <br>
+lsnr：0.5 rssi：-102 <br>
+lsnr：-0.2 rssi：-99 <br>
+lsnr：-0.8 rssi：-101 <br>
+lsnr：0.2 rssi：-101</p></li>
+<li><p>1楼 <br>
+lsnr：-9.2 rssi：-106 <br>
+lsnr：-7.8 rssi：-103 <br>
+lsnr：-10.0 rssi：-105 <br>
+lsnr：-7.8 rssi：-105 <br>
+lsnr：-5.0 rssi：-106</p></li>
+</ul><div class="md-section-divider"></div><h4 data-anchor-id="eahl" id="长天线">长天线</h4><ul data-anchor-id="pzbe">
+<li><p>办公室 <br>
+lsnr：9.8 rssi：-77</p></li>
+<li><p>7楼电梯 <br>
+lsnr：-8.2 rssi：-103 <br>
+lsnr：-3.8 rssi：-105 <br>
+lsnr：-3.8  rssi：-105</p></li>
+</ul><div class="md-section-divider"></div><h3 data-anchor-id="7lmg" id="节点地址fe00002c"><strong>节点地址：fe00002c</strong></h3><div class="md-section-divider"></div><h4 data-anchor-id="m14b" id="pa模块-1">PA模块</h4><ul data-anchor-id="0utf">
+<li>办公室 <br>
+lsnr：9.8 rssi：-47</li>
+</ul><div class="md-section-divider"></div><h4 data-anchor-id="gv5q" id="长天线-1">长天线</h4><ul data-anchor-id="gry0">
+<li>办公室 <br>
+lsnr：9.8   rssi：-17</li>
+</ul><p data-anchor-id="8nmm">以上数据均在PA模块5v供电的基础上，PA模块使用3.3v供电时，和长天线信号效果相同。 </p><p data-anchor-id="u5ht">测试过程中发现的问题： <br>
+- 相同节点、天线，天线竖放比平放的信号要好5~10db,其中竖放时，节点天线和网关之间遮挡物少一些。 <br>
+- 不同节点的信号强度有明显差异，fe00002a、fe00002d的信号强度比fe00002c的信号强度要低30db</p><p data-anchor-id="netd">查看原始数据，登陆<a href="https://cloud.sanfaniot.com" target="_blank">https://cloud.sanfaniot.com</a>，在设备管理-&gt;历史数据中，对应的时间是2017-8-16-14:57:55  <br>
+ 到16:31:53区间，对应节点fe00002a，fe00002c</p></div>
+
   </div>
   
 <div class="article-tag-list">
@@ -111,7 +153,7 @@
 
     <!-- Facebook -->
     <div class="fb-like" 
-        data-href="./notepadbian-ji-markdown.html" 
+        data-href="./lorapagong-lu-mo-kuai-xin-hao-ce-shi.html" 
         data-layout="button_count" 
         data-action="like" data-show-faces="true" 
         data-share="true">
@@ -159,6 +201,8 @@
     <i class="fa fa-folder-open fa-fw fa-lg"></i> 入门</a></li>
   <li><a href="./category/pelican.html" >
     <i class="fa fa-folder-open fa-fw fa-lg"></i> pelican</a></li>
+  <li><a href="./category/misc.html" >
+    <i class="fa fa-folder-open fa-fw fa-lg"></i> misc</a></li>
   <li><a href="./category/lora.html" >
     <i class="fa fa-folder-open fa-fw fa-lg"></i> lora</a></li>
   <li><a href="./category/bian-cheng.html" >

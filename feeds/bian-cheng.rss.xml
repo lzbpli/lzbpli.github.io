@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>码 链 - 编程</title><link>http://lzbpli.github.io/</link><description>每个人眼中，都是不同的世界 –柯宝！!</description><lastBuildDate>Tue, 15 Aug 2017 00:00:00 +0800</lastBuildDate><item><title>notepad++编辑markdown</title><link>http://lzbpli.github.io/notepadbian-ji-markdown.html</link><description>&lt;h1&gt;notepad++编辑markdown&lt;/h1&gt;
+<rss version="2.0"><channel><title>码 链 - 编程</title><link>http://lzbpli.github.io/</link><description>只想写点什么！!</description><lastBuildDate>Tue, 15 Aug 2017 00:00:00 +0800</lastBuildDate><item><title>notepad++编辑markdown</title><link>http://lzbpli.github.io/notepadbian-ji-markdown.html</link><description>&lt;h1&gt;notepad++编辑markdown&lt;/h1&gt;
 &lt;h2&gt;配置notepad++语法&lt;/h2&gt;
 &lt;p&gt;先从&lt;a href="https://github.com/Edditoria/markdown-plus-plus"&gt;markdown-plus-plus&lt;/a&gt;下载插件，
  然后在菜单栏中-&amp;gt;语言-&amp;gt;自定义语言设置中导入*.xml文件，出现“import success”，就说明导入成功了，重启一下软件就可以了&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikero</dc:creator><pubDate>Tue, 15 Aug 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-08-15:/notepadbian-ji-markdown.html</guid></item></channel></rss>

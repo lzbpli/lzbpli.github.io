@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>码 链 - pelican</title><link>http://lzbpli.github.io/</link><description>每个人眼中，都是不同的世界 –柯宝！!</description><lastBuildDate>Mon, 24 Jul 2017 00:00:00 +0800</lastBuildDate><item><title>使用pelican写博客</title><link>http://lzbpli.github.io/shi-yong-pelicanxie-bo-ke.html</link><description>&lt;h1&gt;使用pelican写博客&lt;/h1&gt;
+<rss version="2.0"><channel><title>码 链 - pelican</title><link>http://lzbpli.github.io/</link><description>只想写点什么！!</description><lastBuildDate>Mon, 24 Jul 2017 00:00:00 +0800</lastBuildDate><item><title>使用pelican写博客</title><link>http://lzbpli.github.io/shi-yong-pelicanxie-bo-ke.html</link><description>&lt;h1&gt;使用pelican写博客&lt;/h1&gt;
 &lt;h2&gt;写博客&lt;/h2&gt;
 &lt;p&gt;在content下面创建一个文件pelican-wirte.md&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;Title&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;My&lt;/span&gt; &lt;span class="n"&gt;First&lt;/span&gt; &lt;span class="n"&gt;Review&lt;/span&gt;

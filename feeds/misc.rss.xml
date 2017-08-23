@@ -1,8 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>码 链 - misc</title><link>http://lzbpli.github.io/</link><description>每个人眼中，都是不同的世界 –柯宝！!</description><lastBuildDate>Thu, 02 Mar 2017 14:01:01 +0800</lastBuildDate><item><title>VoidyBootstrap</title><link>http://lzbpli.github.io/voidybootstrap.html</link><description>&lt;p&gt;&lt;em&gt;Version 2.1&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;A &lt;a class="reference external" href="http://getbootstrap.com"&gt;Bootstrap 3&lt;/a&gt; blog theme for the
-&lt;a class="reference external" href="http://getpelican.com"&gt;Pelican&lt;/a&gt; static site generator.&lt;/p&gt;
-&lt;p&gt;VoidyBootstrap is a Pelican theme that aims to be mobile friendly,
-responsive, flexible and easily customisable.  It can be used in single
-column mode, or responsive 2 column mode with sidebar.&lt;/p&gt;
-&lt;p&gt;While the theme provides lots …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/voidybootstrap.html</guid></item></channel></rss>
+<rss version="2.0"><channel><title>码 链 - misc</title><link>http://lzbpli.github.io/</link><description>只想写点什么！!</description><lastBuildDate>Thu, 02 Mar 2017 14:01:01 +0800</lastBuildDate><item><title>LoRaPA功率模块信号测试</title><link>http://lzbpli.github.io/lorapagong-lu-mo-kuai-xin-hao-ce-shi.html</link><description>
+&lt;div id="wmd-preview" class="wmd-preview"&gt;&lt;div class="md-section-divider"&gt;&lt;/div&gt;&lt;div class="md-section-divider"&gt;&lt;/div&gt;&lt;h1 data-anchor-id="6s5y" id="lorapa功率模块信号测试"&gt;LoRaPA功率模块信号测试&lt;/h1&gt;&lt;div class="md-section-divider"&gt;&lt;/div&gt;&lt;h2 data-anchor-id="2e3z" id="信号测试"&gt;信号测试&lt;/h2&gt;&lt;p data-anchor-id="eunz"&gt;网关位置：722室窗户旁边&lt;/p&gt;&lt;div class="md-section-divider"&gt;&lt;/div&gt;&lt;h3 data-anchor-id="umoa" id="节点地址fe00002a"&gt;&lt;strong&gt;节点地址：fe00002a&lt;/strong&gt;&lt;/h3&gt;&lt;div class="md-section-divider"&gt;&lt;/div&gt;&lt;h4 data-anchor-id="dm8h" id="pa模块"&gt;PA模块&lt;/h4&gt;&lt;ul data-anchor-id="bsgr"&gt;
+&lt;li&gt;&lt;p&gt;办公室 &lt;br&gt;
+rssi：9.8 rssi1:-49&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;7楼电梯 &lt;br&gt;
+lsnr:7.2 rssi：-93 &lt;br&gt;
+lsnr：6.0 rssi：-96 &lt;br&gt;
+lsnr：0.0 rssi：-91&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;5楼 &lt;br&gt;
+lsnr：-7.8 rssi：-102 &lt;br&gt;
+lsnr：-4.8 rssi：-104 &lt;br&gt;
+lsnr：-4.2 rssi：-103 &lt;br&gt;
+lsnr：-7.2 rssi：-104 …&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/lorapagong-lu-mo-kuai-xin-hao-ce-shi.html</guid></item><item><title>LoRaPA功率模块信号测试</title><link>http://lzbpli.github.io/lorapagong-lu-mo-kuai-xin-hao-ce-shi.html</link><description>&lt;div id="preview-contents" class="note-content"&gt;
+                        
+                    
+
+
+
+&lt;h1 id="lorapa功率模块信号测试"&gt;LoRaPA功率模块信号测试&lt;/h1&gt;
+
+
+
+&lt;h2 id="信号测试"&gt;信号测试&lt;/h2&gt;
+
+&lt;p&gt;网关位置：722室窗户旁边&lt;/p&gt;
+
+
+
+&lt;h3 id="节点地址fe00002a"&gt;&lt;strong&gt;节点地址：fe00002a&lt;/strong&gt;&lt;/h3&gt;
+
+
+
+&lt;h4 id="pa模块"&gt;PA模块&lt;/h4&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;p&gt;办公室 &lt;br&gt;
+rssi：9.8 rssi1:-49&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;7楼电梯 &lt;br&gt;
+lsnr:7.2 rssi：-93 &lt;br&gt;
+lsnr：6.0 rssi：-96 &lt;br&gt;
+lsnr：0.0 rssi：-91&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;5楼 &lt;br&gt;
+lsnr：-7.8 rssi：-102 &lt;br&gt;
+lsnr：-4.8 rssi：-104 &lt;br&gt;
+lsnr：-4.2 rssi：-103 &lt;br&gt;
+lsnr：-7.2 rssi：-104 …&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 02 Mar 2017 14:01:01 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-03-02:/lorapagong-lu-mo-kuai-xin-hao-ce-shi.html</guid></item></channel></rss>
