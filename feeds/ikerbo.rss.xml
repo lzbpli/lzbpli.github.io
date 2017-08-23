@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>码 链 - ikerbo</title><link>http://lzbpli.github.io/</link><description>只想写点什么！!</description><lastBuildDate>Thu, 27 Jul 2017 00:00:00 +0800</lastBuildDate><item><title>Markdown Example</title><link>http://lzbpli.github.io/markdown-example.html</link><description>&lt;p&gt;首先声名，这并不是一份完整的&lt;a href="http://daringfireball.net/projects/markdown/"&gt;Markdown&lt;/a&gt;的语法介绍，需要看完整的介绍请点击&lt;a href="http://daringfireball.net/projects/markdown/syntax"&gt;Markdown Syntax Documentation&lt;/a&gt;。&lt;/p&gt;
+<rss version="2.0"><channel><title>码 链 - ikerbo</title><link>http://ikerbo.info/</link><description>只想写点什么！!</description><lastBuildDate>Thu, 27 Jul 2017 00:00:00 +0800</lastBuildDate><item><title>Markdown Example</title><link>http://ikerbo.info/markdown-example.html</link><description>&lt;p&gt;首先声名，这并不是一份完整的&lt;a href="http://daringfireball.net/projects/markdown/"&gt;Markdown&lt;/a&gt;的语法介绍，需要看完整的介绍请点击&lt;a href="http://daringfireball.net/projects/markdown/syntax"&gt;Markdown Syntax Documentation&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;本文的Markdown源代码可以至后台编辑文章进行查看，文章结尾也将以源代码的形式贴出&lt;/strong&gt;&lt;/p&gt;
 &lt;h3&gt;段落&lt;/h3&gt;
 &lt;p&gt;一个段落是由一个或多个连续的行构成，段落间靠一个或以上视觉上的空行划分。一般的段落不应该用空格或制表符缩进&lt;/p&gt;
@@ -21,7 +21,7 @@
 
 &lt;h3&gt;代码&lt;/h3&gt;
 &lt;p&gt;要在Markdown中插入代码，你有两种选择。 一种是把代码用反引号(`)(键盘上Esc键下面的键)包起，例如：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;夹杂着`一些代码`的文字内容 …&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 27 Jul 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-07-27:/markdown-example.html</guid></item><item><title>使用pelican写博客</title><link>http://lzbpli.github.io/shi-yong-pelicanxie-bo-ke.html</link><description>&lt;h1&gt;使用pelican写博客&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;夹杂着`一些代码`的文字内容 …&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 27 Jul 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:ikerbo.info,2017-07-27:/markdown-example.html</guid></item><item><title>使用pelican写博客</title><link>http://ikerbo.info/shi-yong-pelicanxie-bo-ke.html</link><description>&lt;h1&gt;使用pelican写博客&lt;/h1&gt;
 &lt;h2&gt;写博客&lt;/h2&gt;
 &lt;p&gt;在content下面创建一个文件pelican-wirte.md&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;Title&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;My&lt;/span&gt; &lt;span class="n"&gt;First&lt;/span&gt; &lt;span class="n"&gt;Review&lt;/span&gt;
@@ -44,4 +44,4 @@
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;cd ~/project/yoursite/output
 
 git push
-&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Mon, 24 Jul 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-07-24:/shi-yong-pelicanxie-bo-ke.html</guid></item></channel></rss>
+&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Mon, 24 Jul 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:ikerbo.info,2017-07-24:/shi-yong-pelicanxie-bo-ke.html</guid></item></channel></rss>

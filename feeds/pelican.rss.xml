@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>码 链 - pelican</title><link>http://lzbpli.github.io/</link><description>只想写点什么！!</description><lastBuildDate>Mon, 24 Jul 2017 00:00:00 +0800</lastBuildDate><item><title>使用pelican写博客</title><link>http://lzbpli.github.io/shi-yong-pelicanxie-bo-ke.html</link><description>&lt;h1&gt;使用pelican写博客&lt;/h1&gt;
+<rss version="2.0"><channel><title>码 链 - pelican</title><link>http://ikerbo.info/</link><description>只想写点什么！!</description><lastBuildDate>Mon, 24 Jul 2017 00:00:00 +0800</lastBuildDate><item><title>使用pelican写博客</title><link>http://ikerbo.info/shi-yong-pelicanxie-bo-ke.html</link><description>&lt;h1&gt;使用pelican写博客&lt;/h1&gt;
 &lt;h2&gt;写博客&lt;/h2&gt;
 &lt;p&gt;在content下面创建一个文件pelican-wirte.md&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;Title&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;My&lt;/span&gt; &lt;span class="n"&gt;First&lt;/span&gt; &lt;span class="n"&gt;Review&lt;/span&gt;
@@ -22,4 +22,4 @@
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;cd ~/project/yoursite/output
 
 git push
-&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Mon, 24 Jul 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:lzbpli.github.io,2017-07-24:/shi-yong-pelicanxie-bo-ke.html</guid></item></channel></rss>
+&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Mon, 24 Jul 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:ikerbo.info,2017-07-24:/shi-yong-pelicanxie-bo-ke.html</guid></item></channel></rss>
