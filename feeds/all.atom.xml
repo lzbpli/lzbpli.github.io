@@ -1,13 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>码 链</title><link href="http://ikerbo.info/" rel="alternate"></link><link href="http://ikerbo.info/feeds/all.atom.xml" rel="self"></link><id>http://ikerbo.info/</id><updated>2017-08-15T00:00:00+08:00</updated><entry><title>lorawan笔记</title><link href="http://ikerbo.info/lorawanbi-ji.html" rel="alternate"></link><published>2017-08-15T00:00:00+08:00</published><updated>2017-08-15T00:00:00+08:00</updated><author><name>ikero</name></author><id>tag:ikerbo.info,2017-08-15:/lorawanbi-ji.html</id><summary type="html">&lt;h1&gt;lorawan笔记&lt;/h1&gt;
-&lt;p&gt;阿德adasd阿德addd&lt;/p&gt;
-&lt;h2&gt;class_b模式&lt;/h2&gt;</summary><content type="html">&lt;h1&gt;lorawan笔记&lt;/h1&gt;
-&lt;p&gt;阿德adasd阿德addd&lt;/p&gt;
-&lt;h2&gt;class_b模式&lt;/h2&gt;</content></entry><entry><title>notepad++编辑markdown</title><link href="http://ikerbo.info/notepadbian-ji-markdown.html" rel="alternate"></link><published>2017-08-15T00:00:00+08:00</published><updated>2017-08-15T00:00:00+08:00</updated><author><name>ikero</name></author><id>tag:ikerbo.info,2017-08-15:/notepadbian-ji-markdown.html</id><summary type="html">&lt;h1&gt;notepad++编辑markdown&lt;/h1&gt;
-&lt;h2&gt;配置notepad++语法&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>码 链</title><link href="http://ikerbo.info/" rel="alternate"></link><link href="http://ikerbo.info/feeds/all.atom.xml" rel="self"></link><id>http://ikerbo.info/</id><updated>2017-08-20T00:00:00+08:00</updated><entry><title>LoRaPA功率模块信号测试</title><link href="http://ikerbo.info/lorapagong-lu-mo-kuai-xin-hao-ce-shi.html" rel="alternate"></link><published>2017-08-20T00:00:00+08:00</published><updated>2017-08-20T00:00:00+08:00</updated><author><name>ikerbo</name></author><id>tag:ikerbo.info,2017-08-20:/lorapagong-lu-mo-kuai-xin-hao-ce-shi.html</id><summary type="html">&lt;h2&gt;信号测试&lt;/h2&gt;
+&lt;p&gt;网关位置：722室窗户旁边&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;节点地址：fe00002a&lt;/strong&gt;&lt;/h3&gt;
+&lt;h4&gt;PA模块&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;办公室
+rssi：9.8 rssi1:-49&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;7楼电梯
+lsnr:7.2 rssi：-93
+lsnr：6.0 rssi：-96
+lsnr：0.0 rssi：-91&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;5楼
+lsnr：-7.8 rssi：-102
+lsnr：-4.8 rssi：-104
+lsnr：-4.2 rssi：-103
+lsnr：-7.2 rssi：-104
+lsnr …&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h2&gt;信号测试&lt;/h2&gt;
+&lt;p&gt;网关位置：722室窗户旁边&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;节点地址：fe00002a&lt;/strong&gt;&lt;/h3&gt;
+&lt;h4&gt;PA模块&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;办公室
+rssi：9.8 rssi1:-49&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;7楼电梯
+lsnr:7.2 rssi：-93
+lsnr：6.0 rssi：-96
+lsnr：0.0 rssi：-91&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;5楼
+lsnr：-7.8 rssi：-102
+lsnr：-4.8 rssi：-104
+lsnr：-4.2 rssi：-103
+lsnr：-7.2 rssi：-104
+lsnr：-3.5 rssi：-102&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;3楼
+lsnr：-6.0 rssi：-99
+lsnr：0.5 rssi：-102
+lsnr：-0.2 rssi：-99
+lsnr：-0.8 rssi：-101
+lsnr：0.2 rssi：-101&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;1楼
+lsnr：-9.2 rssi：-106
+lsnr：-7.8 rssi：-103
+lsnr：-10.0 rssi：-105
+lsnr：-7.8 rssi：-105
+lsnr：-5.0 rssi：-106&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;长天线&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;办公室
+ lsnr：9.8 rssi：-77&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;7楼电梯
+ lsnr：-8.2 rssi：-103
+ lsnr：-3.8 rssi：-105
+ lsnr：-3.8  rssi：-105&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong&gt;节点地址：fe00002c&lt;/strong&gt;&lt;/h3&gt;
+&lt;h4&gt;PA模块&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;办公室
+ lsnr：9.8 rssi：-47&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;长天线&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;办公室
+ lsnr：9.8   rssi：-17&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;以上数据均在PA模块5v供电的基础上，PA模块使用3.3v供电时，和长天线信号效果相同。 &lt;/p&gt;
+&lt;p&gt;测试过程中发现的问题：
+- 相同节点、天线，天线竖放比平放的信号要好5~10db,其中竖放时，节点天线和网关之间遮挡物少一些。
+- 不同节点的信号强度有明显差异，fe00002a、fe00002d的信号强度比fe00002c的信号强度要低30db&lt;/p&gt;
+&lt;p&gt;查看原始数据，登陆https://cloud.sanfaniot.com，在设备管理-&amp;gt;历史数据中，对应的时间是2017-8-16-14:57:55 
+ 到16:31:53区间，对应节点fe00002a，fe00002c&lt;/p&gt;</content></entry><entry><title>lorawan笔记</title><link href="http://ikerbo.info/lorawanbi-ji.html" rel="alternate"></link><published>2017-08-15T00:00:00+08:00</published><updated>2017-08-15T00:00:00+08:00</updated><author><name>ikero</name></author><id>tag:ikerbo.info,2017-08-15:/lorawanbi-ji.html</id><summary type="html">&lt;p&gt;主要记录lorawan调试过程，和lorawan的配置过程&lt;/p&gt;
+&lt;h2&gt;接收窗口&lt;/h2&gt;
+&lt;p&gt;lorawan中可以选择关闭或者打开接收窗口，通过变量&lt;/p&gt;
+&lt;h2&gt;class_b模式&lt;/h2&gt;</summary><content type="html">&lt;p&gt;主要记录lorawan调试过程，和lorawan的配置过程&lt;/p&gt;
+&lt;h2&gt;接收窗口&lt;/h2&gt;
+&lt;p&gt;lorawan中可以选择关闭或者打开接收窗口，通过变量&lt;/p&gt;
+&lt;h2&gt;class_b模式&lt;/h2&gt;</content></entry><entry><title>notepad++编辑markdown</title><link href="http://ikerbo.info/notepadbian-ji-markdown.html" rel="alternate"></link><published>2017-08-15T00:00:00+08:00</published><updated>2017-08-15T00:00:00+08:00</updated><author><name>ikero</name></author><id>tag:ikerbo.info,2017-08-15:/notepadbian-ji-markdown.html</id><summary type="html">&lt;h2&gt;配置notepad++语法&lt;/h2&gt;
 &lt;p&gt;先从&lt;a href="https://github.com/Edditoria/markdown-plus-plus"&gt;markdown-plus-plus&lt;/a&gt;下载插件，
- 然后在菜单栏中-&amp;gt;语言-&amp;gt;自定义语言设置中导入*.xml文件，出现“import success”，就说明导入成功了，重启一下软件就可以了&lt;/p&gt;</summary><content type="html">&lt;h1&gt;notepad++编辑markdown&lt;/h1&gt;
-&lt;h2&gt;配置notepad++语法&lt;/h2&gt;
+ 然后在菜单栏中-&amp;gt;语言-&amp;gt;自定义语言设置中导入*.xml文件，出现“import success”，就说明导入成功了，重启一下软件就可以了&lt;/p&gt;</summary><content type="html">&lt;h2&gt;配置notepad++语法&lt;/h2&gt;
 &lt;p&gt;先从&lt;a href="https://github.com/Edditoria/markdown-plus-plus"&gt;markdown-plus-plus&lt;/a&gt;下载插件，
  然后在菜单栏中-&amp;gt;语言-&amp;gt;自定义语言设置中导入*.xml文件，出现“import success”，就说明导入成功了，重启一下软件就可以了&lt;/p&gt;</content></entry><entry><title>Markdown Example</title><link href="http://ikerbo.info/markdown-example.html" rel="alternate"></link><published>2017-07-27T00:00:00+08:00</published><updated>2017-07-27T00:00:00+08:00</updated><author><name>ikerbo</name></author><id>tag:ikerbo.info,2017-07-27:/markdown-example.html</id><summary type="html">&lt;p&gt;首先声名，这并不是一份完整的&lt;a href="http://daringfireball.net/projects/markdown/"&gt;Markdown&lt;/a&gt;的语法介绍，需要看完整的介绍请点击&lt;a href="http://daringfireball.net/projects/markdown/syntax"&gt;Markdown Syntax Documentation&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;本文的Markdown源代码可以至后台编辑文章进行查看，文章结尾也将以源代码的形式贴出&lt;/strong&gt;&lt;/p&gt;
@@ -140,8 +230,7 @@
 
 
 &lt;p&gt;本文源代码作为示例&lt;/p&gt;
-&lt;p&gt;[gist id=4200618]&lt;/p&gt;</content></entry><entry><title>使用pelican写博客</title><link href="http://ikerbo.info/shi-yong-pelicanxie-bo-ke.html" rel="alternate"></link><published>2017-07-24T00:00:00+08:00</published><updated>2017-07-24T00:00:00+08:00</updated><author><name>ikerbo</name></author><id>tag:ikerbo.info,2017-07-24:/shi-yong-pelicanxie-bo-ke.html</id><summary type="html">&lt;h1&gt;使用pelican写博客&lt;/h1&gt;
-&lt;h2&gt;写博客&lt;/h2&gt;
+&lt;p&gt;[gist id=4200618]&lt;/p&gt;</content></entry><entry><title>使用pelican写博客</title><link href="http://ikerbo.info/shi-yong-pelicanxie-bo-ke.html" rel="alternate"></link><published>2017-07-24T00:00:00+08:00</published><updated>2017-07-24T00:00:00+08:00</updated><author><name>ikerbo</name></author><id>tag:ikerbo.info,2017-07-24:/shi-yong-pelicanxie-bo-ke.html</id><summary type="html">&lt;h2&gt;写博客&lt;/h2&gt;
 &lt;p&gt;在content下面创建一个文件pelican-wirte.md&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;Title&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;My&lt;/span&gt; &lt;span class="n"&gt;First&lt;/span&gt; &lt;span class="n"&gt;Review&lt;/span&gt;
 &lt;span class="n"&gt;Date&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;2010&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;12&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;03&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;20&lt;/span&gt;
@@ -163,8 +252,7 @@
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;cd ~/project/yoursite/output
 
 git push
-&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;h1&gt;使用pelican写博客&lt;/h1&gt;
-&lt;h2&gt;写博客&lt;/h2&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;h2&gt;写博客&lt;/h2&gt;
 &lt;p&gt;在content下面创建一个文件pelican-wirte.md&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;Title&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;My&lt;/span&gt; &lt;span class="n"&gt;First&lt;/span&gt; &lt;span class="n"&gt;Review&lt;/span&gt;
 &lt;span class="n"&gt;Date&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;2010&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;12&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;03&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;20&lt;/span&gt;

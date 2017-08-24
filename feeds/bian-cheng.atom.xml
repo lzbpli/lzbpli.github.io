@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>码 链 - 编程</title><link href="http://ikerbo.info/" rel="alternate"></link><link href="http://ikerbo.info/feeds/bian-cheng.atom.xml" rel="self"></link><id>http://ikerbo.info/</id><updated>2017-08-15T00:00:00+08:00</updated><entry><title>notepad++编辑markdown</title><link href="http://ikerbo.info/notepadbian-ji-markdown.html" rel="alternate"></link><published>2017-08-15T00:00:00+08:00</published><updated>2017-08-15T00:00:00+08:00</updated><author><name>ikero</name></author><id>tag:ikerbo.info,2017-08-15:/notepadbian-ji-markdown.html</id><summary type="html">&lt;h1&gt;notepad++编辑markdown&lt;/h1&gt;
-&lt;h2&gt;配置notepad++语法&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>码 链 - 编程</title><link href="http://ikerbo.info/" rel="alternate"></link><link href="http://ikerbo.info/feeds/bian-cheng.atom.xml" rel="self"></link><id>http://ikerbo.info/</id><updated>2017-08-15T00:00:00+08:00</updated><entry><title>notepad++编辑markdown</title><link href="http://ikerbo.info/notepadbian-ji-markdown.html" rel="alternate"></link><published>2017-08-15T00:00:00+08:00</published><updated>2017-08-15T00:00:00+08:00</updated><author><name>ikero</name></author><id>tag:ikerbo.info,2017-08-15:/notepadbian-ji-markdown.html</id><summary type="html">&lt;h2&gt;配置notepad++语法&lt;/h2&gt;
 &lt;p&gt;先从&lt;a href="https://github.com/Edditoria/markdown-plus-plus"&gt;markdown-plus-plus&lt;/a&gt;下载插件，
- 然后在菜单栏中-&amp;gt;语言-&amp;gt;自定义语言设置中导入*.xml文件，出现“import success”，就说明导入成功了，重启一下软件就可以了&lt;/p&gt;</summary><content type="html">&lt;h1&gt;notepad++编辑markdown&lt;/h1&gt;
-&lt;h2&gt;配置notepad++语法&lt;/h2&gt;
+ 然后在菜单栏中-&amp;gt;语言-&amp;gt;自定义语言设置中导入*.xml文件，出现“import success”，就说明导入成功了，重启一下软件就可以了&lt;/p&gt;</summary><content type="html">&lt;h2&gt;配置notepad++语法&lt;/h2&gt;
 &lt;p&gt;先从&lt;a href="https://github.com/Edditoria/markdown-plus-plus"&gt;markdown-plus-plus&lt;/a&gt;下载插件，
  然后在菜单栏中-&amp;gt;语言-&amp;gt;自定义语言设置中导入*.xml文件，出现“import success”，就说明导入成功了，重启一下软件就可以了&lt;/p&gt;</content></entry></feed>

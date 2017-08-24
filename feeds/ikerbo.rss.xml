@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>码 链 - ikerbo</title><link>http://ikerbo.info/</link><description>想写点什么！!</description><lastBuildDate>Thu, 27 Jul 2017 00:00:00 +0800</lastBuildDate><item><title>Markdown Example</title><link>http://ikerbo.info/markdown-example.html</link><description>&lt;p&gt;首先声名，这并不是一份完整的&lt;a href="http://daringfireball.net/projects/markdown/"&gt;Markdown&lt;/a&gt;的语法介绍，需要看完整的介绍请点击&lt;a href="http://daringfireball.net/projects/markdown/syntax"&gt;Markdown Syntax Documentation&lt;/a&gt;。&lt;/p&gt;
+<rss version="2.0"><channel><title>码 链 - ikerbo</title><link>http://ikerbo.info/</link><description>想写点什么！!</description><lastBuildDate>Sun, 20 Aug 2017 00:00:00 +0800</lastBuildDate><item><title>LoRaPA功率模块信号测试</title><link>http://ikerbo.info/lorapagong-lu-mo-kuai-xin-hao-ce-shi.html</link><description>&lt;h2&gt;信号测试&lt;/h2&gt;
+&lt;p&gt;网关位置：722室窗户旁边&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;节点地址：fe00002a&lt;/strong&gt;&lt;/h3&gt;
+&lt;h4&gt;PA模块&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;办公室
+rssi：9.8 rssi1:-49&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;7楼电梯
+lsnr:7.2 rssi：-93
+lsnr：6.0 rssi：-96
+lsnr：0.0 rssi：-91&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;5楼
+lsnr：-7.8 rssi：-102
+lsnr：-4.8 rssi：-104
+lsnr：-4.2 rssi：-103
+lsnr：-7.2 rssi：-104
+lsnr …&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Sun, 20 Aug 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:ikerbo.info,2017-08-20:/lorapagong-lu-mo-kuai-xin-hao-ce-shi.html</guid></item><item><title>Markdown Example</title><link>http://ikerbo.info/markdown-example.html</link><description>&lt;p&gt;首先声名，这并不是一份完整的&lt;a href="http://daringfireball.net/projects/markdown/"&gt;Markdown&lt;/a&gt;的语法介绍，需要看完整的介绍请点击&lt;a href="http://daringfireball.net/projects/markdown/syntax"&gt;Markdown Syntax Documentation&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;本文的Markdown源代码可以至后台编辑文章进行查看，文章结尾也将以源代码的形式贴出&lt;/strong&gt;&lt;/p&gt;
 &lt;h3&gt;段落&lt;/h3&gt;
 &lt;p&gt;一个段落是由一个或多个连续的行构成，段落间靠一个或以上视觉上的空行划分。一般的段落不应该用空格或制表符缩进&lt;/p&gt;
@@ -21,8 +42,7 @@
 
 &lt;h3&gt;代码&lt;/h3&gt;
 &lt;p&gt;要在Markdown中插入代码，你有两种选择。 一种是把代码用反引号(`)(键盘上Esc键下面的键)包起，例如：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;夹杂着`一些代码`的文字内容 …&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 27 Jul 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:ikerbo.info,2017-07-27:/markdown-example.html</guid></item><item><title>使用pelican写博客</title><link>http://ikerbo.info/shi-yong-pelicanxie-bo-ke.html</link><description>&lt;h1&gt;使用pelican写博客&lt;/h1&gt;
-&lt;h2&gt;写博客&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;夹杂着`一些代码`的文字内容 …&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">ikerbo</dc:creator><pubDate>Thu, 27 Jul 2017 00:00:00 +0800</pubDate><guid isPermaLink="false">tag:ikerbo.info,2017-07-27:/markdown-example.html</guid></item><item><title>使用pelican写博客</title><link>http://ikerbo.info/shi-yong-pelicanxie-bo-ke.html</link><description>&lt;h2&gt;写博客&lt;/h2&gt;
 &lt;p&gt;在content下面创建一个文件pelican-wirte.md&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;Title&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;My&lt;/span&gt; &lt;span class="n"&gt;First&lt;/span&gt; &lt;span class="n"&gt;Review&lt;/span&gt;
 &lt;span class="n"&gt;Date&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;2010&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;12&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;03&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;20&lt;/span&gt;
